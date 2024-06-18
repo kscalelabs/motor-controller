@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AS5047P-ATSM")(type "KiCad")(uri "${KIPRJMOD}/Libraries/AS5047P-ATSM.kicad_sym")(options "")(descr ""))
+  (lib (name "B0505XT-1WR3-TR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/B0505XT-1WR3-TR.kicad_sym")(options "")(descr ""))
+)

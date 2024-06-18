@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "B0505S-1WR3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/B0505S-1WR3/B0505S-1WR3.kicad_sym")(options "")(descr ""))
+  (lib (name "ABM3B-8.000MHZ-10-1-U-T")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ABM3B-8.000MHZ-10-1-U-T/ABM3B-8.000MHZ-10-1-U-T.kicad_sym")(options "")(descr ""))
+  (lib (name "LTST-C190KGKT")(type "KiCad")(uri "C:/Users/goblinrum/Downloads/LTST-C190KGKT/LTST-C190KGKT.kicad_sym")(options "")(descr ""))
+  (lib (name "AZ1117EH-3.3TRG1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/AZ1117EH-3.3TRG1/AZ1117EH-3.3TRG1.kicad_sym")(options "")(descr ""))
+  (lib (name "LP5907MFX-3.3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LP5907MFX-3.3_NOPB/LP5907MFX-3.3_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8302")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DRV8302/DRV8302.kicad_sym")(options "")(descr ""))
+  (lib (name "LDL1117S33R")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LDL1117S33R/LDL1117S33R.kicad_sym")(options "")(descr ""))
+  (lib (name "CustomNMOS")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CustomNMOS.kicad_sym")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TYPE-C-31-M-12/TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
+)

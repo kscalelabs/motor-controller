@@ -1,0 +1,617 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "DRV8302" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (id 0) (at -38.1 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "DRV8302" (id 1) (at 0.0 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "DRV8302:TSSOP-56_3" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Texas Instruments" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nMotor Driver 56-Pin HTSSOP EP Tube\n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8302/Texas+Instruments/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "DRV8302" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/DRV8302/Texas+Instruments/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "DRV8302_0_0"
+      (polyline
+        (pts (xy 16.51 -54.61) (xy 16.51 -62.23)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 16.51 -62.23) (xy 38.1 -62.23)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 16.51 -54.61) (xy 38.1 -54.61)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 16.51 -36.83) (xy 38.1 -36.83)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 16.51 -36.83) (xy 16.51 -45.72)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 16.51 -45.72) (xy 16.51 -54.61)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 16.51 -45.72) (xy 38.1 -45.72)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -27.94 -10.16) (xy -22.86 -10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 -10.16) (xy -22.86 -22.86)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 -22.86) (xy -22.86 -40.64)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 -40.64) (xy -27.94 -40.64)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -27.94 35.56) (xy -22.86 35.56)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 35.56) (xy -22.86 30.48)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 30.48) (xy -22.86 25.4)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 25.4) (xy -27.94 25.4)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -27.94 15.24) (xy -22.86 15.24)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 15.24) (xy -22.86 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 12.7) (xy -22.86 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 10.16) (xy -27.94 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -22.86 -22.86) (xy -7.62 17.78)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 17.78) (xy -22.86 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 17.78) (xy -22.86 30.48)) (stroke (width 0.254))
+      )
+      (text "Min: 8V" (at 17.78 -57.15 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (text "Max: 60V" (at 17.78 -59.69 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (text "+/- 0.6V'" (at 17.78 -50.8 0)
+        (effects (font (size 1.016 1.016)) (justify left))
+      )
+      (text "+/- 0.6V'" (at 17.78 -40.64 0)
+        (effects (font (size 1.016 1.016)) (justify left))
+      )
+      (text "Max sink current: 2 mA" (at -25.4 43.18 0)
+        (effects (font (size 1.016 1.016)) (justify left))
+      )
+      (text "Max sink current: 2 mA" (at -25.4 48.26 0)
+        (effects (font (size 1.016 1.016)) (justify left))
+      )
+      (text "Max gate drive frequency: 200 kHz" (at 0.0 -20.32 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (text "when EN_GATE is HIGH," (at -6.604 20.828 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (text "these pins have 100 kΩ" (at -6.604 17.272 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (text "pull down resistors" (at -6.604 13.716 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (polyline
+        (pts (xy -10.16 -7.62) (xy -25.4 -7.62)) (stroke (width 0.254))
+      )
+      (text "internal 100 kΩ pull down resistor" (at -9.144 -7.62 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (rectangle (start -38.1 -73.66) (end 38.1 73.66)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin open_collector line (at -43.18 43.18 0) (length 5.08)
+        (name "~{FAULT}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin open_collector line (at -43.18 48.26 0) (length 5.08)
+        (name "~{OCTW}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 -68.58 0) (length 5.08)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 -68.58 0) (length 5.08)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "57"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 -68.58 0) (length 5.08)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "58"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 -68.58 0) (length 5.08)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "59"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 -63.5 0) (length 5.08)
+        (name "AVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 43.18 180.0) (length 5.08)
+        (name "BIAS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "49"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 38.1 180.0) (length 5.08)
+        (name "BST_A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 12.7 180.0) (length 5.08)
+        (name "BST_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 53.34 180.0) (length 5.08)
+        (name "BST_BK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "52"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 -12.7 180.0) (length 5.08)
+        (name "BST_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -43.18 63.5 0) (length 5.08)
+        (name "COMP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 2.54 0) (length 5.08)
+        (name "CP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 -2.54 0) (length 5.08)
+        (name "CP2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 12.7 0) (length 5.08)
+        (name "DC_CAL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 38.1 0) (length 5.08)
+        (name "DTC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 -43.18 0) (length 5.08)
+        (name "DVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 63.5 180.0) (length 5.08)
+        (name "EN_BUCK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "55"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -7.62 0) (length 5.08)
+        (name "EN_GATE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -43.18 22.86 0) (length 5.08)
+        (name "GAIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 33.02 180.0) (length 5.08)
+        (name "GH_A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 7.62 180.0) (length 5.08)
+        (name "GH_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 -17.78 180.0) (length 5.08)
+        (name "GH_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 22.86 180.0) (length 5.08)
+        (name "GL_A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 -2.54 180.0) (length 5.08)
+        (name "GL_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 -27.94 180.0) (length 5.08)
+        (name "GL_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 7.62 0) (length 5.08)
+        (name "GVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -12.7 0) (length 5.08)
+        (name "INH_A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -22.86 0) (length 5.08)
+        (name "INH_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -33.02 0) (length 5.08)
+        (name "INH_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -17.78 0) (length 5.08)
+        (name "INL_A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -27.94 0) (length 5.08)
+        (name "INL_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -38.1 0) (length 5.08)
+        (name "INL_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 27.94 0) (length 5.08)
+        (name "M_OC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 33.02 0) (length 5.08)
+        (name "M_PWM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 17.78 0) (length 5.08)
+        (name "OC_ADJ"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 48.26 180.0) (length 5.08)
+        (name "PH"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "50"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 48.26 180.0) (length 5.08)
+        (name "PH"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "51"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 -58.42 180.0) (length 5.08)
+        (name "PVDD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 58.42 180.0) (length 5.08)
+        (name "PVDD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "53"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 58.42 180.0) (length 5.08)
+        (name "PVDD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "54"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 53.34 0) (length 5.08)
+        (name "PWRGD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -48.26 0) (length 5.08)
+        (name "REF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 68.58 0) (length 5.08)
+        (name "RT_CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 27.94 180.0) (length 5.08)
+        (name "SH_A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 2.54 180.0) (length 5.08)
+        (name "SH_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -22.86 180.0) (length 5.08)
+        (name "SH_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 17.78 180.0) (length 5.08)
+        (name "SL_A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -7.62 180.0) (length 5.08)
+        (name "SL_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -33.02 180.0) (length 5.08)
+        (name "SL_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -38.1 180.0) (length 5.08)
+        (name "SN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -48.26 180.0) (length 5.08)
+        (name "SN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -43.18 -53.34 0) (length 5.08)
+        (name "SO1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -43.18 -58.42 0) (length 5.08)
+        (name "SO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -43.18 180.0) (length 5.08)
+        (name "SP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -53.34 180.0) (length 5.08)
+        (name "SP2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 68.58 180.0) (length 5.08)
+        (name "SS_TR"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "56"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 58.42 0) (length 5.08)
+        (name "VSENSE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
