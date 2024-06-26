@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AMS")(type "KiCad")(uri "${KIPRJMOD}/Libraries/AMS.pretty")(options "")(descr ""))
+  (lib (name "5VPower")(type "KiCad")(uri "${KIPRJMOD}/5VPower.pretty")(options "")(descr ""))
+  (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/USB-C.pretty")(options "")(descr ""))
+  (lib (name "Hole-Mounts")(type "KiCad")(uri "${KIPRJMOD}/Hole-Mounts.pretty")(options "")(descr ""))
+  (lib (name "IsolatedPower")(type "KiCad")(uri "${KIPRJMOD}/Libraries/IsolatedPower.pretty")(options "")(descr ""))
+  (lib (name "Stompy")(type "KiCad")(uri "${KIPRJMOD}/Stompy.pretty")(options "")(descr ""))
+  (lib (name "Ethernet")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Ethernet.pretty")(options "")(descr ""))
+)
