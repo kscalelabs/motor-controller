@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCF8329A")(type "KiCad")(uri "${KIPRJMOD}/Libs/MCF8329A/MCF8329A.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-06-30_23-12-06")(type "KiCad")(uri "${KIPRJMOD}/Libs/LAN9292I_ML/2024-06-30_23-12-06.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-06-30_23-17-14")(type "KiCad")(uri "${KIPRJMOD}/Libs/TMC6200/2024-06-30_23-17-14.kicad_sym")(options "")(descr ""))
+)

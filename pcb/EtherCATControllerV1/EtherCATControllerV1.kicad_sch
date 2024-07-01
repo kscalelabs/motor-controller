@@ -1,0 +1,311 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4c927f80-855d-490a-80b2-e5c55283621a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 38.1 49.53)
+		(size 27.94 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c1ac59a-914c-4d03-8885-25db991a95f6")
+		(property "Sheetname" "Encoders"
+			(at 38.1 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Encoders.kicad_sch"
+			(at 38.1 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENC_B" output
+			(at 38.1 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42eaad79-723b-47ae-b2b8-6469553e7037")
+		)
+		(pin "ENC_Z" output
+			(at 38.1 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d847d1e-8e88-438a-832e-18b398b408c0")
+		)
+		(pin "ENC_A" output
+			(at 38.1 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b519a63-30eb-4c66-8c05-a2feab5b5d41")
+		)
+		(pin "ENC_MISO" output
+			(at 66.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7362657-b0c1-4251-9c0b-faacb569c6c8")
+		)
+		(pin "ENC_CS" input
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "66da7e6d-641c-453f-8b85-7f9fbdc51348")
+		)
+		(pin "ENC_SCLK" input
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37e4a5fa-8468-4b60-9672-0abe818b3274")
+		)
+		(pin "ENC_MOSI" input
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d91165f0-e721-43f6-b6a7-c1767f46a96c")
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 97.79)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b6e615f-099d-4b57-8a21-048f9b8db3e5")
+		(property "Sheetname" "Connectors"
+			(at 38.1 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 38.1 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 25.4)
+		(size 27.94 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "750b7685-89f9-49f1-8425-82b30a74de18")
+		(property "Sheetname" "EtherCAT"
+			(at 38.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EtherCAT.kicad_sch"
+			(at 38.1 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 71.12)
+		(size 27.94 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ad53e1c-08f0-40db-b0fb-703203134f02")
+		(property "Sheetname" "Power"
+			(at 38.1 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 38.1 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 123.19)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8886fcf-711b-4283-9745-a57e39aa3085")
+		(property "Sheetname" "Motor"
+			(at 38.1 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor.kicad_sch"
+			(at 38.1 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 29.21 60.96)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c856d8b8-b384-4f6b-bd82-a15acb88b807")
+		(property "Sheetname" "MCU"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 88.9 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
