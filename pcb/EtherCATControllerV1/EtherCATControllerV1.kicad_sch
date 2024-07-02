@@ -114,8 +114,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 97.79)
-		(size 27.94 15.24)
+		(at 38.1 88.9)
+		(size 27.94 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -126,7 +126,7 @@
 		)
 		(uuid "6b6e615f-099d-4b57-8a21-048f9b8db3e5")
 		(property "Sheetname" "Connectors"
-			(at 38.1 97.0784 0)
+			(at 38.1 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,13 +135,183 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 38.1 113.6146 0)
+			(at 38.1 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DC+" input
+			(at 38.1 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db073aa8-385b-455f-912b-73d5e5aabff6")
+		)
+		(pin "DC-" input
+			(at 38.1 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6cc14059-5a98-418e-a9c3-aef48bdb7f73")
+		)
+		(pin "SWDIO" bidirectional
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6d7f028-b728-429e-be7f-6599054b5485")
+		)
+		(pin "SWCLK" input
+			(at 66.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd2b7445-15b3-46c1-9646-b8f2ba17ebe2")
+		)
+		(pin "NRST" output
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0fa0833-bf49-4e71-aba8-1d37123729e5")
+		)
+		(pin "SPI_MISO" input
+			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad9edcbc-9589-4d1b-a548-28a55b1b3bf2")
+		)
+		(pin "SPI_MOSI" input
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8be1cad9-121a-4348-870e-42bb5e3cdd77")
+		)
+		(pin "SPI_SCK" input
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf76aaaa-c2a4-4180-a56b-c3d8c87d4158")
+		)
+		(pin "SPI_CS" input
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58f50cb8-5f9a-410e-bc7e-810d7dc65fe3")
+		)
+		(pin "RX-" input
+			(at 38.1 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c2edaf4-5c20-4088-9f0d-e6a0fe1cae9b")
+		)
+		(pin "TX-" input
+			(at 38.1 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9ac45c1-d1cc-4bf5-83da-2ed6ff9e7979")
+		)
+		(pin "RX+" input
+			(at 38.1 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe102fc7-004d-499b-a98d-0e2fe322722b")
+		)
+		(pin "TX+" input
+			(at 38.1 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85e454de-e6fc-4d3e-ab34-bc4628ecdac6")
+		)
+		(pin "SH_C" input
+			(at 38.1 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "25c862d1-63c1-416a-8882-4a3b5640f99d")
+		)
+		(pin "SH_A" input
+			(at 38.1 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d32dc3c2-c9d1-4876-a2c2-c23b9940d916")
+		)
+		(pin "SH_B" input
+			(at 38.1 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0e09c28-20d8-4326-b263-536ad93832c3")
+		)
+		(pin "BOOT0" passive
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9562ac62-7f32-4924-9449-c4e5b34eefdb")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -191,7 +361,7 @@
 	)
 	(sheet
 		(at 38.1 71.12)
-		(size 27.94 16.51)
+		(size 27.94 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -211,13 +381,33 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 38.1 88.2146 0)
+			(at 38.1 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DC-" input
+			(at 38.1 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "246319ed-a59f-40c9-ad14-ef8c1855da71")
+		)
+		(pin "DC+" input
+			(at 38.1 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0af35d93-7209-4719-9c61-08ff4be56ecb")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -228,8 +418,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 123.19)
-		(size 27.94 15.24)
+		(at 38.1 125.73)
+		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -240,7 +430,7 @@
 		)
 		(uuid "b8886fcf-711b-4283-9745-a57e39aa3085")
 		(property "Sheetname" "Motor"
-			(at 38.1 122.4784 0)
+			(at 38.1 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,13 +439,113 @@
 			)
 		)
 		(property "Sheetfile" "Motor.kicad_sch"
-			(at 38.1 139.0146 0)
+			(at 38.1 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SH_A" output
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f06f074-06a3-46fa-bad6-9778dc90bc0b")
+		)
+		(pin "SH_C" output
+			(at 66.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c6e3459-7e99-486d-88a7-f8cd7125ca6a")
+		)
+		(pin "SH_B" output
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2dac7614-e687-40ca-80ae-da55499702a0")
+		)
+		(pin "SDA" bidirectional
+			(at 38.1 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a46f2722-9d1b-4d9c-bdde-37233ff89437")
+		)
+		(pin "DRVOFF" input
+			(at 38.1 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d09bae4d-1e78-4205-bfa2-61c3c0d7921f")
+		)
+		(pin "SPEED{slash}WAKE" input
+			(at 38.1 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eff09411-52ea-4acc-a17f-dfc85e77aa45")
+		)
+		(pin "nFAULT" output
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "665e571d-fce7-4b06-a95f-d77bae89f3fe")
+		)
+		(pin "BRAKE" input
+			(at 38.1 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a54fe77-a520-40be-bdbf-b8ce357594fe")
+		)
+		(pin "DIR" input
+			(at 38.1 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c3dd026-9a5a-4af9-af9d-c96ce2e7b779")
+		)
+		(pin "SCL" input
+			(at 38.1 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1116fb91-4d3d-4a34-b5d0-0b4f202b42a2")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -267,7 +557,7 @@
 	)
 	(sheet
 		(at 88.9 25.4)
-		(size 29.21 60.96)
+		(size 29.21 54.61)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -287,13 +577,193 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 88.9 86.9446 0)
+			(at 88.9 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "nFAULT" input
+			(at 88.9 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c37d35a9-fc73-4094-b327-570758975508")
+		)
+		(pin "SPI_SCK" input
+			(at 88.9 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db40d3d6-7a9e-409a-ac3e-3b1c506ea03d")
+		)
+		(pin "SPI_MOSI" input
+			(at 88.9 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1c9d6e2-7da8-446d-b6bc-1c4f7c5507c1")
+		)
+		(pin "SPI_MISO" input
+			(at 88.9 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db2436ab-b6ab-44be-acdc-6e558e1a5a7f")
+		)
+		(pin "SPI_CS" input
+			(at 88.9 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14a01976-0010-4b56-94cd-9b2379b0da47")
+		)
+		(pin "SDA" bidirectional
+			(at 88.9 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0ac11cf-6951-4664-b601-9f80180bf363")
+		)
+		(pin "SCL" output
+			(at 88.9 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a086a54-66af-4f58-8a3f-e96d459d611c")
+		)
+		(pin "USB_DP" bidirectional
+			(at 88.9 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9eef4cb-21d3-4997-89b7-36046c8564d3")
+		)
+		(pin "USB_DM" bidirectional
+			(at 88.9 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bab64ee4-1f02-479b-86f7-dcc6b3b98cab")
+		)
+		(pin "SWDIO" input
+			(at 88.9 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "99efb322-4c67-4809-84c7-7c2f76e31f00")
+		)
+		(pin "SWCLK" input
+			(at 88.9 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "debdcaef-914d-4ba3-87b9-16b2554b28be")
+		)
+		(pin "PGOOD" input
+			(at 88.9 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c42d68b-d9e8-4af5-b51b-5649d4c61178")
+		)
+		(pin "M0_ENC_A" input
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b192405-24b3-46e7-ae39-c547bdcabb10")
+		)
+		(pin "M0_ENC_B" input
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "999c5d5b-eb2c-4fcb-909a-4dd9c8d4ccfa")
+		)
+		(pin "M0_ENC_Z" input
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75cf6315-3366-4db0-af95-0b2dd00f1067")
+		)
+		(pin "VBUS_SENSE" input
+			(at 88.9 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec88b8ef-369b-4006-9028-5a1817413db0")
+		)
+		(pin "BOOT0" passive
+			(at 88.9 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "207df758-77c8-4740-979f-0c488dbd701e")
+		)
+		(pin "NRST" passive
+			(at 88.9 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "815907fe-5700-467e-aaa6-c0490da3afea")
 		)
 		(instances
 			(project "EtherCATControllerV1"

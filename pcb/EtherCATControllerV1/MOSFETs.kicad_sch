@@ -5,34 +5,50 @@
 	(uuid "1b799530-feb1-47ba-9058-0e453e270882")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CustomNMOS:NMOS_1"
-			(pin_numbers hide)
+		(symbol "2024-07-02_05-47-45:NTMFS5C612NLT1G"
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q1"
-				(at 2.794 0.254 0)
+			(property "Reference" "U"
+				(at 11.43 4.445 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "~"
-				(at 2.794 -2.286 0)
+			(property "Value" "NTMFS5C612NLT1G"
+				(at 11.43 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DFN_2NLT1G_ONS"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
+			(property "Datasheet" "NTMFS5C612NLT1G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -41,7 +57,15 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NTMFS5C612NLT1G"
 				(at 0 0 0)
 				(effects
 					(font
@@ -50,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET N-CH 30V 13A SO8FL"
+			(property "ki_fp_filters" "DFN_2NLT1G_ONS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,302 +83,13 @@
 					(hide yes)
 				)
 			)
-			(property "SUPPLIER 1" "Digi-Key"
-				(at -8.128 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-				(at -8.128 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "ON Semiconductor"
-				(at -8.128 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ROHS" "RoHS Compliant"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "CATEGORY" "Discrete Semiconductor Products"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "STOCK 1" "932"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGING" "Cut Tape (CT)"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PART STATUS" "Active"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "FET TYPE" "N-Channel"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "VGS (MAX)" "±20V"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "FET FEATURE" "-"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUNTING TYPE" "Surface Mount"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-				(at -8.128 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_1_0_1"
+			(symbol "NTMFS5C612NLT1G_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 2.54 0) (xy 4.445 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -363,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 4.445 0) (xy 4.445 5.08)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -375,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 5.08 -2.54) (xy 10.16 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -387,10 +122,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
+						(xy 5.08 0) (xy 5.08 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -399,10 +134,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 5.08 0.635) (xy 6.985 0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -411,10 +146,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 5.08 1.905) (xy 5.08 3.175)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -423,10 +158,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 5.08 3.81) (xy 5.08 5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -435,10 +170,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 5.08 4.445) (xy 6.985 4.445)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -447,7 +182,115 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 6.35 2.54) (xy 6.985 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 6.985 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 8.255 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 4.445) (xy 6.985 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 5.08) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0) (xy 8.255 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 3.175) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.175) (xy 7.62 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.175) (xy 5.08 2.54) (xy 6.35 1.905)
 					)
 					(stroke
 						(width 0)
@@ -459,31 +302,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 8.89 1.905) (xy 7.62 1.905) (xy 8.255 3.175)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(circle
-					(center 1.651 0)
-					(radius 2.794)
+					(center 6.35 2.54)
+					(radius 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -493,31 +324,40 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
+					(center 6.985 0.635)
+					(radius 0.0254)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
+					(center 7.62 0)
+					(radius 0.0254)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-			)
-			(symbol "NMOS_1_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(circle
+					(center 7.62 5.08)
+					(radius 0.0254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -534,8 +374,44 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin unspecified line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -552,8 +428,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin unspecified line
+					(at 7.62 7.62 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -911,10 +787,22 @@
 		)
 	)
 	(junction
+		(at 74.93 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07b41897-cd59-4a62-b7e9-63485b99be4e")
+	)
+	(junction
 		(at 130.81 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0903a612-dd9e-4c5e-b547-37dced1b14de")
+	)
+	(junction
+		(at 181.61 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12544f6f-3673-45e5-a37a-f933e6edde2f")
 	)
 	(junction
 		(at 85.09 88.9)
@@ -923,10 +811,16 @@
 		(uuid "1576844b-b9ac-4f15-af5e-ed1fe932820f")
 	)
 	(junction
-		(at 85.09 104.14)
+		(at 77.47 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2715dd3d-9769-47fb-baf0-11e67815c3a7")
+		(uuid "1955486f-d97b-4094-91a3-a92b1260ad2c")
+	)
+	(junction
+		(at 135.89 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f7ac44-103a-4792-8387-f2f6d5079bc7")
 	)
 	(junction
 		(at 128.27 60.96)
@@ -941,10 +835,16 @@
 		(uuid "3972e435-0e98-41e3-827c-9943946af16b")
 	)
 	(junction
-		(at 176.53 119.38)
+		(at 130.81 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b3f7bb3-dcdb-44a0-b521-b1c905f27466")
+		(uuid "3ea39534-2770-4297-9556-dadae8d60b13")
+	)
+	(junction
+		(at 85.09 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44bd249f-104f-4a4e-a926-4fc3af5a35ac")
 	)
 	(junction
 		(at 130.81 63.5)
@@ -953,16 +853,22 @@
 		(uuid "4734b280-a2b9-41a0-a386-473521f2ebec")
 	)
 	(junction
-		(at 130.81 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52bd07fe-9941-487b-81c7-2d7b350e486c")
-	)
-	(junction
 		(at 85.09 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "549a289e-77f7-41c9-88ff-25be13fe186d")
+	)
+	(junction
+		(at 138.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54c8ed46-a4cc-4e0d-a709-d5efdf7779f1")
+	)
+	(junction
+		(at 166.37 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55872d86-3021-47a7-bc3a-16681f01729f")
 	)
 	(junction
 		(at 173.99 60.96)
@@ -977,16 +883,46 @@
 		(uuid "569108c7-6e2d-4d0a-ab7a-91b80cef4a87")
 	)
 	(junction
-		(at 176.53 78.74)
+		(at 85.09 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a95f05b-6155-4909-a471-74897b5448ef")
+		(uuid "58c5e718-39e0-4541-94e9-3a96ac6452f0")
 	)
 	(junction
-		(at 85.09 119.38)
+		(at 123.19 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72e46b46-91ab-47b7-b38f-a1c49303f1ee")
+		(uuid "5dfc2023-46ff-4964-bc82-2c062f46fade")
+	)
+	(junction
+		(at 74.93 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f161c5d-1891-427f-8079-ef1a60dddf66")
+	)
+	(junction
+		(at 176.53 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "617a1646-fc55-42b9-843c-b4e124f79d1d")
+	)
+	(junction
+		(at 135.89 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688a3976-db29-42b0-8f31-894e6522e302")
+	)
+	(junction
+		(at 130.81 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f8348b6-23d0-4aa1-afea-c4ef358919ba")
+	)
+	(junction
+		(at 184.15 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ede817-0d8f-462c-a78a-3ffb3d5a63a1")
 	)
 	(junction
 		(at 130.81 45.72)
@@ -995,10 +931,16 @@
 		(uuid "77801471-86cb-4ec0-9265-2e91148ddb95")
 	)
 	(junction
-		(at 176.53 104.14)
+		(at 77.47 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84ed4df4-8fed-4cea-a2a3-133b484b3f33")
+		(uuid "7a940bb8-8bcf-4791-b52a-e6be081ec161")
+	)
+	(junction
+		(at 91.44 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c43a00e-2159-4f85-8470-4e2e5628c556")
 	)
 	(junction
 		(at 171.45 106.68)
@@ -1013,10 +955,10 @@
 		(uuid "96c4224e-61d9-42bc-b849-d7d6b8545374")
 	)
 	(junction
-		(at 85.09 78.74)
+		(at 138.43 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a28a5616-d804-4f49-abf6-7d30c0946161")
+		(uuid "a291fbbf-dcfe-4805-a768-37998e754348")
 	)
 	(junction
 		(at 176.53 86.36)
@@ -1037,10 +979,82 @@
 		(uuid "a9591a9e-1753-4ae3-b6a4-aa39d1ae8567")
 	)
 	(junction
-		(at 130.81 104.14)
+		(at 120.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca09617a-63cf-4c46-a703-3fe910e89438")
+		(uuid "a9e2add4-2a3a-4a4a-97c4-bbee24562e21")
+	)
+	(junction
+		(at 166.37 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aed2bd46-44eb-417a-bf2c-2f31055f31f0")
+	)
+	(junction
+		(at 184.15 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa2913a-7e10-459d-ab48-3f3ac7774c97")
+	)
+	(junction
+		(at 176.53 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c07d1ddd-d44b-4c9f-992c-65c055d5eb3e")
+	)
+	(junction
+		(at 90.17 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9fa3bbb-aaea-4ec4-91f5-8e8f2073a189")
+	)
+	(junction
+		(at 130.81 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd0c52c8-ff4f-446b-a507-f9d7b42afe04")
+	)
+	(junction
+		(at 168.91 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d186af-962f-4031-85af-981f4afc4601")
+	)
+	(junction
+		(at 130.81 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd3334e1-7646-46bd-87da-7b43d8f5ec41")
+	)
+	(junction
+		(at 168.91 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df22c638-8be6-4ad6-b5c7-1eb2a5e6e179")
+	)
+	(junction
+		(at 88.9 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e23609de-8dfe-401b-bf9f-aede8378a88d")
+	)
+	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e375f70d-112f-419f-9da5-6f68c94f6455")
+	)
+	(junction
+		(at 130.81 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b9bbfa-1c34-45c9-8a63-aaa78108dd11")
+	)
+	(junction
+		(at 181.61 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efb6cabd-71d2-4e10-95e5-f98719525eac")
 	)
 	(junction
 		(at 176.53 63.5)
@@ -1049,10 +1063,10 @@
 		(uuid "f11592b4-4020-42d0-a3db-b8660f25e221")
 	)
 	(junction
-		(at 130.81 78.74)
+		(at 92.71 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2d3acb5-f1b2-4e36-bd11-a6eb216d737f")
+		(uuid "f568074f-906b-4227-b4ae-d122d16ba2dc")
 	)
 	(junction
 		(at 130.81 88.9)
@@ -1067,20 +1081,20 @@
 		(uuid "f6929f4a-7916-40b2-ae64-b240f3db0dba")
 	)
 	(junction
-		(at 130.81 119.38)
+		(at 123.19 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff70fb18-8124-4dae-b007-355633eca2b0")
+		(uuid "ffd726fc-3c94-44c9-85de-6591c212ad32")
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 166.37 104.14)
+			(xy 176.53 101.6) (xy 176.53 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00189558-3051-42a8-a806-7563e1b885c7")
+		(uuid "03147967-6545-47f4-be32-c0a53763cb66")
 	)
 	(wire
 		(pts
@@ -1094,6 +1108,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 101.6) (xy 130.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05178a41-dee0-46bc-bd5c-66a1c18654bb")
+	)
+	(wire
+		(pts
 			(xy 83.82 71.12) (xy 82.55 71.12)
 		)
 		(stroke
@@ -1104,23 +1128,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 132.08 96.52)
+			(xy 130.81 139.7) (xy 130.81 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07eef8b9-6a82-4801-8717-85ee79d9415b")
+		(uuid "0ff432e3-af43-4a20-9dd8-22d398cff086")
 	)
 	(wire
 		(pts
-			(xy 166.37 66.04) (xy 166.37 63.5)
+			(xy 90.17 101.6) (xy 92.71 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11df22f6-904b-4732-9316-e040cd2b9e64")
+		(uuid "11c9e74e-f673-4be1-a22a-7716f48b269a")
 	)
 	(wire
 		(pts
@@ -1134,16 +1158,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 130.81 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13cbf200-4d28-4cdc-be44-f27db1061a01")
-	)
-	(wire
-		(pts
 			(xy 130.81 45.72) (xy 176.53 45.72)
 		)
 		(stroke
@@ -1154,13 +1168,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 130.81 78.74)
+			(xy 118.11 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1727377a-f419-4b94-91f6-2085e28a17ee")
+		(uuid "182931a0-f38a-4469-8378-0622b83afa8c")
+	)
+	(wire
+		(pts
+			(xy 130.81 154.94) (xy 130.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19265ac8-f4aa-4456-a2b2-97c1ffb0fc30")
 	)
 	(wire
 		(pts
@@ -1171,6 +1195,16 @@
 			(type default)
 		)
 		(uuid "1ae872c7-5394-479c-aca2-b0cd00916c91")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1faddee6-e003-4772-80f7-4686022b5da1")
 	)
 	(wire
 		(pts
@@ -1194,13 +1228,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 119.38) (xy 176.53 119.38)
+			(xy 120.65 101.6) (xy 123.19 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27313dd2-383c-49a7-be5d-99cece11ed74")
+		(uuid "263b2443-8231-4045-9107-49059b76decd")
 	)
 	(wire
 		(pts
@@ -1214,13 +1248,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 176.53 86.36)
+			(xy 88.9 76.2) (xy 91.44 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e0666d7-c525-43e7-958b-2d7b9c737935")
+		(uuid "2f69c329-4cb5-41f7-b1bf-880259dc2ce1")
 	)
 	(wire
 		(pts
@@ -1244,37 +1278,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 158.75 106.68)
+			(xy 168.91 101.6) (xy 176.53 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "373ef732-59c9-4618-9383-33880bcfe8aa")
+		(uuid "3a55ce6b-b3db-4ce5-a7a0-9832f615c83f")
 	)
 	(wire
 		(pts
-			(xy 74.93 104.14) (xy 85.09 104.14)
+			(xy 72.39 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3be86dd4-2d93-4560-b044-c63c18d61d88")
+		(uuid "428f5f5a-c72f-4dd2-9f24-a835971fefcf")
 	)
 	(wire
 		(pts
-			(xy 110.49 119.38) (xy 130.81 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436d4543-2bcc-42ac-b2b1-491443670dba")
-	)
-	(wire
-		(pts
-			(xy 130.81 78.74) (xy 138.43 78.74)
+			(xy 130.81 76.2) (xy 135.89 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1304,17 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 91.44) (xy 166.37 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48526d80-3883-471a-9f37-5fe4a3e1b272")
-	)
-	(wire
-		(pts
-			(xy 176.53 78.74) (xy 184.15 78.74)
+			(xy 176.53 76.2) (xy 181.61 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1331,16 +1345,6 @@
 			(type default)
 		)
 		(uuid "4ae4ac59-9019-4ecf-bbe4-13d63b7440fa")
-	)
-	(wire
-		(pts
-			(xy 138.43 88.9) (xy 138.43 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae7ba5e-571d-4147-941c-c60862ac0f1b")
 	)
 	(wire
 		(pts
@@ -1384,13 +1388,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 119.38) (xy 85.09 121.92)
+			(xy 138.43 101.6) (xy 140.97 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fc7d4fb-2258-4cd6-b663-3c8082f78828")
+		(uuid "51e41e43-ad1b-4484-bb3e-7f7b842f6433")
 	)
 	(wire
 		(pts
@@ -1424,6 +1428,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 76.2) (xy 168.91 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598bc278-654a-41bb-bfc8-b4a6a6faf4d0")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 85.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa832f1-a1a6-42c0-99da-ded56848334a")
+	)
+	(wire
+		(pts
 			(xy 80.01 106.68) (xy 80.01 96.52)
 		)
 		(stroke
@@ -1431,16 +1455,6 @@
 			(type default)
 		)
 		(uuid "5cac2fcb-45cf-4883-a17f-e7d172ff97ba")
-	)
-	(wire
-		(pts
-			(xy 120.65 104.14) (xy 130.81 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dc715d8-c1dc-4035-8c91-f0ec0a4d54fc")
 	)
 	(wire
 		(pts
@@ -1464,23 +1478,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 119.38) (xy 85.09 119.38)
+			(xy 130.81 153.67) (xy 130.81 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66111ff5-3e49-4280-8329-d19ebd5d539a")
-	)
-	(wire
-		(pts
-			(xy 120.65 91.44) (xy 120.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67de2c07-3741-48f5-9dd8-934ed2609a55")
+		(uuid "662ba8cd-85d8-47d4-b708-11e2e78f547c")
 	)
 	(wire
 		(pts
@@ -1524,6 +1528,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 101.6) (xy 186.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a13c879-7832-4664-82ae-10e0ec567524")
+	)
+	(wire
+		(pts
 			(xy 130.81 83.82) (xy 212.09 83.82)
 		)
 		(stroke
@@ -1531,26 +1545,6 @@
 			(type default)
 		)
 		(uuid "718d4029-96af-4313-ba5c-799e78438d73")
-	)
-	(wire
-		(pts
-			(xy 74.93 101.6) (xy 74.93 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7200d655-c3d3-4279-ac86-c6c3c8550089")
-	)
-	(wire
-		(pts
-			(xy 92.71 88.9) (xy 92.71 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72712164-3a2f-4efd-8e6f-362e3d856567")
 	)
 	(wire
 		(pts
@@ -1564,6 +1558,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 76.2) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7307f0e1-2f8a-46d7-9aeb-d76d6dc2beb2")
+	)
+	(wire
+		(pts
 			(xy 82.55 55.88) (xy 82.55 60.96)
 		)
 		(stroke
@@ -1574,13 +1578,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 176.53 137.16)
+			(xy 138.43 76.2) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7765cf0d-8936-4058-8e3e-db7659896aa4")
+		(uuid "7a20296b-09c2-4612-845b-8ba573a74734")
 	)
 	(wire
 		(pts
@@ -1624,6 +1628,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 76.2) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83eaa1b0-e702-4794-9434-ff5d22915eab")
+	)
+	(wire
+		(pts
+			(xy 74.93 76.2) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a64600-64dc-4021-ace8-cc3d5c7a4fb8")
+	)
+	(wire
+		(pts
 			(xy 113.03 96.52) (xy 113.03 106.68)
 		)
 		(stroke
@@ -1634,43 +1658,53 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 104.14) (xy 176.53 104.14)
+			(xy 92.71 101.6) (xy 95.25 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d70c547-1330-425b-9f7f-4b57e1761c90")
+		(uuid "87519127-f02b-4cef-91a3-4f008d8849a9")
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 120.65 78.74)
+			(xy 181.61 101.6) (xy 184.15 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e3d2c3a-dde6-437e-9586-24b9dca16731")
+		(uuid "88a28e04-776e-4b00-8ed0-abc07a7c40c2")
 	)
 	(wire
 		(pts
-			(xy 138.43 78.74) (xy 138.43 76.2)
+			(xy 77.47 101.6) (xy 85.09 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ffb9cb5-f69e-4824-b3b1-c9414197417a")
+		(uuid "8d0d8b84-43ef-4a8b-8929-76d0f864e716")
 	)
 	(wire
 		(pts
-			(xy 85.09 104.14) (xy 85.09 119.38)
+			(xy 163.83 101.6) (xy 166.37 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91884623-b20b-4c8a-878d-3d66b1d7f1e8")
+		(uuid "93950879-c5a5-472b-852c-0e326440cbbb")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f77fa5-c5c2-4bd1-8505-ccd2f092e084")
 	)
 	(wire
 		(pts
@@ -1691,6 +1725,26 @@
 			(type default)
 		)
 		(uuid "98457cca-eb1b-4392-a54f-0e6c929dca4c")
+	)
+	(wire
+		(pts
+			(xy 118.11 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9884725b-0c73-44c6-b667-e89226a0b7bd")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991c0e2e-e974-48ef-9a0c-91edb12dd7cf")
 	)
 	(wire
 		(pts
@@ -1744,16 +1798,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 78.74) (xy 85.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea61d1a-6ad8-4dec-9960-6d668a3a5553")
-	)
-	(wire
-		(pts
 			(xy 130.81 137.16) (xy 176.53 137.16)
 		)
 		(stroke
@@ -1804,6 +1848,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 76.2) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5072aca-b859-4a92-9e1c-577ec490f38b")
+	)
+	(wire
+		(pts
+			(xy 74.93 101.6) (xy 77.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58f3558-43e9-4e04-ba42-acf0a82f91d8")
+	)
+	(wire
+		(pts
 			(xy 64.77 60.96) (xy 64.77 71.12)
 		)
 		(stroke
@@ -1824,16 +1888,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 78.74) (xy 130.81 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac815e7b-3a9d-44f2-96ca-df2f9e42c381")
-	)
-	(wire
-		(pts
 			(xy 64.77 71.12) (xy 67.31 71.12)
 		)
 		(stroke
@@ -1844,23 +1898,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 142.24) (xy 130.81 137.16)
+			(xy 130.81 96.52) (xy 132.08 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acec0b3b-ef1b-4a96-8c45-284b4b448517")
+		(uuid "ad19aa70-1f1e-4d74-b8ad-1b8cd6f783e4")
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 85.09 81.28)
+			(xy 130.81 153.67) (xy 142.24 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae888552-ff3f-4116-9474-dc034ecca9db")
+		(uuid "ae34f733-6b0a-4bc0-b9e2-86cbc920b9b1")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af64dc42-3bf5-4f95-85f9-ca326b7524ce")
 	)
 	(wire
 		(pts
@@ -1874,13 +1938,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 66.04) (xy 74.93 63.5)
+			(xy 123.19 76.2) (xy 130.81 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3e868b6-3774-4c02-9c2b-067986625d72")
+		(uuid "b4668a4d-5d1b-4bd6-b522-f8a86205fe4d")
+	)
+	(wire
+		(pts
+			(xy 130.81 137.16) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b641a5b4-cee7-41e9-95c3-42f96837d37c")
 	)
 	(wire
 		(pts
@@ -1894,6 +1968,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfddf3d3-3314-4a3c-b491-6ef8b56b1686")
+	)
+	(wire
+		(pts
+			(xy 135.89 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe8cfcf-bf8a-449b-915a-57320e6b1625")
+	)
+	(wire
+		(pts
 			(xy 171.45 96.52) (xy 176.53 96.52)
 		)
 		(stroke
@@ -1904,17 +1998,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 104.14) (xy 184.15 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c5a78c-52fc-4b38-aa6d-03abc8a8b980")
-	)
-	(wire
-		(pts
-			(xy 85.09 104.14) (xy 92.71 104.14)
+			(xy 85.09 101.6) (xy 90.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1924,23 +2008,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 104.14) (xy 92.71 101.6)
+			(xy 184.15 76.2) (xy 186.69 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c18ef5f5-5cdc-490f-b430-195e6785958d")
+		(uuid "c2bb3631-5361-48b8-ab5a-89afb5bde4d4")
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 184.15 91.44)
+			(xy 158.75 96.52) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c437e1c5-74d6-42da-bf5e-f3e0c24da9e7")
+		(uuid "c34e6b9b-4d61-456e-90a6-0d2a70af3555")
 	)
 	(wire
 		(pts
@@ -1974,17 +2058,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 120.65 104.14)
+			(xy 123.19 101.6) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9974372-f51d-408c-af40-131dc9c3bdca")
+		(uuid "cc676aca-ed3e-4517-89d0-cf5663a83655")
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 138.43 104.14)
+			(xy 130.81 101.6) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2001,46 +2085,6 @@
 			(type default)
 		)
 		(uuid "cfcc8ad1-e637-42cd-960a-cae16c25d59c")
-	)
-	(wire
-		(pts
-			(xy 176.53 119.38) (xy 176.53 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d173bffb-2f79-4920-a9d4-acebe62eece0")
-	)
-	(wire
-		(pts
-			(xy 184.15 78.74) (xy 184.15 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f49ce3-dffe-4d33-baf9-2027b2a8169c")
-	)
-	(wire
-		(pts
-			(xy 166.37 76.2) (xy 166.37 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d49e70c2-2349-4f23-9114-e8a592bfc8e5")
-	)
-	(wire
-		(pts
-			(xy 130.81 129.54) (xy 130.81 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ac2685-175e-4b7c-8d7b-503380608176")
 	)
 	(wire
 		(pts
@@ -2064,23 +2108,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 129.54) (xy 85.09 137.16)
+			(xy 85.09 101.6) (xy 85.09 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db7cfaf7-edd8-477f-a203-32efc1bb14ad")
-	)
-	(wire
-		(pts
-			(xy 120.65 66.04) (xy 120.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd29bca-c98c-4d04-a28f-08bffe540e31")
 	)
 	(wire
 		(pts
@@ -2104,6 +2138,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 101.6) (xy 74.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de91b8ec-fe41-456d-b740-e9901e7bb538")
+	)
+	(wire
+		(pts
 			(xy 151.13 111.76) (xy 161.29 111.76)
 		)
 		(stroke
@@ -2114,13 +2158,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 176.53 119.38)
+			(xy 163.83 76.2) (xy 166.37 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0df6696-8b24-4be9-af67-eba52671553a")
+		(uuid "e0efdbc4-437f-46da-afc6-fcdb2b4b9d8c")
 	)
 	(wire
 		(pts
@@ -2131,16 +2175,6 @@
 			(type default)
 		)
 		(uuid "e0f9d23a-8473-493a-8cc3-93afac6e8f55")
-	)
-	(wire
-		(pts
-			(xy 138.43 104.14) (xy 138.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28fe10d-36e7-44f6-9370-3db0eb3a4f73")
 	)
 	(wire
 		(pts
@@ -2164,23 +2198,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 91.44 66.04)
+			(xy 176.53 76.2) (xy 176.53 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3715dce-45ed-4507-a5fc-366b1273db49")
-	)
-	(wire
-		(pts
-			(xy 74.93 91.44) (xy 74.93 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4abf3fe-66d8-4f61-8c77-875c6a7a90aa")
+		(uuid "e4dbe5a3-d4e1-40f1-81aa-714bdfc94eda")
 	)
 	(wire
 		(pts
@@ -2194,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 91.44 78.74)
+			(xy 85.09 76.2) (xy 88.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2214,26 +2238,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 63.5) (xy 184.15 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead080ac-f7c6-49f8-9c19-d895e12ec251")
-	)
-	(wire
-		(pts
-			(xy 166.37 78.74) (xy 176.53 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1ae1ca-543a-4a01-9949-49e2dbe9e69c")
-	)
-	(wire
-		(pts
 			(xy 127 96.52) (xy 130.81 96.52)
 		)
 		(stroke
@@ -2244,37 +2248,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 63.5) (xy 138.43 66.04)
+			(xy 166.37 101.6) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f42c199f-7d1a-4f14-aba0-135817bbfeb2")
+		(uuid "f3bc799d-a043-4a06-adfe-253f6a1f8d9c")
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5410513-5e21-44d0-9f25-6ec12924f85a")
-	)
-	(wire
-		(pts
-			(xy 74.93 76.2) (xy 74.93 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ab7c1e-8b0e-423f-8932-971f90a89154")
-	)
-	(wire
-		(pts
-			(xy 176.53 104.14) (xy 184.15 104.14)
+			(xy 176.53 101.6) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2312,16 +2296,6 @@
 		)
 		(uuid "fd3e588c-4b3e-409d-9fa4-6bff7e63db6e")
 	)
-	(wire
-		(pts
-			(xy 130.81 119.38) (xy 130.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffea4391-37f4-41fa-812b-8e7a93b272e2")
-	)
 	(text "MOSFETS: NTMFS5C612NLT1G"
 		(exclude_from_sim no)
 		(at 105.41 86.36 0)
@@ -2334,7 +2308,7 @@
 		(uuid "86889b9f-5176-4c68-ba65-b802bb2d4e9b")
 	)
 	(label "SL_C"
-		(at 173.99 104.14 0)
+		(at 173.99 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2345,7 +2319,7 @@
 		(uuid "34a456eb-8b4a-4904-8142-4e9da07595eb")
 	)
 	(label "SH_B"
-		(at 128.27 78.74 0)
+		(at 128.27 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2356,7 +2330,7 @@
 		(uuid "4dc892cf-a607-4c82-a976-2bf95731fdb4")
 	)
 	(label "SL_A"
-		(at 82.55 104.14 0)
+		(at 82.55 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2367,7 +2341,7 @@
 		(uuid "54cd4193-c72b-4dc0-962d-429566692064")
 	)
 	(label "SL_B"
-		(at 128.27 104.14 0)
+		(at 128.27 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2378,7 +2352,7 @@
 		(uuid "786cc36e-6e17-41c1-b4eb-d4551168a4be")
 	)
 	(label "SH_C"
-		(at 173.99 78.74 0)
+		(at 173.99 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2389,7 +2363,7 @@
 		(uuid "8a9e728c-7c32-40fa-a49d-c99193769594")
 	)
 	(label "SH_A"
-		(at 82.55 78.74 0)
+		(at 82.55 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2435,18 +2409,6 @@
 		)
 		(uuid "2a9462ab-0f4c-4409-8c60-dc8fb0025b55")
 	)
-	(hierarchical_label "SENSE_B"
-		(shape output)
-		(at 110.49 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "688ba555-4dde-474c-a750-569513cf3d87")
-	)
 	(hierarchical_label "GL_A"
 		(shape input)
 		(at 59.69 111.76 180)
@@ -2470,30 +2432,6 @@
 			(justify left)
 		)
 		(uuid "7d5b7d77-e9e3-4bf1-81f8-4631997ff8a7")
-	)
-	(hierarchical_label "SENSE_C"
-		(shape output)
-		(at 156.21 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "94bb3c55-4b3c-4e36-8498-d65a3c176375")
-	)
-	(hierarchical_label "SENSE_A"
-		(shape output)
-		(at 63.5 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6119422-eae8-48ac-8ec8-7afd8a64d1b6")
 	)
 	(hierarchical_label "GH_C"
 		(shape input)
@@ -2543,9 +2481,33 @@
 		)
 		(uuid "e2962379-d356-48b5-9c07-5f03d30dce06")
 	)
+	(hierarchical_label "SENSE_N"
+		(shape output)
+		(at 142.24 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb516e19-ac77-4824-88c8-d6ebf50ffd25")
+	)
+	(hierarchical_label "SENSE_P"
+		(shape output)
+		(at 142.24 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed411b50-0338-4791-9b34-72bf72c9bd10")
+	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 72.39 71.12 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 67.31 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2553,7 +2515,7 @@
 		(dnp no)
 		(uuid "023aa4ca-ae18-42af-94db-a5178cf676d0")
 		(property "Reference" "Q1"
-			(at 75.184 70.866 0)
+			(at 70.104 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2524,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 75.184 73.406 0)
+			(at 70.104 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,26 +2533,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 72.39 71.12 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 71.12 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 72.39 71.12 0)
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2563,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 64.262 65.532 0)
+			(at 59.182 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2573,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 64.262 65.532 0)
+			(at 59.182 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2583,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 64.262 65.532 0)
+			(at 59.182 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2593,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2603,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2613,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2623,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2633,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2643,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2653,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2663,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2673,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2683,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2693,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2703,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +2713,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2723,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2733,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2743,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2753,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2763,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2773,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2783,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2793,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2803,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2813,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2823,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 64.262 62.992 0)
+			(at 59.182 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +2833,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 74.93 68.58 0)
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,6 +2851,12 @@
 		(pin "4"
 			(uuid "760cfdac-491e-4303-a718-2ac619ac2464")
 		)
+		(pin "2"
+			(uuid "81d1b798-7506-4256-a26c-1b70ef694034")
+		)
+		(pin "3"
+			(uuid "a7665f2d-028b-46cb-b140-741755a60a67")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
@@ -2897,8 +2867,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 90.17 96.52 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 85.09 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2906,7 +2876,7 @@
 		(dnp no)
 		(uuid "034edb7d-51bc-425a-b825-481a8c8673d4")
 		(property "Reference" "Q4"
-			(at 92.964 96.266 0)
+			(at 87.884 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2885,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 92.964 98.806 0)
+			(at 87.884 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,26 +2894,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 90.17 96.52 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 90.17 96.52 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 90.17 96.52 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2924,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 82.042 90.932 0)
+			(at 76.962 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2934,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 82.042 90.932 0)
+			(at 76.962 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2944,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 82.042 90.932 0)
+			(at 76.962 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2954,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2964,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +2974,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +2984,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +2994,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3004,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3014,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3024,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3034,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3044,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3054,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3064,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3074,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3084,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3094,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3104,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3114,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3124,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3134,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3144,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3154,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3164,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3174,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3184,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 82.042 88.392 0)
+			(at 76.962 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3194,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 92.71 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3204,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 90.17 113.665 0)
+			(at 85.09 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3213,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 90.17 115.57 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3222,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 90.17 111.76 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,6 +3239,12 @@
 		(pin "4"
 			(uuid "d84e0698-0a16-408e-b799-c87a3bbc12f3")
 		)
+		(pin "3"
+			(uuid "be15a827-bc07-481b-a202-d3d1e00120e8")
+		)
+		(pin "2"
+			(uuid "2fc095e0-aac4-4d1d-acad-23e2138d7f35")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
@@ -3277,8 +3255,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 181.61 71.12 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 176.53 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3286,7 +3264,7 @@
 		(dnp no)
 		(uuid "08b30046-4622-4262-86ca-e24866da26b9")
 		(property "Reference" "Q11"
-			(at 184.404 70.866 0)
+			(at 179.324 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3273,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.404 73.406 0)
+			(at 179.324 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,26 +3282,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 181.61 71.12 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 181.61 71.12 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 181.61 71.12 0)
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3312,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 173.482 65.532 0)
+			(at 168.402 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3322,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 173.482 65.532 0)
+			(at 168.402 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3332,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 173.482 65.532 0)
+			(at 168.402 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3342,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3352,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3362,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3372,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3382,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3392,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3402,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3412,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3422,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3432,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3442,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3452,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3462,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3472,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3482,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3492,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3502,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3512,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3522,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3532,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3542,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3552,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3562,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3572,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 173.482 62.992 0)
+			(at 168.402 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3582,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 184.15 68.58 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,6 +3599,12 @@
 		)
 		(pin "5"
 			(uuid "89af8975-e0c1-48f1-b44e-8ff5ba135ee7")
+		)
+		(pin "3"
+			(uuid "0c25bec5-e61f-4422-87c2-abfb8a258250")
+		)
+		(pin "2"
+			(uuid "8a767c1a-c0cd-44d9-be0c-002b0f39cd9f")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -3930,6 +3916,345 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 130.81 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2147e043-ef6f-438a-9450-c304c6c03cac")
+		(property "Reference" "R6"
+			(at 133.858 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "500uOhm"
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0.0005 OHM 1% 3W 2512"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "500uOhm"
+			(at 133.35 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 129.286 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "696-1183-2-ND"
+			(at 129.286 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Riedon"
+			(at 129.286 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS" "RoHS Compliant"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" "Resistors"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "2000"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 1" "2000=0.19817, 6000=0.1937, 10000=0.187, 50000=0.18148 (USD)"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape & Reel (TR)"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART STATUS" "Active"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±1%"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "POWER (WATTS)" "3W"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPOSITION" "Metal Element"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FEATURES" "Current Sense"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE" "-55°C ~ 170°C"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "2512 (6432 Metric)"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER DEVICE PACKAGE" "2512"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.250\" L x 0.118\" W (6.35mm x 3.00mm)"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT - SEATED (MAX)" "0.057\" (1.45mm)"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAILURE RATE" "-"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "http://riedon.com/media/pdf/CSR.pdf"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "http://riedon.com/media/pdf/CSR.pdf"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" "Digi-Key"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "696-1183-1-ND"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 2" "1=0.69, 10=0.574, 25=0.4916, 50=0.4426, 100=0.3852, 250=0.3442, 500=0.27864, 1000=0.22536 (USD)"
+			(at 129.286 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CSR2512C0R0005F"
+			(at 129.286 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5b9b971-1ebc-4bb6-8cf5-1f879ad854f5")
+		)
+		(pin "2"
+			(uuid "f96d6eab-38e5-4ff9-9843-99f451fc32eb")
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 165.1 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4228,8 +4553,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 135.89 96.52 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 130.81 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4237,7 +4562,7 @@
 		(dnp no)
 		(uuid "23def90a-de68-408d-97d4-a109ad1d26f6")
 		(property "Reference" "Q8"
-			(at 138.684 96.266 0)
+			(at 133.604 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4571,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 138.684 98.806 0)
+			(at 133.604 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,26 +4580,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 135.89 96.52 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 135.89 96.52 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 135.89 96.52 0)
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4610,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 127.762 90.932 0)
+			(at 122.682 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4620,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 127.762 90.932 0)
+			(at 122.682 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4630,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 127.762 90.932 0)
+			(at 122.682 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4640,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4650,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4660,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4670,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4680,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4690,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4700,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4710,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4720,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4730,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4740,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4750,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4760,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4770,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4780,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4790,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4800,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4810,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4820,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4830,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4840,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4850,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4860,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4870,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 127.762 88.392 0)
+			(at 122.682 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4880,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 138.43 93.98 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4890,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 135.89 113.665 0)
+			(at 130.81 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4899,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 135.89 115.57 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4908,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 135.89 111.76 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,6 +4924,12 @@
 		)
 		(pin "1"
 			(uuid "1dcf8359-ce07-48bd-a7f9-dd699d0a462f")
+		)
+		(pin "2"
+			(uuid "5148fac9-eeb1-4719-86a6-461592d42b63")
+		)
+		(pin "3"
+			(uuid "36a82c72-0ab1-427f-a532-67fe4d341683")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -5206,347 +5539,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42df26bb-6ccf-4f50-92e6-e72135f654ac")
-		(property "Reference" "R19"
-			(at 133.858 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "500uOhm"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0.0005 OHM 1% 3W 2512"
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "500uOhm"
-			(at 133.35 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 129.286 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "696-1183-2-ND"
-			(at 129.286 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Riedon"
-			(at 129.286 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "RoHS Compliant"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" "Resistors"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STOCK" "2000"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 1" "2000=0.19817, 6000=0.1937, 10000=0.187, 50000=0.18148 (USD)"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape & Reel (TR)"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART STATUS" "Active"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER (WATTS)" "3W"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPOSITION" "Metal Element"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "Current Sense"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 170°C"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE / CASE" "2512 (6432 Metric)"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER DEVICE PACKAGE" "2512"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE / DIMENSION" "0.250\" L x 0.118\" W (6.35mm x 3.00mm)"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "0.057\" (1.45mm)"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FAILURE RATE" "-"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://riedon.com/media/pdf/CSR.pdf"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "http://riedon.com/media/pdf/CSR.pdf"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "696-1183-1-ND"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 2" "1=0.69, 10=0.574, 25=0.4916, 50=0.4426, 100=0.3852, 250=0.3442, 500=0.27864, 1000=0.22536 (USD)"
-			(at 129.286 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "CSR2512C0R0005F"
-			(at 129.286 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f84b71c2-bd20-45c6-9bf0-28caf2d2ec91")
-		)
-		(pin "2"
-			(uuid "d89ea98b-86a8-48c9-8b06-e128cab8b252")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 118.11 71.12 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 113.03 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5554,7 +5548,7 @@
 		(dnp no)
 		(uuid "44b937ae-cd55-481d-bf14-292063c581b9")
 		(property "Reference" "Q5"
-			(at 120.904 70.866 0)
+			(at 115.824 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5557,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 120.904 73.406 0)
+			(at 115.824 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,26 +5566,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 118.11 71.12 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 118.11 71.12 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 118.11 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5596,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 109.982 65.532 0)
+			(at 104.902 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5606,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 109.982 65.532 0)
+			(at 104.902 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5616,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 109.982 65.532 0)
+			(at 104.902 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5626,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5636,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5646,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5656,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5666,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5676,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +5686,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5696,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5706,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5716,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5726,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5736,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5746,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5756,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5766,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5776,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5786,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5796,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5806,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5816,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5826,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5836,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5846,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5856,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 109.982 62.992 0)
+			(at 104.902 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5866,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 120.65 68.58 0)
+			(at 115.57 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,6 +5883,12 @@
 		)
 		(pin "5"
 			(uuid "f257b7b4-e3bd-4030-969c-cb7f7578f40a")
+		)
+		(pin "2"
+			(uuid "cb1fc5ff-5aea-439f-b396-3b0a1ad00b35")
+		)
+		(pin "3"
+			(uuid "a714af8a-c4c0-48c3-824f-ba32c5ac351e")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -6198,345 +6200,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ea65ad4-38a4-4647-be06-6fc07533a35b")
-		(property "Reference" "R22"
-			(at 178.054 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "500uOhm"
-			(at 179.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 176.53 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0.0005 OHM 1% 3W 2512"
-			(at 176.53 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "500uOhm"
-			(at 179.07 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 175.006 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "696-1183-2-ND"
-			(at 175.006 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Riedon"
-			(at 175.006 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "RoHS Compliant"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" "Resistors"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STOCK" "2000"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 1" "2000=0.19817, 6000=0.1937, 10000=0.187, 50000=0.18148 (USD)"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape & Reel (TR)"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART STATUS" "Active"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER (WATTS)" "3W"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPOSITION" "Metal Element"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "Current Sense"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 170°C"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE / CASE" "2512 (6432 Metric)"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER DEVICE PACKAGE" "2512"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE / DIMENSION" "0.250\" L x 0.118\" W (6.35mm x 3.00mm)"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "0.057\" (1.45mm)"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FAILURE RATE" "-"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://riedon.com/media/pdf/CSR.pdf"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "http://riedon.com/media/pdf/CSR.pdf"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "696-1183-1-ND"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 2" "1=0.69, 10=0.574, 25=0.4916, 50=0.4426, 100=0.3852, 250=0.3442, 500=0.27864, 1000=0.22536 (USD)"
-			(at 175.006 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "CSR2512C0R0005F"
-			(at 175.006 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a34b8a23-7316-4c84-9f5d-195375bdfb7a")
-		)
-		(pin "1"
-			(uuid "f16d2b1e-8827-4154-866a-1fc82021d917")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 118.11 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6836,7 +6499,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 142.24 0)
+		(at 130.81 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6845,7 +6508,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d0b6367-4b8e-42f8-a048-a4cb97ffde82")
 		(property "Reference" "#PWR045"
-			(at 130.81 148.59 0)
+			(at 130.81 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +6517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 147.32 0)
+			(at 130.81 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6862,7 +6525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 142.24 0)
+			(at 130.81 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,7 +6534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 142.24 0)
+			(at 130.81 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +6543,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 142.24 0)
+			(at 130.81 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,8 +6564,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 118.11 96.52 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 113.03 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6910,7 +6573,7 @@
 		(dnp no)
 		(uuid "86228f3a-b5de-41f2-a297-1f63d4a2677f")
 		(property "Reference" "Q6"
-			(at 120.904 96.266 0)
+			(at 115.824 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +6582,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 120.904 98.806 0)
+			(at 115.824 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,26 +6591,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 118.11 96.52 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 118.11 96.52 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 118.11 96.52 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6621,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 109.982 90.932 0)
+			(at 104.902 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +6631,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 109.982 90.932 0)
+			(at 104.902 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6641,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 109.982 90.932 0)
+			(at 104.902 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6651,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6661,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +6671,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +6681,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +6691,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +6701,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +6711,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +6721,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +6731,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +6741,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +6751,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +6761,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,7 +6771,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +6781,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +6791,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +6801,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7146,7 +6811,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +6821,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +6831,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +6841,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +6851,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +6861,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +6871,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +6881,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 109.982 88.392 0)
+			(at 104.902 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +6891,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 120.65 93.98 0)
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +6901,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 118.11 113.665 0)
+			(at 113.03 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +6910,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 118.11 115.57 0)
+			(at 113.03 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +6919,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 118.11 111.76 0)
+			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,6 +6936,12 @@
 		(pin "1"
 			(uuid "740a8a49-a669-49b6-a0d5-d81345fb642a")
 		)
+		(pin "2"
+			(uuid "a23c7171-d3fb-4c0f-abca-46bf737c28f6")
+		)
+		(pin "3"
+			(uuid "bd284b0c-15a1-4256-9683-0cce1bc1ba76")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
@@ -7281,8 +6952,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 163.83 71.12 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 158.75 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7290,7 +6961,7 @@
 		(dnp no)
 		(uuid "a35eafad-4d56-435d-9602-ff2aec4515fa")
 		(property "Reference" "Q9"
-			(at 166.624 70.866 0)
+			(at 161.544 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +6970,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.624 73.406 0)
+			(at 161.544 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,26 +6979,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 163.83 71.12 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 158.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 71.12 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 158.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 163.83 71.12 0)
+			(at 158.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7009,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 155.702 65.532 0)
+			(at 150.622 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +7019,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 155.702 65.532 0)
+			(at 150.622 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7029,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 155.702 65.532 0)
+			(at 150.622 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7039,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7049,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,7 +7059,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7069,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7079,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7089,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +7099,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7109,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,7 +7119,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +7129,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +7139,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7149,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7159,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +7169,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7179,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7189,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7199,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7209,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7219,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7229,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7239,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7249,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7259,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7269,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 155.702 62.992 0)
+			(at 150.622 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +7279,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 166.37 68.58 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,6 +7297,12 @@
 		(pin "4"
 			(uuid "903532e2-8d28-4e96-9d56-eb4cd4a811a7")
 		)
+		(pin "2"
+			(uuid "0278831d-2d21-4b52-8430-7bde63932a2c")
+		)
+		(pin "3"
+			(uuid "41d23640-b6a3-4c9b-a6d0-b9a56e874e97")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
@@ -7634,8 +7313,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 88.9 71.12 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 83.82 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7643,7 +7322,7 @@
 		(dnp no)
 		(uuid "bf44bc48-7112-466c-8224-a469f9dc1fa4")
 		(property "Reference" "Q3"
-			(at 91.694 70.866 0)
+			(at 86.614 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7331,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 91.694 73.406 0)
+			(at 86.614 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,26 +7340,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 88.9 71.12 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 71.12 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 88.9 71.12 0)
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +7370,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 80.772 65.532 0)
+			(at 75.692 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7380,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 80.772 65.532 0)
+			(at 75.692 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,7 +7390,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 80.772 65.532 0)
+			(at 75.692 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +7400,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7410,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,7 +7420,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7430,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7440,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7450,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7779,7 +7460,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7470,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +7480,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7490,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +7500,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +7510,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +7520,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +7530,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +7540,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +7550,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,7 +7560,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7570,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7899,7 +7580,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +7590,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +7600,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +7610,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +7620,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7630,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 80.772 62.992 0)
+			(at 75.692 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +7640,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 91.44 68.58 0)
+			(at 86.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,6 +7658,12 @@
 		(pin "4"
 			(uuid "a46f4583-d0f9-4fce-acd0-6fc8072af734")
 		)
+		(pin "2"
+			(uuid "f5d3d47f-676c-45cb-9c13-65dee7bfb265")
+		)
+		(pin "3"
+			(uuid "d36d8cc2-b370-4290-9701-33fa6823a21b")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
@@ -7987,8 +7674,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 135.89 71.12 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 130.81 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7996,7 +7683,7 @@
 		(dnp no)
 		(uuid "c6c1963b-05d0-4bc6-b267-09b9071673bb")
 		(property "Reference" "Q7"
-			(at 138.684 70.866 0)
+			(at 133.604 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +7692,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 138.684 73.406 0)
+			(at 133.604 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,26 +7701,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 135.89 71.12 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 135.89 71.12 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 135.89 71.12 0)
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +7731,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 127.762 65.532 0)
+			(at 122.682 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +7741,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 127.762 65.532 0)
+			(at 122.682 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +7751,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 127.762 65.532 0)
+			(at 122.682 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +7761,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +7771,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +7781,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +7791,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +7801,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +7811,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +7821,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +7831,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +7841,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +7851,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +7861,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +7871,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +7881,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +7891,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,7 +7901,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +7911,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +7921,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +7931,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +7941,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +7951,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +7961,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +7971,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +7981,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +7991,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 127.762 62.992 0)
+			(at 122.682 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +8001,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 138.43 68.58 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,6 +8018,12 @@
 		)
 		(pin "1"
 			(uuid "3429cea6-2963-4847-a103-13c21b0fb4f0")
+		)
+		(pin "2"
+			(uuid "89c3c1d4-9f28-40b8-9a9a-c7df2f184f03")
+		)
+		(pin "3"
+			(uuid "1c4768f9-c01d-4e75-8ce2-ad7274b2a955")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -8405,8 +8100,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 163.83 96.52 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 158.75 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8414,7 +8109,7 @@
 		(dnp no)
 		(uuid "ccabf88d-5f5f-4907-957c-dfe8ec820693")
 		(property "Reference" "Q10"
-			(at 166.624 96.266 0)
+			(at 161.544 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8118,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.624 98.806 0)
+			(at 161.544 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,26 +8127,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 163.83 96.52 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 163.83 96.52 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 163.83 96.52 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +8157,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 155.702 90.932 0)
+			(at 150.622 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8470,7 +8167,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 155.702 90.932 0)
+			(at 150.622 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8177,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 155.702 90.932 0)
+			(at 150.622 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8187,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8197,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8207,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8217,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +8227,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8237,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8247,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8257,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8267,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8277,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8287,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8297,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8307,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8317,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8327,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8337,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8347,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,7 +8357,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +8367,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +8377,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,7 +8387,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8397,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +8407,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8417,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 155.702 88.392 0)
+			(at 150.622 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,7 +8427,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 166.37 93.98 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8437,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 163.83 113.665 0)
+			(at 158.75 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8446,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 163.83 115.57 0)
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +8455,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 163.83 111.76 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,6 +8472,12 @@
 		(pin "5"
 			(uuid "109f3f76-3f10-45cc-a72c-34dc7b1a6fa9")
 		)
+		(pin "2"
+			(uuid "c3e50648-968f-40dd-ae3d-d2c7036fb56e")
+		)
+		(pin "3"
+			(uuid "bbf8e03a-714e-4f21-bdd8-bb1beccbdefa")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
@@ -8785,347 +8488,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de0835df-b58f-453f-8cfd-6f907f8602b2")
-		(property "Reference" "R6"
-			(at 88.138 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "500uOhm"
-			(at 87.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 85.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0.0005 OHM 1% 3W 2512"
-			(at 85.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "500uOhm"
-			(at 87.63 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 83.566 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "696-1183-2-ND"
-			(at 83.566 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Riedon"
-			(at 83.566 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "RoHS Compliant"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" "Resistors"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STOCK" "2000"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 1" "2000=0.19817, 6000=0.1937, 10000=0.187, 50000=0.18148 (USD)"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape & Reel (TR)"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART STATUS" "Active"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER (WATTS)" "3W"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPOSITION" "Metal Element"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "Current Sense"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 170°C"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE / CASE" "2512 (6432 Metric)"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER DEVICE PACKAGE" "2512"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE / DIMENSION" "0.250\" L x 0.118\" W (6.35mm x 3.00mm)"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "0.057\" (1.45mm)"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FAILURE RATE" "-"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://riedon.com/media/pdf/CSR.pdf"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "http://riedon.com/media/pdf/CSR.pdf"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "696-1183-1-ND"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 2" "1=0.69, 10=0.574, 25=0.4916, 50=0.4426, 100=0.3852, 250=0.3442, 500=0.27864, 1000=0.22536 (USD)"
-			(at 83.566 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "CSR2512C0R0005F"
-			(at 83.566 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "136ad89f-949e-4092-9a6f-29fa5e0f49fd")
-		)
-		(pin "2"
-			(uuid "0a6eb432-4ec7-4e22-afc0-c1e350d6c437")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 72.39 96.52 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 67.31 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9133,7 +8497,7 @@
 		(dnp no)
 		(uuid "df0091ab-e998-4348-bd6d-a92876a4c93f")
 		(property "Reference" "Q2"
-			(at 75.184 96.266 0)
+			(at 70.104 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +8506,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 75.184 98.806 0)
+			(at 70.104 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,26 +8515,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 72.39 96.52 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 72.39 96.52 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 72.39 96.52 0)
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +8545,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 64.262 90.932 0)
+			(at 59.182 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +8555,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 64.262 90.932 0)
+			(at 59.182 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +8565,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 64.262 90.932 0)
+			(at 59.182 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,7 +8575,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +8585,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +8595,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +8605,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +8615,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +8625,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +8635,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,7 +8645,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +8655,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +8665,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +8675,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,7 +8685,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +8695,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +8705,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +8715,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +8725,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +8735,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +8745,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,7 +8755,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +8765,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +8775,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +8785,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +8795,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,7 +8805,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 64.262 88.392 0)
+			(at 59.182 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,7 +8815,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 74.93 93.98 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +8825,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 72.39 113.665 0)
+			(at 67.31 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +8834,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 72.39 115.57 0)
+			(at 67.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +8843,7 @@
 			)
 		)
 		(property "Sim.Pins" "`"
-			(at 72.39 111.76 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,6 +8860,12 @@
 		(pin "4"
 			(uuid "7d426929-51d8-4dd9-ab75-aad76c4918f9")
 		)
+		(pin "3"
+			(uuid "310ed5be-6f7b-4a52-8146-a7d658890343")
+		)
+		(pin "2"
+			(uuid "4890f05d-de5c-4342-878b-82b665e7142e")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085/55580437-8668-4251-b652-b45caec55db3"
@@ -9504,8 +8876,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomNMOS:NMOS_1")
-		(at 181.61 96.52 0)
+		(lib_id "2024-07-02_05-47-45:NTMFS5C612NLT1G")
+		(at 176.53 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9513,7 +8885,7 @@
 		(dnp no)
 		(uuid "ed6abec2-1ce2-4091-b5b8-73f96d22fda4")
 		(property "Reference" "Q12"
-			(at 184.404 96.266 0)
+			(at 179.324 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +8894,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.404 98.806 0)
+			(at 179.324 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,26 +8903,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
-			(at 181.61 96.52 0)
+		(property "Footprint" "DFN_2NLT1G_ONS"
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 181.61 96.52 0)
+		(property "Datasheet" "NTMFS5C612NLT1G"
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 13A SO8FL"
-			(at 181.61 96.52 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +8933,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 173.482 90.932 0)
+			(at 168.402 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +8943,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "NTMFS4935NT1GOSCT-ND"
-			(at 173.482 90.932 0)
+			(at 168.402 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +8953,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 173.482 90.932 0)
+			(at 168.402 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +8963,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +8973,7 @@
 			)
 		)
 		(property "CATEGORY" "Discrete Semiconductor Products"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +8983,7 @@
 			)
 		)
 		(property "STOCK 1" "932"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +8993,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.61, 10=0.541, 100=0.4145, 500=0.3277 (USD)"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9003,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9013,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +9023,7 @@
 			)
 		)
 		(property "FET TYPE" "N-Channel"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +9033,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "MOSFET (Metal Oxide)"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9669,7 +9043,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE (VDSS)" "30V"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9053,7 @@
 			)
 		)
 		(property "CURRENT - CONTINUOUS DRAIN (ID) @ 25°C" "13A (Ta), 93A (Tc)"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +9063,7 @@
 			)
 		)
 		(property "DRIVE VOLTAGE (MAX RDS ON,  MIN RDS ON)" "4.5V, 10V"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +9073,7 @@
 			)
 		)
 		(property "VGS(TH) (MAX) @ ID" "2.2V @ 250µA"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9083,7 @@
 			)
 		)
 		(property "GATE CHARGE (QG) (MAX) @ VGS" "49.4nC @ 10V"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,7 +9093,7 @@
 			)
 		)
 		(property "INPUT CAPACITANCE (CISS) (MAX) @ VDS" "4850pF @ 15V"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9103,7 @@
 			)
 		)
 		(property "VGS (MAX)" "±20V"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +9113,7 @@
 			)
 		)
 		(property "FET FEATURE" "-"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9123,7 @@
 			)
 		)
 		(property "POWER DISSIPATION (MAX)" "930mW (Ta), 48W (Tc)"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +9133,7 @@
 			)
 		)
 		(property "RDS ON (MAX) @ ID, VGS" "3.2 mOhm @ 30A, 10V"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9143,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 150°C (TJ)"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +9153,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +9163,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "5-DFN (5x6) (8-SOFL)"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +9173,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "8-PowerTDFN, 5 Leads"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9183,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +9193,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.onsemi.com/pub_link/Collateral/NTMFS4935N-D.PDF"
-			(at 173.482 88.392 0)
+			(at 168.402 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +9203,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "NTMFS4935NT1G"
-			(at 184.15 93.98 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +9213,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 181.61 113.665 0)
+			(at 176.53 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +9222,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 181.61 115.57 0)
+			(at 176.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +9231,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 181.61 111.76 0)
+			(at 176.53 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,6 +9247,12 @@
 		)
 		(pin "4"
 			(uuid "801050a4-4edc-4a86-88c8-b1297aa9be64")
+		)
+		(pin "2"
+			(uuid "bbe6c889-4511-4131-9470-080a2f21c975")
+		)
+		(pin "3"
+			(uuid "ba699223-14aa-47b8-873d-224bf8f5787b")
 		)
 		(instances
 			(project "EtherCATControllerV1"

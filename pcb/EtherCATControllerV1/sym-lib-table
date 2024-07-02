@@ -3,4 +3,7 @@
   (lib (name "MCF8329A")(type "KiCad")(uri "${KIPRJMOD}/Libs/MCF8329A/MCF8329A.kicad_sym")(options "")(descr ""))
   (lib (name "2024-06-30_23-12-06")(type "KiCad")(uri "${KIPRJMOD}/Libs/LAN9292I_ML/2024-06-30_23-12-06.kicad_sym")(options "")(descr ""))
   (lib (name "2024-06-30_23-17-14")(type "KiCad")(uri "${KIPRJMOD}/Libs/TMC6200/2024-06-30_23-17-14.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-07-01_21-03-15")(type "KiCad")(uri "${KIPRJMOD}/Libs/LAN9292I_ML/2024-07-01_21-03-15.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-07-02_05-34-37")(type "KiCad")(uri "${KIPRJMOD}/Libs/LM76005RNPR/2024-07-02_05-34-37.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-07-02_05-47-45")(type "KiCad")(uri "${KIPRJMOD}/Libs/NTMFS5C612NLT1G/2024-07-02_05-47-45.kicad_sym")(options "")(descr ""))
 )
