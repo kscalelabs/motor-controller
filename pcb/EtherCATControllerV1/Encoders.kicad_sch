@@ -1843,7 +1843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "AVCC"
 			(at 195.326 32.766 0)
 			(effects
 				(font

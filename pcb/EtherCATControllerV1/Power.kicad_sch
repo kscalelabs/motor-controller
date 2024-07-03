@@ -3610,12 +3610,6 @@
 		(uuid "3e8111f5-ad9c-41c5-8744-2526497dd1f5")
 	)
 	(junction
-		(at 48.26 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ed2dd77-48f1-4e69-9964-129766b22e28")
-	)
-	(junction
 		(at 116.84 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3734,12 +3728,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "783da36b-e9a9-4693-9180-d3214344fe93")
-	)
-	(junction
-		(at 48.26 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "795aca8d-60da-4781-b868-b1863f3e31f3")
 	)
 	(junction
 		(at 128.27 46.99)
@@ -5437,16 +5425,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 46.99) (xy 48.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd738900-d628-49ff-9a28-3c54ef1eb451")
-	)
-	(wire
-		(pts
 			(xy 102.87 81.28) (xy 106.68 81.28)
 		)
 		(stroke
@@ -5624,16 +5602,6 @@
 			(type default)
 		)
 		(uuid "e83ee0f1-47f8-499e-b41b-e5e7e73e669e")
-	)
-	(wire
-		(pts
-			(xy 35.56 39.37) (xy 48.26 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88dabd6-a2b8-4a11-8f33-6e8068611d16")
 	)
 	(wire
 		(pts
@@ -5915,17 +5883,6 @@
 		)
 		(uuid "b98005c5-3dcb-4663-bdcf-4d4ee291bfc0")
 	)
-	(label "VBUS_S"
-		(at 231.14 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3324a61e-044f-4118-919a-085826a83e49")
-	)
 	(label "FB1"
 		(at 118.11 135.89 0)
 		(fields_autoplaced yes)
@@ -5936,17 +5893,6 @@
 			(justify left bottom)
 		)
 		(uuid "7630ee82-3db2-4914-b834-d3e6389dcd4d")
-	)
-	(label "PGOOD"
-		(at 30.48 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "893e0d5c-ba77-46e2-a1f6-3d1e26df7636")
 	)
 	(label "FB"
 		(at 127 90.17 0)
@@ -5992,9 +5938,9 @@
 		)
 		(uuid "f9d24b22-b816-425a-85c5-b60b8a049798")
 	)
-	(hierarchical_label "DC-"
-		(shape input)
-		(at 35.56 46.99 180)
+	(hierarchical_label "PGOOD"
+		(shape output)
+		(at 30.48 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6002,19 +5948,19 @@
 			)
 			(justify right)
 		)
-		(uuid "2be8c504-9589-410c-9006-39fa57301841")
+		(uuid "489673d7-fdca-45cf-864c-18fd290a61a8")
 	)
-	(hierarchical_label "DC+"
-		(shape input)
-		(at 35.56 39.37 180)
+	(hierarchical_label "VBUS_S"
+		(shape output)
+		(at 238.76 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "e6fad93d-2983-4013-bc54-98cfe2073248")
+		(uuid "51612bda-5be0-46a8-bf9e-daa518cb1efa")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")

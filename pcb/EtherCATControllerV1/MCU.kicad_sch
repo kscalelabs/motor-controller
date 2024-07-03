@@ -2221,102 +2221,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
@@ -2565,12 +2469,6 @@
 		(uuid "0443d4a7-5cf2-48cc-9e54-421f06b979ee")
 	)
 	(junction
-		(at 76.2 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c613ad8-d31e-4d34-bf15-c784143b4d46")
-	)
-	(junction
 		(at 82.55 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2631,10 +2529,6 @@
 		(uuid "f2aae4b8-c10e-4564-ad28-7dea9341a3d4")
 	)
 	(no_connect
-		(at 170.18 49.53)
-		(uuid "0111e1bb-ecc8-4af5-b566-7aee4133b8e0")
-	)
-	(no_connect
 		(at 170.18 85.09)
 		(uuid "08a1542e-11d1-45bf-aa86-3ae5c421b799")
 	)
@@ -2645,14 +2539,6 @@
 	(no_connect
 		(at 170.18 64.77)
 		(uuid "120c0a12-5251-4334-b78c-8b70d28a1fd1")
-	)
-	(no_connect
-		(at 170.18 115.57)
-		(uuid "1650eab1-b39e-45ba-b379-e65dc221c8f8")
-	)
-	(no_connect
-		(at 113.03 74.93)
-		(uuid "1814c587-ede7-4023-bcc3-eab3ab677e60")
 	)
 	(no_connect
 		(at 113.03 85.09)
@@ -2667,32 +2553,8 @@
 		(uuid "29549c5f-987d-4fd2-a659-e71d189ab415")
 	)
 	(no_connect
-		(at 113.03 67.31)
-		(uuid "47f09bb4-fe22-4718-a89e-66e2dc648f39")
-	)
-	(no_connect
-		(at 113.03 69.85)
-		(uuid "63722852-7db2-48cf-8f0b-bffc19f5028b")
-	)
-	(no_connect
-		(at 113.03 62.23)
-		(uuid "72155bd0-3ebd-4855-ae7b-f1d1681529cd")
-	)
-	(no_connect
-		(at 170.18 118.11)
-		(uuid "73ea6067-8135-4fa1-a7a0-48ef79b68794")
-	)
-	(no_connect
-		(at 170.18 52.07)
-		(uuid "826f44ac-a296-45c0-8183-8826a8e0c996")
-	)
-	(no_connect
 		(at 170.18 41.91)
 		(uuid "8839d27d-2329-4cbe-a51f-d769da41b3c1")
-	)
-	(no_connect
-		(at 170.18 120.65)
-		(uuid "8d9f153e-0fe8-41f3-8550-f3ffba1086f8")
 	)
 	(no_connect
 		(at 128.27 97.79)
@@ -2711,10 +2573,6 @@
 		(uuid "c418b73e-4614-494e-93cb-24f9bcf988d9")
 	)
 	(no_connect
-		(at 170.18 59.69)
-		(uuid "c9340d9d-3cd3-4ce7-a22f-3ff390884487")
-	)
-	(no_connect
 		(at 170.18 46.99)
 		(uuid "cd8df8c8-70a0-487c-915a-489d36a9637f")
 	)
@@ -2727,20 +2585,8 @@
 		(uuid "d8e96916-df59-4fa2-9f79-5bb4434ae63e")
 	)
 	(no_connect
-		(at 113.03 77.47)
-		(uuid "da21b765-6c2b-40d9-a1a1-d47d4829984e")
-	)
-	(no_connect
-		(at 113.03 64.77)
-		(uuid "dcbe96b6-5b9f-4516-9dd0-be4529a71d3c")
-	)
-	(no_connect
 		(at 113.03 82.55)
 		(uuid "dd55e265-ed52-48f6-b518-7aebfb2e60f7")
-	)
-	(no_connect
-		(at 170.18 113.03)
-		(uuid "e36deea2-112c-42ef-b004-15e7754ed632")
 	)
 	(no_connect
 		(at 170.18 102.87)
@@ -2753,10 +2599,6 @@
 	(no_connect
 		(at 170.18 62.23)
 		(uuid "f6ba4b78-6e5b-44b0-9635-246c1f524729")
-	)
-	(no_connect
-		(at 170.18 57.15)
-		(uuid "f880dfe5-471f-440d-b118-3f0dc449acc1")
 	)
 	(no_connect
 		(at 128.27 100.33)
@@ -3786,9 +3628,21 @@
 		)
 		(uuid "12fce276-0c16-41fd-8732-d5dae1c14ebf")
 	)
-	(hierarchical_label "VBUS_SENSE"
+	(hierarchical_label "DRVOFF"
+		(shape output)
+		(at 113.03 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1465a373-74c1-46ba-aafc-0ec16d0a1f3a")
+	)
+	(hierarchical_label "SPI1_SCK"
 		(shape input)
-		(at 170.18 54.61 0)
+		(at 170.18 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3796,7 +3650,43 @@
 			)
 			(justify left)
 		)
-		(uuid "251e7b24-ab97-4c41-b08e-0384ac15cceb")
+		(uuid "15fdfb59-d6e5-4460-a8d7-cdbe5e750eb5")
+	)
+	(hierarchical_label "ETHRST"
+		(shape output)
+		(at 113.03 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "162b2d36-90d5-4a7e-a703-60505bcdae21")
+	)
+	(hierarchical_label "DIR"
+		(shape output)
+		(at 113.03 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2af8625e-9c91-4db5-ade7-e5a102f9d340")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 170.18 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c8660d1-db90-4c6d-a798-3310ad2577c6")
 	)
 	(hierarchical_label "BOOT0"
 		(shape passive)
@@ -3810,7 +3700,7 @@
 		)
 		(uuid "33e1ddb5-c709-4d6b-b2db-ffc761d66aff")
 	)
-	(hierarchical_label "SPI_SCK"
+	(hierarchical_label "SPI2_SCK"
 		(shape input)
 		(at 113.03 87.63 180)
 		(fields_autoplaced yes)
@@ -3821,6 +3711,18 @@
 			(justify right)
 		)
 		(uuid "3c21828f-c05a-4395-9b1f-5dc317f04037")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 170.18 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d544458-7768-41b8-80a7-5128753be2f8")
 	)
 	(hierarchical_label "nFAULT"
 		(shape input)
@@ -3858,9 +3760,21 @@
 		)
 		(uuid "5dbd2cd9-94c7-47c1-8a43-543b3cc25300")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "IRQ"
 		(shape output)
-		(at 170.18 107.95 0)
+		(at 113.03 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63d9c867-0235-4391-9f50-258fe059fd55")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 170.18 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3868,7 +3782,31 @@
 			)
 			(justify left)
 		)
-		(uuid "7c4bab41-f4a9-4b8c-95e7-68168d32ca7d")
+		(uuid "65bcd326-cdd2-4770-8863-9a1b1868277a")
+	)
+	(hierarchical_label "WAKE"
+		(shape output)
+		(at 113.03 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "932a16bb-0a70-4773-a6ec-371d13f1199b")
+	)
+	(hierarchical_label "VBUS_SENSE"
+		(shape input)
+		(at 170.18 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99e90a98-9261-46be-b082-34444256284e")
 	)
 	(hierarchical_label "SWCLK"
 		(shape input)
@@ -3882,6 +3820,54 @@
 		)
 		(uuid "9a9e947d-14cf-4326-a6cf-be68db909bc5")
 	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 170.18 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e02ff70-db18-4262-b7f7-62081c3f1cc1")
+	)
+	(hierarchical_label "SPI1_CS"
+		(shape input)
+		(at 170.18 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad0e0f46-e324-42a2-bb12-9b5541687063")
+	)
+	(hierarchical_label "BRAKE"
+		(shape output)
+		(at 113.03 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2fc8cc5-4e58-41dc-8d3e-07436d99c90b")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
+		(at 170.18 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b404d98a-fd21-42dc-a7bf-dbbac1de09a2")
+	)
 	(hierarchical_label "M0_ENC_A"
 		(shape input)
 		(at 170.18 92.71 0)
@@ -3894,7 +3880,7 @@
 		)
 		(uuid "b9a119af-b1c3-4575-a3e1-7cb6f48c4911")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI2_MISO"
 		(shape input)
 		(at 113.03 90.17 180)
 		(fields_autoplaced yes)
@@ -3918,7 +3904,19 @@
 		)
 		(uuid "c65d2702-43e0-4ab4-b883-f38ac89d334e")
 	)
-	(hierarchical_label "SPI_CS"
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 170.18 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c74a3a82-ec60-4718-81f2-dfbe2e59e572")
+	)
+	(hierarchical_label "SPI2_CS"
 		(shape input)
 		(at 113.03 95.25 180)
 		(fields_autoplaced yes)
@@ -3930,7 +3928,7 @@
 		)
 		(uuid "c9c446b1-2eea-4fcd-9f9a-775f6eb0aeb6")
 	)
-	(hierarchical_label "SPI_MOSI"
+	(hierarchical_label "SPI2_MOSI"
 		(shape input)
 		(at 113.03 92.71 180)
 		(fields_autoplaced yes)
@@ -3954,9 +3952,9 @@
 		)
 		(uuid "d5208ea9-ae9f-43e3-81bc-e8895acb70b4")
 	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 170.18 110.49 0)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 170.18 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3964,7 +3962,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e969eb0c-8090-42d6-9bcc-34a7271b544e")
+		(uuid "e4e76f9e-4c39-4666-9ab7-35691cf41d97")
 	)
 	(hierarchical_label "M0_ENC_B"
 		(shape input)
@@ -3977,6 +3975,18 @@
 			(justify left)
 		)
 		(uuid "ebb3e033-2688-4962-8705-140cf06d67c0")
+	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape input)
+		(at 170.18 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "effe6b9b-4906-4ddb-8dbb-b31ddacb673b")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5030,72 +5040,6 @@
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/c856d8b8-b384-4f6b-bd82-a15acb88b807"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 76.2 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7056a63b-9116-4a05-a78f-f79849506025")
-		(property "Reference" "#FLG03"
-			(at 74.295 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 72.39 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 76.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4d9c438-0a7f-4b02-98bc-a0551623e888")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/c856d8b8-b384-4f6b-bd82-a15acb88b807"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
