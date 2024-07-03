@@ -3700,12 +3700,6 @@
 		(uuid "6ebfeecd-3d87-4a1c-840d-61c289de92a0")
 	)
 	(junction
-		(at 175.26 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70f553bc-3314-4b74-ae90-63e28874b629")
-	)
-	(junction
 		(at 93.98 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3788,12 +3782,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fec07ea-4dd5-4c84-8ba6-c1d56293d11b")
-	)
-	(junction
-		(at 162.56 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8969c95d-871a-4a35-9291-882c563f6f09")
 	)
 	(junction
 		(at 223.52 40.64)
@@ -3886,22 +3874,10 @@
 		(uuid "be3331c9-5c52-466c-a498-caf943d0fc3c")
 	)
 	(junction
-		(at 151.13 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be962eb7-2dab-43c6-b623-344d4cd068d7")
-	)
-	(junction
 		(at 85.09 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c32fc9a6-0873-49de-ab79-ff0a9549a26a")
-	)
-	(junction
-		(at 162.56 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9dbd075-adea-418e-8e52-fcd83475077f")
 	)
 	(junction
 		(at 93.98 165.1)
@@ -4791,16 +4767,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 39.37) (xy 162.56 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2e3ddf-ae1e-433c-ae4d-83ecc116af58")
-	)
-	(wire
-		(pts
 			(xy 129.54 173.99) (xy 140.97 173.99)
 		)
 		(stroke
@@ -5061,16 +5027,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 46.99) (xy 175.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c3b0b2-b828-49d0-9e99-6b163b9efb4d")
-	)
-	(wire
-		(pts
 			(xy 200.66 86.36) (xy 200.66 81.28)
 		)
 		(stroke
@@ -5318,26 +5274,6 @@
 			(type default)
 		)
 		(uuid "b0cad696-11c5-47c5-9cbc-bd898eb2086d")
-	)
-	(wire
-		(pts
-			(xy 151.13 46.99) (xy 162.56 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20e5739-5d01-46be-87d3-882baf45d3c1")
-	)
-	(wire
-		(pts
-			(xy 162.56 39.37) (xy 175.26 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b22ebcab-f0a8-4eb3-a6c8-ea5e3a4b2fd5")
 	)
 	(wire
 		(pts
@@ -5909,6 +5845,16 @@
 		)
 		(uuid "fffc948a-ba3f-4aa4-bd7d-faa1d28389f0")
 	)
+	(text "22uF Ceramic"
+		(exclude_from_sim no)
+		(at 109.728 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b820ae5-a27b-476b-8192-6aaa06905bab")
+	)
 	(text "48V input"
 		(exclude_from_sim no)
 		(at 49.53 35.814 0)
@@ -5918,16 +5864,6 @@
 			)
 		)
 		(uuid "5e1b83be-c6dd-4139-a7be-e8aedcd8c145")
-	)
-	(text "120uF Can capacitors"
-		(exclude_from_sim no)
-		(at 171.958 51.562 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ef4bff7-dca3-4ad6-a9ce-7222bf520b52")
 	)
 	(text "Bus voltage sense"
 		(exclude_from_sim no)
@@ -8081,6 +8017,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 151.13 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1ad27c-402b-4d02-a4b8-c99a14e58a40")
+		(property "Reference" "#PWR01"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCBUS"
+			(at 151.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 151.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74eca99c-0e82-42c4-88e2-7a22dc1209c9")
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 128.27 81.28 0)
 		(unit 1)
@@ -9836,85 +9838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 162.56 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75fb5791-0700-47a1-a098-d5c23e9577a1")
-		(property "Reference" "C11"
-			(at 166.37 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120uF"
-			(at 166.37 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.5252 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Electrolytic Can Capacitor"
-			(at 162.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C487157"
-			(at 162.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27caaa1f-6bfa-4330-b9dc-ba810dcc9082")
-		)
-		(pin "2"
-			(uuid "d1e1ac4a-38a5-4e87-8323-77831f7b2beb")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 33.02 73.66 0)
 		(unit 1)
@@ -10414,72 +10337,6 @@
 			(project ""
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 175.26 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f36a07c-0c89-4f41-8d57-c1d35328ec0c")
-		(property "Reference" "#PWR01"
-			(at 175.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DCBUS"
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07ec9d06-c302-4559-af35-a7e27abdbbbe")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -15476,85 +15333,6 @@
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
 					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 175.26 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e592c870-d6a7-4d9d-ab4a-6d402033e939")
-		(property "Reference" "C12"
-			(at 179.07 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120uF"
-			(at 179.07 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.2252 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Electrolytic Can Capacitor"
-			(at 175.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C487157"
-			(at 175.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e2868f5-6d5a-4680-9455-a8164b1be199")
-		)
-		(pin "2"
-			(uuid "965ada4b-1f3e-4ae7-96a8-4735fa2536bc")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C12")
 					(unit 1)
 				)
 			)

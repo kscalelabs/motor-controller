@@ -351,6 +351,86 @@
 				(justify left top)
 			)
 		)
+		(pin "SPI_MISO" bidirectional
+			(at 38.1 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3429a737-2eb9-4170-91bd-7a51edc7b9ad")
+		)
+		(pin "SPI_MOSI" bidirectional
+			(at 38.1 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a896eb7-0589-455c-99a0-69696f8c0941")
+		)
+		(pin "SPI_SCK" input
+			(at 38.1 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32926a8c-a002-4038-b3ac-399a13f20ae5")
+		)
+		(pin "RST" input
+			(at 38.1 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1674ea63-9106-4e25-907a-a1595a87f0bd")
+		)
+		(pin "ATEST{slash}FXLOSEN" output
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2dbe0e0f-38a3-4b57-883d-c6123a88a3ec")
+		)
+		(pin "FXSDB{slash}FXLOSB" output
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "14deb9f5-e7e1-4afb-881c-9bcff2f62a5a")
+		)
+		(pin "FXSDA{slash}FXLOSA" output
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49f204fa-c8b0-4a84-bbf4-ff241ab0f5a2")
+		)
+		(pin "SPI_CS" passive
+			(at 38.1 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7ca73ff-5b7c-4dab-98a1-7475262b0200")
+		)
 		(instances
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a"

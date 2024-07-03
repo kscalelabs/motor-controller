@@ -2296,7 +2296,7 @@
 		)
 		(uuid "fd3e588c-4b3e-409d-9fa4-6bff7e63db6e")
 	)
-	(text "MOSFETS: NTMFS5C612NLT1G"
+	(text "MOSFETS: NTMFS5C612NLT1G\n60V, 36A Ta"
 		(exclude_from_sim no)
 		(at 105.41 86.36 0)
 		(effects

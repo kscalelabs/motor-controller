@@ -1256,9 +1256,9 @@
 		)
 		(uuid "f01455ae-e253-4a8b-8509-17059629134b")
 	)
-	(text "Off-Axis Encoder separate\nIdeally through SPI"
+	(text "Off-Axis Encoder separate\nIdeally through SPI\nTBD"
 		(exclude_from_sim no)
-		(at 81.788 87.884 0)
+		(at 82.042 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1404,7 +1404,7 @@
 		(dnp no)
 		(uuid "06d97f52-14bd-407d-849f-4d7c15d2a582")
 		(property "Reference" "R28"
-			(at 197.104 37.846 0)
+			(at 197.358 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 197.104 40.386 0)
+			(at 197.358 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +2167,7 @@
 		(dnp no)
 		(uuid "77bda3ff-efd3-4eb7-b8b2-1d45695a59e0")
 		(property "Reference" "R29"
-			(at 204.724 37.846 0)
+			(at 205.232 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2176,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 204.724 40.386 0)
+			(at 205.232 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 		(dnp no)
 		(uuid "846e94b7-b3c6-4a07-a69b-d9f9a864d159")
 		(property "Reference" "R27"
-			(at 189.484 37.846 0)
+			(at 189.738 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2475,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 189.484 40.386 0)
+			(at 189.738 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
