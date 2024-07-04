@@ -426,7 +426,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U6"
 				(at 40.64 10.16 0)
 				(effects
 					(font
@@ -463,6 +463,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field-1" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -852,24 +870,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 81.28 -30.48 180)
-					(length 7.62)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 81.28 -27.94 180)
 					(length 7.62)
@@ -1087,24 +1087,6 @@
 					)
 				)
 				(pin power_out line
-					(at 81.28 0 180)
-					(length 7.62)
-					(name "epad"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
 					(at 0 -7.62 0)
 					(length 7.62)
 					(name "GND"
@@ -1140,7 +1122,63 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "BSTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCF8329A1IREER_1_1"
+				(pin passive line
+					(at 81.28 -30.48 180)
+					(length 7.62)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 81.28 0 180)
+					(length 7.62)
+					(name "epad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "CPL"
@@ -1158,7 +1196,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "CPH"
@@ -1176,7 +1214,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 7.62)
 					(name "GVDD"
@@ -1187,24 +1225,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "BSTA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1515,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 111.76) (xy 157.48 111.76)
+			(xy 156.21 113.03) (xy 157.48 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1625,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b71bce8-8950-4639-b9a3-6d9aefc03e8c")
+	)
+	(wire
+		(pts
 			(xy 49.53 102.87) (xy 54.61 102.87)
 		)
 		(stroke
@@ -1662,6 +1692,16 @@
 			(type default)
 		)
 		(uuid "40ffa767-c300-45ca-88bf-4f16a9ecae48")
+	)
+	(wire
+		(pts
+			(xy 156.21 113.03) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e4368a-ef11-42b5-baec-1890c00fa499")
 	)
 	(wire
 		(pts
@@ -1805,16 +1845,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 111.76) (xy 157.48 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e2afee4-26d8-4174-be7b-7c121ccf6613")
-	)
-	(wire
-		(pts
 			(xy 54.61 114.3) (xy 69.85 114.3)
 		)
 		(stroke
@@ -1842,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "82ffe9da-de3e-4151-9d5d-dbc8dbe48732")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b0f362-5352-42f8-b9af-a3b950157f40")
 	)
 	(wire
 		(pts
@@ -3442,6 +3482,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8713def7-b11c-4bd0-ac80-4364526be714")
+		(property "Reference" "#PWR0111"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3035ac76-5f43-4f95-b0d6-bdd8356073a8")
+		)
+		(instances
+			(project "EtherCATControllerV1"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 163.83 67.31 0)
 		(unit 1)
@@ -4427,6 +4532,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 69.85 71.12 0)
 			(effects
 				(font
