@@ -1801,16 +1801,6 @@
 			)
 			(uuid "eff09411-52ea-4acc-a17f-dfc85e77aa45")
 		)
-		(pin "nFAULT" output
-			(at 173.99 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "665e571d-fce7-4b06-a95f-d77bae89f3fe")
-		)
 		(pin "BRAKE" input
 			(at 146.05 54.61 180)
 			(effects
@@ -1840,6 +1830,16 @@
 				(justify left)
 			)
 			(uuid "1116fb91-4d3d-4a34-b5d0-0b4f202b42a2")
+		)
+		(pin "NFAULT" output
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e5258d7-0801-4a5e-818c-fae6b955f904")
 		)
 		(instances
 			(project "EtherCATControllerV1"
@@ -1878,16 +1878,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "nFAULT" input
-			(at 207.01 31.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c37d35a9-fc73-4094-b327-570758975508")
 		)
 		(pin "SPI_SCK" input
 			(at 207.01 45.72 180)
@@ -2198,6 +2188,16 @@
 				(justify right)
 			)
 			(uuid "9cabdb79-ff26-46b1-8853-0b1875ef87ed")
+		)
+		(pin "NFAULT" input
+			(at 207.01 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82c617c3-d0d0-4e01-9421-65368c398877")
 		)
 		(instances
 			(project "EtherCATControllerV1"

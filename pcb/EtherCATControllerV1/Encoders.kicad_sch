@@ -3135,6 +3135,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C962063"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b48e27e-137a-4bca-a837-0103e6861256")
 		)

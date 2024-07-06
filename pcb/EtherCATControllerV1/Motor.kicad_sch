@@ -2583,7 +2583,7 @@
 		)
 		(uuid "eb874ff4-ab46-47de-aa98-8abdbc130d07")
 	)
-	(hierarchical_label "nFAULT"
+	(hierarchical_label "NFAULT"
 		(shape output)
 		(at 170.18 76.2 0)
 		(fields_autoplaced yes)
