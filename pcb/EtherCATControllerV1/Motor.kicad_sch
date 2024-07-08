@@ -4540,16 +4540,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 69.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
+		(property "LCSC Part Number" "C22399784"
 			(at 69.85 71.12 0)
 			(effects
 				(font
