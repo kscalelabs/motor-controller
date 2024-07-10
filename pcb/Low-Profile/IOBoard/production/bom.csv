@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,CP_Radial_D13.0mm_P5.00mm-Horizontal,1,100V 330uF, C783453
+"C3, C4",0402,2,10pF, C650948
+J1,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,1,XT30PW-M,C431092
+J3,Dual Post,1,Mounting holes,
+J6,HRS_FH41-40S-0.5SH_05_,1,FH41-40S-0.5SH_05_,C596805
