@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EtherCATControllerV1.kicad_pro",
+    "filename": "EtherCATControllerLP.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -351,7 +351,7 @@
       "default_text_size": 50.0,
       "field_names": [
         {
-          "name": "LCSC Part Number",
+          "name": "LCSC Part #",
           "url": false,
           "visible": false
         }
@@ -418,8 +418,16 @@
       "Motor"
     ],
     [
+      "386fb4a2-e014-4306-9144-c1ba6edc37f5",
+      "Regulators"
+    ],
+    [
       "55580437-8668-4251-b652-b45caec55db3",
       "MOSFETs"
+    ],
+    [
+      "3d7b868b-5ec8-42b4-b20a-2737192e1f48",
+      "Temperature Sensors"
     ]
   ],
   "text_variables": {}

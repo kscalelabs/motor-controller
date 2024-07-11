@@ -258,6 +258,17 @@
 		)
 		(uuid "593da72a-eb87-4cd2-883c-70341fe96399")
 	)
+	(label "TEMP_BACKSIDE"
+		(at 99.06 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "597add7c-be95-447c-b921-e8420153d716")
+	)
 	(label "NFAULT"
 		(at 207.01 31.75 180)
 		(fields_autoplaced yes)
@@ -379,6 +390,17 @@
 		)
 		(uuid "761f6463-3562-475f-8201-04445e8f3b5a")
 	)
+	(label "TEMP_ICS"
+		(at 207.01 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76385abe-01b3-4a20-aa55-a00b50a01dad")
+	)
 	(label "SPI2_SCK"
 		(at 173.99 35.56 0)
 		(fields_autoplaced yes)
@@ -389,6 +411,17 @@
 			(justify left bottom)
 		)
 		(uuid "791a431e-aa9f-4260-800b-15a2cb5d2dd9")
+	)
+	(label "TEMP_ICS"
+		(at 99.06 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a72ffe6-8286-416c-b846-8774f4770ff9")
 	)
 	(label "ETH0_TXN"
 		(at 146.05 105.41 180)
@@ -466,6 +499,17 @@
 			(justify right bottom)
 		)
 		(uuid "8038cc7e-ecd6-4d2d-b3bf-e29396465b72")
+	)
+	(label "TEMP_MOSFETS"
+		(at 99.06 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "806a8a9f-14c5-4b21-a0a4-f25723f64eb2")
 	)
 	(label "PGOOD"
 		(at 99.06 86.36 0)
@@ -709,6 +753,17 @@
 		)
 		(uuid "aa869393-ee33-4a20-a34c-086791364f57")
 	)
+	(label "TEMP_MOSFETS"
+		(at 207.01 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aae55788-e0dc-4fd3-8b68-0a268c849607")
+	)
 	(label "SPI_MOSI"
 		(at 207.01 48.26 180)
 		(fields_autoplaced yes)
@@ -796,6 +851,17 @@
 			(justify left bottom)
 		)
 		(uuid "c14199fe-3a94-406c-a185-9e681162fa36")
+	)
+	(label "TEMP_BACKSIDE"
+		(at 207.01 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c488579b-ea0f-4630-b093-8544eb98bfad")
 	)
 	(label "I2C_SCL"
 		(at 146.05 49.53 180)
@@ -1143,6 +1209,74 @@
 			(project "EtherCATControllerLP"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 100.33)
+		(size 27.94 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d7b868b-5ec8-42b4-b20a-2737192e1f48")
+		(property "Sheetname" "Temperature Sensors"
+			(at 71.12 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temperature.kicad_sch"
+			(at 71.12 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TEMP_MOSFETS" output
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cfd18d4-4988-42f8-bf47-ff037de57150")
+		)
+		(pin "TEMP_ICS" output
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95fe10bd-5adf-4bc8-b091-0a91387fd1be")
+		)
+		(pin "TEMP_BACKSIDE" output
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6b39300-d55c-4635-b311-8f9cf9627ddf")
+		)
+		(instances
+			(project "EtherCATControllerLP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "10")
 				)
 			)
 		)
@@ -1851,7 +1985,7 @@
 	)
 	(sheet
 		(at 207.01 25.4)
-		(size 29.21 64.77)
+		(size 29.21 73.66)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1871,7 +2005,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 207.01 90.7546 0)
+			(at 207.01 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,6 +2332,36 @@
 				(justify left)
 			)
 			(uuid "82c617c3-d0d0-4e01-9421-65368c398877")
+		)
+		(pin "TEMP_ICS" input
+			(at 207.01 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9efc6e2c-e755-4954-b846-578ca285fd08")
+		)
+		(pin "TEMP_BACKSIDE" input
+			(at 207.01 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed116c85-2a49-4035-b013-2561dd19865d")
+		)
+		(pin "TEMP_MOSFETS" input
+			(at 207.01 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33aa624e-e92e-4081-98f1-8d1c0505555c")
 		)
 		(instances
 			(project "EtherCATControllerLP"

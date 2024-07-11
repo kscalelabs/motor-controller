@@ -2529,12 +2529,12 @@
 		(uuid "f2aae4b8-c10e-4564-ad28-7dea9341a3d4")
 	)
 	(no_connect
-		(at 170.18 85.09)
-		(uuid "08a1542e-11d1-45bf-aa86-3ae5c421b799")
+		(at 170.18 82.55)
+		(uuid "0ae7cda4-f22b-43cb-9e40-4afb282dd9bd")
 	)
 	(no_connect
-		(at 170.18 87.63)
-		(uuid "0df4b84d-408b-47da-9501-d8b10487e751")
+		(at 170.18 85.09)
+		(uuid "0cae4df4-b939-4ef5-9d9e-1222bd04b313")
 	)
 	(no_connect
 		(at 170.18 64.77)
@@ -2553,28 +2553,12 @@
 		(uuid "29549c5f-987d-4fd2-a659-e71d189ab415")
 	)
 	(no_connect
-		(at 170.18 41.91)
-		(uuid "8839d27d-2329-4cbe-a51f-d769da41b3c1")
-	)
-	(no_connect
 		(at 128.27 97.79)
 		(uuid "915e034a-58a3-4bdc-8d84-aa93fe86d11e")
 	)
 	(no_connect
-		(at 170.18 82.55)
-		(uuid "ad4017d7-52fe-43f0-b23e-b0208454cbfb")
-	)
-	(no_connect
 		(at 170.18 90.17)
 		(uuid "afe7f046-b091-4753-bc0a-608505e5c9e3")
-	)
-	(no_connect
-		(at 170.18 44.45)
-		(uuid "c418b73e-4614-494e-93cb-24f9bcf988d9")
-	)
-	(no_connect
-		(at 170.18 46.99)
-		(uuid "cd8df8c8-70a0-487c-915a-489d36a9637f")
 	)
 	(no_connect
 		(at 170.18 39.37)
@@ -2926,16 +2910,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 41.91) (xy 170.18 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ac90d1-cdf6-48d8-8a7b-adc87feda2ff")
-	)
-	(wire
-		(pts
 			(xy 128.27 49.53) (xy 95.25 49.53)
 		)
 		(stroke
@@ -3016,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 163.83 87.63)
+			(xy 163.83 87.63) (xy 184.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3216,16 +3190,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 46.99) (xy 170.18 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d90d9e0-f748-42ef-ba2b-fb59f82605f1")
-	)
-	(wire
-		(pts
 			(xy 170.18 120.65) (xy 163.83 120.65)
 		)
 		(stroke
@@ -3233,6 +3197,16 @@
 			(type default)
 		)
 		(uuid "9e4aaac4-9e29-47b5-b542-1ed8e80ccab0")
+	)
+	(wire
+		(pts
+			(xy 163.83 46.99) (xy 170.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e868b92-03de-4c7c-8bd5-9a40d5553b9d")
 	)
 	(wire
 		(pts
@@ -3423,6 +3397,26 @@
 			(type default)
 		)
 		(uuid "cf827d34-835f-44a2-b136-bd65890e62f9")
+	)
+	(wire
+		(pts
+			(xy 184.15 87.63) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a1c058-abfb-45e0-88b8-5477d97a8bc6")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 170.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a612c5-68a8-4872-95a2-d630499253bd")
 	)
 	(wire
 		(pts
@@ -3764,6 +3758,30 @@
 		)
 		(uuid "65bcd326-cdd2-4770-8863-9a1b1868277a")
 	)
+	(hierarchical_label "TEMP_BACKSIDE"
+		(shape input)
+		(at 170.18 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69b626b0-19e4-423d-859d-86b0b41e03b9")
+	)
+	(hierarchical_label "TEMP_ICS"
+		(shape input)
+		(at 170.18 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "799933c6-9245-4942-8691-a137cd6b3380")
+	)
 	(hierarchical_label "WAKE"
 		(shape output)
 		(at 113.03 67.31 180)
@@ -3775,6 +3793,18 @@
 			(justify right)
 		)
 		(uuid "932a16bb-0a70-4773-a6ec-371d13f1199b")
+	)
+	(hierarchical_label "TEMP_MOSFETS"
+		(shape input)
+		(at 170.18 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96232a7c-b2c3-4248-beba-5ad69eb74dfa")
 	)
 	(hierarchical_label "VBUS_SENSE"
 		(shape input)
@@ -4418,7 +4448,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15742"
+		(property "LCSC Part #" "C15742"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -4958,6 +4988,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e5f7fbe-6292-489a-8aad-26e0df356117")
+		(property "Reference" "#PWR0120"
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87540965-7b09-4c62-9124-cdba2c9b917c")
+		)
+		(instances
+			(project ""
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/c856d8b8-b384-4f6b-bd82-a15acb88b807"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 146.05 29.21 0)
 		(unit 1)
@@ -4965,7 +5061,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80b16bb5-e0a5-4220-a1fe-7cdf0bbf69b2")
 		(property "Reference" "#PWR066"
 			(at 146.05 33.02 0)
@@ -4976,12 +5071,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 146.05 24.13 0)
+		(property "Value" "VCC"
+			(at 144.272 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5196,7 +5292,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" " C276420"
+		(property "LCSC Part #" " C276420"
 			(at 84.582 94.234 0)
 			(effects
 				(font

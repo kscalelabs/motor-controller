@@ -471,7 +471,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part Number" ""
+			(property "LCSC Part #" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1452,10 +1452,22 @@
 		)
 	)
 	(junction
+		(at 33.02 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20711433-9ce3-49a3-81e1-dfbabac3441c")
+	)
+	(junction
 		(at 54.61 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "342d5ab4-758d-4489-bb47-09da057fa88e")
+	)
+	(junction
+		(at 48.26 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59387691-e8c7-41fb-af19-74a55786bdc5")
 	)
 	(junction
 		(at 168.91 104.14)
@@ -1470,12 +1482,6 @@
 		(uuid "7cc9339f-da83-4f8a-a4db-74558122c33f")
 	)
 	(junction
-		(at 33.02 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e3080d5-ec84-4786-a28b-2290d34af6f0")
-	)
-	(junction
 		(at 171.45 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1486,12 +1492,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bef78ff-8d68-459c-975f-753b6736441c")
-	)
-	(junction
-		(at 48.26 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e16cabf-8a8e-4e78-84e3-1e3b430913d5")
 	)
 	(junction
 		(at 40.64 81.28)
@@ -1775,6 +1775,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 81.28) (xy 40.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd5af08-6a2f-4597-a884-661d423f3492")
+	)
+	(wire
+		(pts
 			(xy 207.01 85.09) (xy 209.55 85.09)
 		)
 		(stroke
@@ -1832,16 +1842,6 @@
 			(type default)
 		)
 		(uuid "6dc999bb-7377-4c8a-be69-879e0c7d3238")
-	)
-	(wire
-		(pts
-			(xy 30.48 81.28) (xy 33.02 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd0f2b7-8ade-47de-a979-d7c5516fb1b7")
 	)
 	(wire
 		(pts
@@ -2125,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 81.28) (xy 40.64 81.28)
+			(xy 30.48 81.28) (xy 33.02 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2213,7 @@
 		)
 		(uuid "fe81c6ba-2722-4810-a5b4-449b23ba6fea")
 	)
-	(text "Bulk Cap"
+	(text "Tant Cap"
 		(exclude_from_sim no)
 		(at 40.894 79.756 0)
 		(effects
@@ -2609,75 +2609,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 33.02 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a4745a4-96ef-4d65-892f-2db399a966c8")
-		(property "Reference" "C26"
-			(at 26.924 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 26.924 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "419af0a6-b71c-435d-9857-bd1f7023a765")
-		)
-		(pin "1"
-			(uuid "55648906-53e5-4308-a499-9d9444ddaedd")
-		)
-		(instances
-			(project ""
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 64.77 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2771,7 +2702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603"
 			(at 171.45 101.6 0)
 			(effects
 				(font
@@ -2790,6 +2721,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C106858"
 			(at 171.45 101.6 0)
 			(effects
 				(font
@@ -2873,6 +2813,161 @@
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 62.23 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f88a427-86b9-41b3-bb75-03e825f4dbd1")
+		(property "Reference" "C24"
+			(at 62.2363 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 62.2363 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0603"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C106858"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8959496-e5e9-4f29-88cb-e5cf898bd6f2")
+		)
+		(pin "1"
+			(uuid "084a0169-3b6f-4b4f-8dfd-2a0a420e78a6")
+		)
+		(instances
+			(project "EtherCATControllerLP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ef0d12-5250-4a23-813e-bc5ff888abd7")
+		(property "Reference" "C26"
+			(at 25.146 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 25.146 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0805"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C28233"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f8a4805-e634-4a9c-8f53-c4a312bd575a")
+		)
+		(pin "2"
+			(uuid "e9df1ac8-45df-41e0-add6-e91dd32b004a")
+		)
+		(instances
+			(project "EtherCATControllerLP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -3037,7 +3132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0402"
 			(at 163.83 69.85 0)
 			(effects
 				(font
@@ -3056,6 +3151,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C105872"
 			(at 163.83 69.85 0)
 			(effects
 				(font
@@ -3206,75 +3310,6 @@
 			(project ""
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 48.26 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a7e0ebd-2035-4039-852e-af76fb07a9c2")
-		(property "Reference" "C25"
-			(at 42.164 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 42.164 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 48.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54a3f45a-c815-460e-bfcd-64d45a6d12bd")
-		)
-		(pin "2"
-			(uuid "8da49def-6a40-4a9c-b17e-17f37b1b6035")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3466,6 +3501,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C506619"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9697bd04-270f-43ce-b4d8-a5021304c27c")
 		)
@@ -3613,31 +3657,33 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 91.44 90)
+		(at 48.26 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "979cdbe4-16e6-4739-b490-a7753c1ad115")
-		(property "Reference" "C21"
-			(at 55.118 87.63 90)
+		(uuid "919d71eb-c9ae-4632-b39c-dc2c83344022")
+		(property "Reference" "C25"
+			(at 42.418 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1uF"
-			(at 55.118 90.17 90)
+			(at 42.418 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 91.44 0)
+		(property "Footprint" "0603"
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 91.44 0)
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3701,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 91.44 0)
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,16 +3709,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0d098703-60f0-41b0-9cb5-d159126781ec")
+		(property "LCSC Part #" "C106858"
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "ed5bad4f-62e8-497c-9421-4da0e510747c")
+			(uuid "0ce662a3-9110-4bde-92ce-439a24eac3da")
+		)
+		(pin "1"
+			(uuid "94f8af0e-662b-48eb-98a4-db0fa9317148")
 		)
 		(instances
-			(project ""
+			(project "EtherCATControllerLP"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3745,74 +3800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 62.23 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a209ce8b-63eb-49e1-aacb-494e7927d8be")
-		(property "Reference" "C24"
-			(at 62.2363 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 62.2363 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 62.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf299994-2075-47c4-aaeb-d3322ce20609")
-		)
-		(pin "2"
-			(uuid "b92bad71-87b0-4fc6-8fbd-56acbc2adbb5")
-		)
-		(instances
-			(project ""
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 190.5 66.04 0)
 		(unit 1)
@@ -3839,7 +3826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0402"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -3858,6 +3845,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C105872"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -3971,7 +3967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603"
 			(at 64.77 83.82 0)
 			(effects
 				(font
@@ -3990,6 +3986,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C107062"
 			(at 64.77 83.82 0)
 			(effects
 				(font
@@ -4041,7 +4046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0402"
 			(at 195.58 66.04 0)
 			(effects
 				(font
@@ -4060,6 +4065,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C105872"
 			(at 195.58 66.04 0)
 			(effects
 				(font
@@ -4282,73 +4296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 58.42 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "decc1e27-e65e-4511-98f0-a7504c98f335")
-		(property "Reference" "C23"
-			(at 55.626 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 55.626 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75db56e3-2e6f-40d2-9db6-3c7cb441f77c")
-		)
-		(pin "2"
-			(uuid "1111af79-3f5e-40ed-856d-25a6dbbe8b32")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 163.83 91.44 0)
 		(unit 1)
@@ -4376,7 +4323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0402"
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -4395,6 +4342,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C105872"
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -4443,7 +4399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603"
 			(at 58.42 101.6 0)
 			(effects
 				(font
@@ -4470,6 +4426,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C106858"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00369dd7-d39e-4ecc-b41f-1e9441c9d23c")
 		)
@@ -4480,6 +4445,158 @@
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f265babd-9a61-4dcb-83fa-177db6103ccd")
+		(property "Reference" "C23"
+			(at 55.118 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 55.118 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0603"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C106858"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b72fb23-5c06-4748-9f95-8ca622d560f0")
+		)
+		(pin "2"
+			(uuid "efa3271f-8eb9-4f7e-886c-eef6aa3ba55c")
+		)
+		(instances
+			(project "EtherCATControllerLP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5d625c2-2350-4942-9373-caabb5b29bc4")
+		(property "Reference" "C21"
+			(at 55.118 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 55.118 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0603"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C106858"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e366595-3cb3-4167-b565-8a40a10013a4")
+		)
+		(pin "2"
+			(uuid "db002e7a-f82f-410b-a86c-39a7a3fc0367")
+		)
+		(instances
+			(project "EtherCATControllerLP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WQFN36_REE_TEX"
+		(property "Footprint" ""
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -4540,7 +4657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C22399784"
+		(property "LCSC Part #" "C22399784"
 			(at 69.85 71.12 0)
 			(effects
 				(font

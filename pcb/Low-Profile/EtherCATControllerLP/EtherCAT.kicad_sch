@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part Number" ""
+			(property "LCSC Part #" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5770,7 +5770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN64_ML_MCH"
+		(property "Footprint" ""
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -5799,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2758355"
+		(property "LCSC Part #" "C2758355"
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -6038,7 +6038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC8_4P9X3P9MC_MCH"
+		(property "Footprint" ""
 			(at 276.86 185.42 0)
 			(effects
 				(font
@@ -6067,7 +6067,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C615159"
+		(property "LCSC Part #" "C615159"
 			(at 276.86 185.42 0)
 			(effects
 				(font
@@ -8347,8 +8347,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25 MHz, 20ppm"
-			(at 49.276 39.1159 0)
+		(property "Value" "ABM8-25.000MHZ-D2Y-T"
+			(at 40.386 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +8383,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C179643"
+		(property "LCSC Part #" "C179643"
 			(at 58.42 46.99 0)
 			(effects
 				(font
@@ -8781,7 +8781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603"
 			(at 31.75 213.36 0)
 			(effects
 				(font
@@ -8800,6 +8800,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.75 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C106858"
 			(at 31.75 213.36 0)
 			(effects
 				(font
@@ -9218,6 +9227,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C380287"
+			(at 43.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20e547e3-3863-4fa5-b36c-39389f8aad5d")
 		)
@@ -9616,6 +9634,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C380287"
 			(at 43.18 162.56 0)
 			(effects
 				(font
@@ -10508,6 +10535,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C380287"
+			(at 43.18 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16581a08-9442-4576-96a7-759ebf128039")
 		)
@@ -11182,6 +11218,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
+			(at 317.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C380287"
 			(at 317.5 53.34 0)
 			(effects
 				(font

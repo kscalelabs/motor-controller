@@ -5997,7 +5997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C165948"
+		(property "LCSC Part #" "C165948"
 			(at 73.66 157.48 0)
 			(effects
 				(font
@@ -6507,7 +6507,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C596805"
+		(property "LCSC Part #" "C596805"
 			(at 209.55 86.36 0)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" " C91552"
+		(property "LCSC Part #" " C91552"
 			(at 114.3 125.984 0)
 			(effects
 				(font
@@ -8375,12 +8375,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 106.68 34.29 0)
+		(property "Value" "VCC"
+			(at 109.22 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
