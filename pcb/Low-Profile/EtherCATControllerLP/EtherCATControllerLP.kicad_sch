@@ -5,6 +5,98 @@
 	(uuid "4c927f80-855d-490a-80b2-e5c55283621a")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 68.58 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "038462d5-83fd-4938-9cf4-9ece96115ec9")
+	)
+	(junction
+		(at 68.58 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0ef650-28c7-4bf9-80ee-689eb94681fd")
+	)
+	(wire
+		(pts
+			(xy 68.58 71.12) (xy 68.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139bf91c-5ab3-4e46-8c60-50a0d885cb3a")
+	)
+	(wire
+		(pts
+			(xy 66.04 43.18) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d952f5-0156-4ee1-84f3-296354a77ed9")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e273dd6-cd96-4373-8bd2-b982cd52709c")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d85794-cc81-4a2b-839b-0cc76641f560")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8410d2f3-29ff-42b7-a0d0-2259c72ece85")
+	)
+	(wire
+		(pts
+			(xy 66.04 68.58) (xy 68.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93f20df-9d7e-4c6a-9b71-92f10350c1c4")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad532340-d807-4dad-8a67-f037602ef3d9")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc568b8c-df68-4835-badc-7211f39cc429")
+	)
 	(label "SPI1_MOSI"
 		(at 236.22 55.88 0)
 		(fields_autoplaced yes)
@@ -26,6 +118,17 @@
 			(justify right bottom)
 		)
 		(uuid "013903a7-b341-4495-8803-e13ee95aa218")
+	)
+	(label "ETH1_CT2"
+		(at 66.04 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "089ad7e1-9083-40d2-bfff-bf2f721a9cf8")
 	)
 	(label "SPI2_MISO"
 		(at 173.99 27.94 0)
@@ -115,18 +218,7 @@
 		)
 		(uuid "382168f0-7337-404f-ae8f-30237762cb95")
 	)
-	(label "ETH1_CT2"
-		(at 71.12 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38efa114-1f1f-4f5a-9f3f-9127c28094bc")
-	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 99.06 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -158,17 +250,6 @@
 			(justify left bottom)
 		)
 		(uuid "3b7c8591-db63-439d-a345-0eefa5c70bbe")
-	)
-	(label "ETH1_CT1"
-		(at 71.12 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42e8333d-4ae2-415d-8e64-57e123ef6dcf")
 	)
 	(label "ENC_C"
 		(at 146.05 34.29 180)
@@ -215,7 +296,7 @@
 		(uuid "521e94ea-07a7-4177-b393-fd919bd7ba47")
 	)
 	(label "ETH0_RXN"
-		(at 71.12 43.18 180)
+		(at 66.04 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -314,7 +395,7 @@
 		(uuid "67e924b3-7477-4ff7-85b1-5d4de95dd46c")
 	)
 	(label "ETH0_TXN"
-		(at 71.12 66.04 180)
+		(at 71.12 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -336,7 +417,7 @@
 		(uuid "6d03ad73-4ce9-45f8-86f9-2f61e4d99047")
 	)
 	(label "ETH0_TXN"
-		(at 71.12 55.88 180)
+		(at 71.12 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -478,7 +559,7 @@
 		)
 		(uuid "7ed802dd-cbc0-487c-b3c6-b4b2473c6fb2")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 99.06 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -488,17 +569,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f231080-978e-4394-8b04-cd6a7b0e3762")
-	)
-	(label "USB_DP"
-		(at 207.01 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8038cc7e-ecd6-4d2d-b3bf-e29396465b72")
 	)
 	(label "TEMP_MOSFETS"
 		(at 99.06 102.87 0)
@@ -510,6 +580,17 @@
 			(justify left bottom)
 		)
 		(uuid "806a8a9f-14c5-4b21-a0a4-f25723f64eb2")
+	)
+	(label "ETH0_CT2"
+		(at 66.04 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "838557a9-8b4b-426e-b7a6-6f05a7b60107")
 	)
 	(label "PGOOD"
 		(at 99.06 86.36 0)
@@ -633,7 +714,7 @@
 		(uuid "9c310810-90cd-47ab-bfd4-f0ba61200a0e")
 	)
 	(label "ETH0_TXP"
-		(at 71.12 53.34 180)
+		(at 71.12 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -698,17 +779,6 @@
 		)
 		(uuid "a4fc0bed-1e3c-4663-afe6-4ac7c832fa5f")
 	)
-	(label "ETH1_TXP"
-		(at 71.12 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a6eb9887-def6-48aa-a220-26367a23b3ca")
-	)
 	(label "DRVOFF"
 		(at 146.05 62.23 180)
 		(fields_autoplaced yes)
@@ -731,6 +801,17 @@
 		)
 		(uuid "a848b64d-a7da-4b77-86dd-1c0bc6647f73")
 	)
+	(label "USB_D+"
+		(at 207.01 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a90f0803-a9dd-4703-b63b-0227777cd1a9")
+	)
 	(label "SPI1_CS"
 		(at 236.22 48.26 0)
 		(fields_autoplaced yes)
@@ -752,6 +833,17 @@
 			(justify left bottom)
 		)
 		(uuid "aa869393-ee33-4a20-a34c-086791364f57")
+	)
+	(label "USB_D-"
+		(at 207.01 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aad2ebe3-7956-483a-940c-721c01ab354b")
 	)
 	(label "TEMP_MOSFETS"
 		(at 207.01 91.44 180)
@@ -841,6 +933,17 @@
 		)
 		(uuid "bd6ab8ca-5e72-40b4-94d3-cb1f2e55d818")
 	)
+	(label "ETH1_CT1"
+		(at 66.04 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdc96624-d040-45d5-92ce-e857edb2358d")
+	)
 	(label "SPI_CS"
 		(at 99.06 45.72 0)
 		(fields_autoplaced yes)
@@ -875,7 +978,7 @@
 		(uuid "c641c41e-2129-453f-9b71-c9c18950ad33")
 	)
 	(label "ETH1_RXP"
-		(at 71.12 63.5 180)
+		(at 71.12 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -950,17 +1053,6 @@
 			(justify right bottom)
 		)
 		(uuid "dfa02d10-d98d-4753-9e04-8443f656c013")
-	)
-	(label "ETH0_CT2"
-		(at 71.12 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e33bfcc9-399b-44de-89dd-06bf89e5a749")
 	)
 	(label "SPI_SCK"
 		(at 207.01 45.72 180)
@@ -1039,6 +1131,17 @@
 		)
 		(uuid "f617ec3e-49c2-4efc-b5dc-d74dfa34597e")
 	)
+	(label "ETH1_TXP"
+		(at 71.12 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f637213b-9a98-4a81-acd3-a8f97a8e5109")
+	)
 	(label "SPI1_CS"
 		(at 173.99 96.52 0)
 		(fields_autoplaced yes)
@@ -1060,17 +1163,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6ebe099-1937-4b98-87d7-0943b81d66e3")
-	)
-	(label "USB_DM"
-		(at 207.01 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7f38ec8-e89e-43d1-af56-7ead8898a112")
 	)
 	(label "ETH0_RXP"
 		(at 71.12 48.26 180)
@@ -1421,107 +1513,7 @@
 			)
 			(uuid "9562ac62-7f32-4924-9449-c4e5b34eefdb")
 		)
-		(pin "ETH0_RXN" input
-			(at 71.12 43.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "81f0b90e-3b7f-4e68-94ba-e20f77b4197c")
-		)
-		(pin "ETH0_TXP" input
-			(at 71.12 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "23930209-832a-4981-8faa-5cc2c30d1144")
-		)
-		(pin "ETH1_RXP" input
-			(at 71.12 63.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "082250de-2659-4e71-9455-e9825bb9e150")
-		)
-		(pin "ETH0_CT2" input
-			(at 71.12 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8f8db9f2-c330-4ef8-aa76-b385389227d4")
-		)
-		(pin "ETH0_TXN" input
-			(at 71.12 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "104f921f-d193-43f9-91a2-a6fbb8dfd78b")
-		)
-		(pin "ETH1_RXN" input
-			(at 71.12 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f201873c-863a-4139-aa72-4f91c1c016d7")
-		)
-		(pin "ETH1_CT1" input
-			(at 71.12 60.96 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "940681d8-4c6f-45ad-bbbb-a43d7dd1114d")
-		)
-		(pin "ETH1_CT2" input
-			(at 71.12 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c757128a-bcc1-4f68-8604-623dc006bff5")
-		)
-		(pin "ETH1_TXP" input
-			(at 71.12 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "736bd3a5-77d0-4817-abde-84a23d5afca8")
-		)
-		(pin "ETH1_TXN" input
-			(at 71.12 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7bcdbdc8-b143-40d5-bff6-242d48a13ab2")
-		)
-		(pin "USB_DM" input
+		(pin "USB_D-" input
 			(at 99.06 54.61 0)
 			(effects
 				(font
@@ -1531,27 +1523,7 @@
 			)
 			(uuid "5f2a31e1-8201-439e-a0a1-fc56703396a2")
 		)
-		(pin "ETH0_CT1" input
-			(at 71.12 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "44e6121b-015b-4239-b6ca-e2d15bd91d8f")
-		)
-		(pin "ETH0_RXP" input
-			(at 71.12 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "456cb46b-aafa-4649-94f7-1ecc7368dc64")
-		)
-		(pin "USB_DP" input
+		(pin "USB_D+" input
 			(at 99.06 57.15 0)
 			(effects
 				(font
@@ -1560,6 +1532,106 @@
 				(justify right)
 			)
 			(uuid "e48c3082-348d-4507-8ac4-82e43556fefa")
+		)
+		(pin "ETH1_RX_P" input
+			(at 71.12 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b34cccaf-63fa-45db-8c84-98c8a4e4f706")
+		)
+		(pin "ETH1_RX_N" input
+			(at 71.12 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0140030-7451-4743-b5a8-88ff03b1c3df")
+		)
+		(pin "ETH1_TX_N" input
+			(at 71.12 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9e29b8f-f9f4-4033-bdf7-fe62472ba565")
+		)
+		(pin "ETH0_TX_N" input
+			(at 71.12 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f18989e8-028b-493d-a027-597057e3ed58")
+		)
+		(pin "ETH0_RX_P" input
+			(at 71.12 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22c5765d-c228-4127-a74e-fd083968d362")
+		)
+		(pin "ETH0_TX_P" input
+			(at 71.12 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a854ace-0329-452c-86b2-0339e03459f7")
+		)
+		(pin "ETH1_TX_P" input
+			(at 71.12 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1976c65-b4c4-4ce5-817d-95b93043c655")
+		)
+		(pin "ETH0_RX_N" input
+			(at 71.12 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f655500-acd5-416f-9e5b-d20a1985d3de")
+		)
+		(pin "ETH0_CT1" input
+			(at 71.12 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5b9d9dd-08ac-4843-8427-c7530bb3a2b8")
+		)
+		(pin "ETH1_CT1" input
+			(at 71.12 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31b3f995-bdb6-46e6-a001-22b23d9628e7")
 		)
 		(instances
 			(project "EtherCATControllerLP"
@@ -2073,7 +2145,7 @@
 			)
 			(uuid "5a086a54-66af-4f58-8a3f-e96d459d611c")
 		)
-		(pin "USB_DP" bidirectional
+		(pin "USB_D+" bidirectional
 			(at 207.01 66.04 180)
 			(effects
 				(font
@@ -2083,7 +2155,7 @@
 			)
 			(uuid "c9eef4cb-21d3-4997-89b7-36046c8564d3")
 		)
-		(pin "USB_DM" bidirectional
+		(pin "USB_D-" bidirectional
 			(at 207.01 68.58 180)
 			(effects
 				(font

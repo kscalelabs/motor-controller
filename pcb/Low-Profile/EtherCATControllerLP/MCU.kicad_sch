@@ -3902,7 +3902,7 @@
 		)
 		(uuid "bb208770-b40b-4317-a961-474dcfc11b74")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 193.04 67.31 0)
 		(fields_autoplaced yes)
@@ -3950,7 +3950,7 @@
 		)
 		(uuid "c9f4d1f2-b3e0-4bff-b4e6-5a709619c2f9")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 193.04 69.85 0)
 		(fields_autoplaced yes)

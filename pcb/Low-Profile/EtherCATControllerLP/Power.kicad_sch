@@ -7329,7 +7329,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 77.47)
+		(at 31.115 72.39)
 		(size 26.67 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -7341,7 +7341,7 @@
 		)
 		(uuid "386fb4a2-e014-4306-9144-c1ba6edc37f5")
 		(property "Sheetname" "Regulators"
-			(at 46.99 76.7584 0)
+			(at 31.115 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7350,7 @@
 			)
 		)
 		(property "Sheetfile" "Regulators.kicad_sch"
-			(at 46.99 86.9446 0)
+			(at 31.115 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
