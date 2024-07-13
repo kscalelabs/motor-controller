@@ -5498,6 +5498,16 @@
 		)
 		(uuid "f6ec9021-12d9-4bae-b143-c37f631fe629")
 	)
+	(text "Power connectors using\nSamtec UMPT-02/UMPS-02"
+		(exclude_from_sim no)
+		(at 36.322 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d62e102-4e28-4201-9a2e-da4369c7d244")
+	)
 	(text "Board to Board\nShield FFC\n0.5mm pitch\nAssembled"
 		(exclude_from_sim no)
 		(at 192.024 49.022 0)
@@ -5547,16 +5557,6 @@
 			)
 		)
 		(uuid "3d7f6acf-f0de-4e86-885e-b03c8446537b")
-	)
-	(text "Power Connectors:\nMolex 2032631334 (Male)\n2043180018 (Female)"
-		(exclude_from_sim no)
-		(at 37.084 67.056 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "906948fb-3801-4fd8-bb5e-5e4c1f8c4fd3")
 	)
 	(text "Share this cable ground\nwith motor controller ground"
 		(exclude_from_sim no)
@@ -6429,6 +6429,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107701"
 			(at 97.79 147.32 0)
 			(effects
 				(font
@@ -7412,6 +7421,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C107701"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13c121f4-7c8b-44aa-99d0-25c9987cb891")
 		)
@@ -7708,6 +7726,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107701"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8251,6 +8278,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107701"
 			(at 97.79 149.86 0)
 			(effects
 				(font

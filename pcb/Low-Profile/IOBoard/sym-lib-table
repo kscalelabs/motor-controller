@@ -4,4 +4,5 @@
   (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/Libs/TYPE-C-31-M-12/TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
   (lib (name "L8AL-1X1T-32A")(type "KiCad")(uri "${KIPRJMOD}/Libs/RJ45/L8AL-1X1T-32A.kicad_sym")(options "")(descr ""))
   (lib (name "FH41-40S-0.5SH_05_")(type "KiCad")(uri "${KIPRJMOD}/Libs/FH41/FH41-40S-0.5SH_05_.kicad_sym")(options "")(descr ""))
+  (lib (name "XT302+2")(type "KiCad")(uri "${KIPRJMOD}/Libs/XT302+2.kicad_sym")(options "")(descr ""))
 )

@@ -428,6 +428,10 @@
     [
       "3d7b868b-5ec8-42b4-b20a-2737192e1f48",
       "Temperature Sensors"
+    ],
+    [
+      "031ccf09-f504-428a-ac4b-85044b6b61cc",
+      "CAN"
     ]
   ],
   "text_variables": {}

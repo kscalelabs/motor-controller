@@ -80,7 +80,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -9.5 0)
+		(at -5 0)
 		(size 7.9 7.9)
 		(drill 3.4)
 		(layers "*.Cu" "*.Mask")
@@ -99,7 +99,7 @@
 		(uuid "651a6644-4b66-4246-b4ce-cfebb93fc6c4")
 	)
 	(pad "2" thru_hole circle
-		(at 9.5 0)
+		(at 5 0)
 		(size 7.9 7.9)
 		(drill 3.4)
 		(layers "*.Cu" "*.Mask")

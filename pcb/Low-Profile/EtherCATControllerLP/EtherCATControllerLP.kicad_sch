@@ -1198,6 +1198,94 @@
 		(uuid "ff11fee5-7278-4a14-80dc-a486e5d2731a")
 	)
 	(sheet
+		(at 71.12 117.475)
+		(size 27.94 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "031ccf09-f504-428a-ac4b-85044b6b61cc")
+		(property "Sheetname" "CAN"
+			(at 71.12 116.7634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 71.12 128.2196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_TX" bidirectional
+			(at 71.12 120.015 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0beed5f6-cb9a-46fc-9c2f-290ca6d6d8ca")
+		)
+		(pin "CAN_RX" bidirectional
+			(at 71.12 122.555 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c63e5be9-c5d4-48c1-91cc-3b3d3bbddfcb")
+		)
+		(pin "CAN_MODE" output
+			(at 71.12 125.095 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83823994-8928-4330-aaba-98974ecdc763")
+		)
+		(pin "CAN_H" input
+			(at 99.06 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3becdb51-1f38-4179-ae05-0d423cfdb103")
+		)
+		(pin "CAN_L" input
+			(at 99.06 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd343dcc-92f6-4eef-8ca1-147eb610f4f4")
+		)
+		(instances
+			(project "EtherCATControllerLP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 146.05 25.4)
 		(size 27.94 13.97)
 		(fields_autoplaced yes)

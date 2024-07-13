@@ -6,4 +6,5 @@
   (lib (name "FH41")(type "KiCad")(uri "${KIPRJMOD}/Libs/FH41.pretty")(options "")(descr ""))
   (lib (name "holes")(type "KiCad")(uri "${KIPRJMOD}/Libs/holes.pretty")(options "")(descr ""))
   (lib (name "Caps")(type "KiCad")(uri "${KIPRJMOD}/Libs/Caps.pretty")(options "")(descr ""))
+  (lib (name "UMPS")(type "KiCad")(uri "${KIPRJMOD}/Libs/Samtec/UMPS.pretty")(options "")(descr ""))
 )
