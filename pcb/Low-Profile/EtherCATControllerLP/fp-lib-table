@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XMC4800")(type "KiCad")(uri "${KIPRJMOD}/Libs/XMC4800/XMC4800.pretty")(options "")(descr ""))
+)

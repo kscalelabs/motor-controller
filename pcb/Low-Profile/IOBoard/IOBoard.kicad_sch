@@ -4729,6 +4729,16 @@
 		)
 		(uuid "118a7898-ed87-4246-9d3e-b5abd7ec3da1")
 	)
+	(text "ETH1 optional for Line Topology\nShared cable with 4 pairs hosts\nboth in and out"
+		(exclude_from_sim no)
+		(at 158.242 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49dce874-9c81-4c4d-9f1a-063e17312e7a")
+	)
 	(text "M2 Mounting holes\nSquare pattern 32mm side"
 		(exclude_from_sim no)
 		(at 216.408 39.116 0)

@@ -8,4 +8,5 @@
   (lib (name "2024-07-02_05-47-45")(type "KiCad")(uri "${KIPRJMOD}/Libs/NTMFS5C612NLT1G/2024-07-02_05-47-45.kicad_sym")(options "")(descr ""))
   (lib (name "FH41-40S-0.5SH_05_")(type "KiCad")(uri "${KIPRJMOD}/Libs/FH41/FH41-40S-0.5SH_05_.kicad_sym")(options "")(descr ""))
   (lib (name "2024-07-03_18-39-37")(type "KiCad")(uri "${KIPRJMOD}/Libs/24FC512-I-SN/2024-07-03_18-39-37.kicad_sym")(options "")(descr ""))
+  (lib (name "XMC4800")(type "KiCad")(uri "${KIPRJMOD}/Libs/XMC4800/XMC4800.kicad_sym")(options "")(descr ""))
 )
