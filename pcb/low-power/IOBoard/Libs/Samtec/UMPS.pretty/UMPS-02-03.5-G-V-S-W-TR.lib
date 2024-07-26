@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# UMPS-02-03.5-G-V-S-W-TR
+#
+DEF UMPS-02-03.5-G-V-S-W-TR J 0 40 Y Y 1 L N
+F0 "J" -200 230 50 H V L BNN
+F1 "UMPS-02-03.5-G-V-S-W-TR" -200 -200 50 H V L BNN
+F2 "SAMTEC_UMPS-02-03.5-G-V-S-W-TR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "F" 0 0 50 H I L BNN "PARTREV"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "Samtec" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -200 -100 200 200 0 0 10 f
+X 01 01 -400 100 200 R 40 40 0 0 P 
+X 02 02 -400 0 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
