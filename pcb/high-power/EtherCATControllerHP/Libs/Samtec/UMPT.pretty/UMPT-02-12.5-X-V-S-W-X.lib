@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# UMPT-02-12.5-X-V-S-W-X
+#
+DEF UMPT-02-12.5-X-V-S-W-X J 0 40 Y Y 1 L N
+F0 "J" -200 130 50 H V L BNN
+F1 "UMPT-02-12.5-X-V-S-W-X" -200 -300 50 H V L BNN
+F2 "SAMTEC_UMPT-02-12.5-X-V-S-W-X" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "E" 0 0 50 H I L BNN "PARTREV"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "15.85 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F7 "Samtec" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -200 -200 200 100 0 0 10 f
+X 01 01 -400 0 200 R 40 40 0 0 P 
+X 02 02 -400 -100 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

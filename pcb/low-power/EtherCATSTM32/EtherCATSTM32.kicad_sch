@@ -5,30 +5,8 @@
 	(uuid "4c927f80-855d-490a-80b2-e5c55283621a")
 	(paper "A4")
 	(lib_symbols)
-	(label "SPI1_SCK"
-		(at 171.45 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01d2260c-292d-4b42-ae55-891b0da4945c")
-	)
-	(label "SPI1_MOSI"
-		(at 171.45 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02ee04ac-347f-4d2b-aad1-c4363e2f68ee")
-	)
 	(label "NRST"
-		(at 203.2 26.67 180)
+		(at 199.39 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -38,8 +16,8 @@
 		)
 		(uuid "02f84610-5bdd-4465-aa29-6c8dac7b01af")
 	)
-	(label "ENC_A"
-		(at 232.41 31.75 0)
+	(label "CAN_RX"
+		(at 228.6 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -47,10 +25,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0b72ae43-d24f-46ad-ba84-0612a4b932e4")
+		(uuid "0bf6c9fe-93da-4cc1-995b-4b2818aa772e")
 	)
 	(label "TEMP_MOSFETS"
-		(at 203.2 91.44 180)
+		(at 199.39 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -61,7 +39,7 @@
 		(uuid "13731ca2-4654-4244-a901-43095cc51927")
 	)
 	(label "SPI1_SCK"
-		(at 232.41 50.8 0)
+		(at 228.6 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -71,41 +49,8 @@
 		)
 		(uuid "13d7df91-8406-4f9a-ad33-fdb5491dff7b")
 	)
-	(label "ETH0_CT2"
-		(at 143.51 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13f4fe0b-0578-4fed-877a-91d9d4976d09")
-	)
-	(label "VBUS_USB"
-		(at 99.06 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15b3a559-6203-44a1-9793-0e253962d9f0")
-	)
-	(label "SPI1_CS"
-		(at 171.45 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15d3d07d-1805-48fb-8d2d-910c7694d671")
-	)
 	(label "SPI2_SCK"
-		(at 232.41 67.31 0)
+		(at 228.6 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -116,7 +61,7 @@
 		(uuid "1b28495f-2e7b-4265-bcea-6bc183d8326a")
 	)
 	(label "SPI1_MOSI"
-		(at 232.41 55.88 0)
+		(at 228.6 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -127,7 +72,7 @@
 		(uuid "1b8e1cd2-8a7c-4980-b203-dbdd449eba4d")
 	)
 	(label "ETH1_RXN"
-		(at 143.51 128.27 180)
+		(at 132.08 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -138,7 +83,7 @@
 		(uuid "1c0178f8-4bed-425a-b6df-d7abdc7df607")
 	)
 	(label "SPI_MISO"
-		(at 203.2 50.8 180)
+		(at 199.39 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -149,7 +94,7 @@
 		(uuid "22260fda-ea9b-48b6-b48b-a48090fc3bdd")
 	)
 	(label "VBUS_SENSE"
-		(at 203.2 29.21 180)
+		(at 199.39 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -160,7 +105,7 @@
 		(uuid "28d83530-9b2a-4a2e-b533-4910177958ee")
 	)
 	(label "CAN_MODE"
-		(at 99.06 134.62 0)
+		(at 99.06 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -170,19 +115,8 @@
 		)
 		(uuid "29288a76-bcf8-4e8a-86a0-fce27769ca61")
 	)
-	(label "SPI1_MISO"
-		(at 171.45 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cd74e83-127f-4227-98ed-7caa82180cbc")
-	)
 	(label "DIR"
-		(at 203.2 81.28 180)
+		(at 199.39 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -193,7 +127,7 @@
 		(uuid "2f79f0a0-2237-4c0a-89fb-14a042b2cefd")
 	)
 	(label "WAKE"
-		(at 203.2 83.82 180)
+		(at 199.39 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -204,7 +138,7 @@
 		(uuid "32b9301c-24aa-4160-8a40-00df019aadab")
 	)
 	(label "SPI2_MISO"
-		(at 232.41 69.85 0)
+		(at 228.6 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -213,6 +147,17 @@
 			(justify left bottom)
 		)
 		(uuid "34905789-c119-4ec2-895c-1a1c520ff46e")
+	)
+	(label "SWCLK"
+		(at 99.06 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3571142d-88fd-452d-a152-0cf1b78e80ec")
 	)
 	(label "USB_D+"
 		(at 99.06 57.15 0)
@@ -225,19 +170,8 @@
 		)
 		(uuid "39093322-7ce1-488f-940b-3cc36c3b215a")
 	)
-	(label "UART_TX"
-		(at 99.06 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e7545bd-e59a-4609-b250-d06469aa55d2")
-	)
 	(label "CAN_RX"
-		(at 99.06 132.08 0)
+		(at 99.06 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -247,8 +181,19 @@
 		)
 		(uuid "4122345a-eb98-46da-a929-c1eac2780a4d")
 	)
+	(label "SPI2_CS"
+		(at 160.02 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "414b32e4-feaf-4cb8-926d-2639d3da2fa5")
+	)
 	(label "SH_B"
-		(at 171.45 30.48 0)
+		(at 160.02 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -258,19 +203,8 @@
 		)
 		(uuid "4556101d-872b-4cba-ab2a-8a04f8ed108a")
 	)
-	(label "SWV"
-		(at 99.06 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49133b9c-10c9-49af-b321-8cdfdc677a9f")
-	)
 	(label "SPI1_SCK"
-		(at 99.06 158.75 0)
+		(at 160.02 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -281,7 +215,7 @@
 		(uuid "49b9b0f3-b477-49cd-ad74-c2621225ff99")
 	)
 	(label "SPI1_MISO"
-		(at 99.06 151.13 0)
+		(at 160.02 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -292,7 +226,7 @@
 		(uuid "4f751b7c-302d-4866-a4b4-e3e619f6d6b3")
 	)
 	(label "USB_D-"
-		(at 203.2 68.58 180)
+		(at 199.39 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -303,7 +237,7 @@
 		(uuid "50d89f5d-298b-465f-ac53-9a37a875827d")
 	)
 	(label "NFAULT"
-		(at 171.45 35.56 0)
+		(at 160.02 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -336,7 +270,7 @@
 		(uuid "5876932f-ecda-4384-a26a-a08dd3100c97")
 	)
 	(label "TEMP_BACKSIDE"
-		(at 99.06 116.84 0)
+		(at 99.06 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -347,7 +281,7 @@
 		(uuid "597add7c-be95-447c-b921-e8420153d716")
 	)
 	(label "SWDIO"
-		(at 203.2 73.66 180)
+		(at 199.39 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -358,7 +292,7 @@
 		(uuid "59ce6e6a-aa7e-4504-9588-218fab37ca61")
 	)
 	(label "ETH0_RXN"
-		(at 143.51 109.22 180)
+		(at 132.08 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -369,7 +303,7 @@
 		(uuid "5b49c261-1ca7-465e-8104-647ae2a4f935")
 	)
 	(label "SPI_CS"
-		(at 203.2 43.18 180)
+		(at 199.39 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -380,7 +314,7 @@
 		(uuid "60af8084-b49b-4136-bf10-aba14e98d39c")
 	)
 	(label "I2C_SCL"
-		(at 203.2 57.15 180)
+		(at 199.39 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -391,7 +325,7 @@
 		(uuid "6364d96e-2a9c-4007-843d-d976e25340af")
 	)
 	(label "CAN_TX"
-		(at 99.06 129.54 0)
+		(at 99.06 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -401,8 +335,19 @@
 		)
 		(uuid "63ceb5a8-b5eb-44e9-90f0-366a88221923")
 	)
+	(label "SPI2_MOSI"
+		(at 160.02 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65f9dbde-ad14-4967-b1b7-3aa3b6546cfe")
+	)
 	(label "SPI1_MOSI"
-		(at 99.06 153.67 0)
+		(at 160.02 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -413,7 +358,7 @@
 		(uuid "66a8f50c-8965-4b66-9c94-8a0f8d96549f")
 	)
 	(label "BRAKE"
-		(at 232.41 85.09 0)
+		(at 228.6 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -434,7 +379,7 @@
 		)
 		(uuid "67e924b3-7477-4ff7-85b1-5d4de95dd46c")
 	)
-	(label "ETH0_TXN"
+	(label "ETH1_TXN"
 		(at 71.12 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -457,7 +402,7 @@
 		(uuid "6e3aa356-5c51-4f78-ba53-a07e067676d4")
 	)
 	(label "NFAULT"
-		(at 203.2 31.75 180)
+		(at 199.39 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -467,8 +412,8 @@
 		)
 		(uuid "70590270-b5bb-468d-8ef6-32251d2bb143")
 	)
-	(label "ENC_C"
-		(at 232.41 36.83 0)
+	(label "SPI2_SCK"
+		(at 160.02 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -476,7 +421,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "72bf826e-3777-47ca-92bb-c55cc3001e33")
+		(uuid "708f5c95-254f-4f67-b927-3ebb51c5e89a")
 	)
 	(label "SH_C"
 		(at 71.12 38.1 180)
@@ -501,7 +446,7 @@
 		(uuid "761f6463-3562-475f-8201-04445e8f3b5a")
 	)
 	(label "ETHRST"
-		(at 171.45 114.3 0)
+		(at 160.02 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -512,7 +457,7 @@
 		(uuid "76cf506d-9694-4f6a-b2cd-b5dbdf7de529")
 	)
 	(label "TEMP_ICS"
-		(at 99.06 114.3 0)
+		(at 99.06 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -545,7 +490,7 @@
 		(uuid "7f231080-978e-4394-8b04-cd6a7b0e3762")
 	)
 	(label "TEMP_MOSFETS"
-		(at 99.06 111.76 0)
+		(at 99.06 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -556,7 +501,7 @@
 		(uuid "806a8a9f-14c5-4b21-a0a4-f25723f64eb2")
 	)
 	(label "ETH0_TXP"
-		(at 143.51 121.92 180)
+		(at 132.08 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -567,7 +512,7 @@
 		(uuid "86b1ba97-52d0-494b-9076-13a3a5a01957")
 	)
 	(label "ETH0_TXN"
-		(at 143.51 116.84 180)
+		(at 132.08 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -599,8 +544,19 @@
 		)
 		(uuid "8a1bce2c-2524-41cb-9404-c216e57dd7e8")
 	)
+	(label "BOOT0"
+		(at 99.06 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90d3edbe-d700-4223-aa95-eb74603374b8")
+	)
 	(label "SPI1_CS"
-		(at 232.41 48.26 0)
+		(at 228.6 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -610,19 +566,8 @@
 		)
 		(uuid "921a2bbd-c47f-4db7-8262-26f915622fd2")
 	)
-	(label "ETH1_CT2"
-		(at 143.51 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "986ea9dd-8840-47cf-8d86-45231c498ad9")
-	)
 	(label "BRAKE"
-		(at 143.51 31.75 180)
+		(at 132.08 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -632,19 +577,8 @@
 		)
 		(uuid "98df9c1c-9223-47f8-af8e-b5c5362193b8")
 	)
-	(label "UART_RX"
-		(at 99.06 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99cef266-e44c-4a1d-84d7-743496a4f336")
-	)
 	(label "CAN_H"
-		(at 71.12 130.81 180)
+		(at 71.12 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -666,7 +600,7 @@
 		(uuid "9f7b687d-04a2-44cd-b335-0961a261aa92")
 	)
 	(label "SPI2_MOSI"
-		(at 232.41 72.39 0)
+		(at 228.6 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -677,7 +611,7 @@
 		(uuid "a13109f4-ebcd-4f48-8c49-60479f73e786")
 	)
 	(label "SPI1_CS"
-		(at 99.06 156.21 0)
+		(at 160.02 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -688,7 +622,7 @@
 		(uuid "a18ff11f-027c-44b4-9295-6d57dcd40376")
 	)
 	(label "ETH1_TXP"
-		(at 143.51 140.97 180)
+		(at 132.08 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -698,8 +632,8 @@
 		)
 		(uuid "a349e52a-b7a4-4b41-b758-ecf25f1a6cec")
 	)
-	(label "SPI_CS"
-		(at 232.41 64.77 0)
+	(label "SPI2_CS"
+		(at 228.6 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -710,7 +644,7 @@
 		(uuid "a62afe70-34ac-4b4d-bfaf-64ef20051b28")
 	)
 	(label "DRVOFF"
-		(at 143.51 39.37 180)
+		(at 132.08 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -721,7 +655,7 @@
 		(uuid "a74682ea-e496-426c-8926-12960d7a1541")
 	)
 	(label "SH_A"
-		(at 171.45 27.94 0)
+		(at 160.02 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -731,8 +665,8 @@
 		)
 		(uuid "a848b64d-a7da-4b77-86dd-1c0bc6647f73")
 	)
-	(label "TMS"
-		(at 99.06 80.01 0)
+	(label "SPI2_MISO"
+		(at 160.02 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -740,10 +674,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b1740ed7-3e46-49bb-bbc6-09c94ff4e9bc")
+		(uuid "aca623af-a73f-4b9f-ad50-db1145629047")
+	)
+	(label "SWDIO"
+		(at 99.06 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acd1f192-3d70-457a-95e4-6d43353a73ff")
 	)
 	(label "WAKE"
-		(at 143.51 36.83 180)
+		(at 132.08 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -754,7 +699,7 @@
 		(uuid "b1c349bd-a5cf-4a41-b02d-34dd982a1439")
 	)
 	(label "ETH0_CT1"
-		(at 143.51 111.76 180)
+		(at 132.08 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -765,7 +710,7 @@
 		(uuid "b29831e2-de5e-4f08-8f58-89bda01c4e73")
 	)
 	(label "SH_C"
-		(at 171.45 33.02 0)
+		(at 160.02 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -776,7 +721,7 @@
 		(uuid "b3d8718e-38c2-489d-9b3a-e387dd2ad5e7")
 	)
 	(label "SPI1_MISO"
-		(at 232.41 53.34 0)
+		(at 228.6 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -808,28 +753,6 @@
 		)
 		(uuid "b7815a16-49c1-429b-a524-00711d04597b")
 	)
-	(label "TCK"
-		(at 99.06 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8ec15e6-a6ae-403d-b758-1523d4868ffd")
-	)
-	(label "ENC_B"
-		(at 232.41 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb94c587-5732-4f3b-bf75-ee3cb92ab8b7")
-	)
 	(label "ETH1_CT1"
 		(at 71.12 68.58 180)
 		(fields_autoplaced yes)
@@ -842,7 +765,7 @@
 		(uuid "bdc96624-d040-45d5-92ce-e857edb2358d")
 	)
 	(label "IRQ"
-		(at 171.45 111.76 0)
+		(at 160.02 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -851,17 +774,6 @@
 			(justify left bottom)
 		)
 		(uuid "be603c7b-a479-4860-9529-9163666ccebb")
-	)
-	(label "RESET"
-		(at 99.06 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c08068ce-e135-4e86-bcea-d76422a7115b")
 	)
 	(label "SPI_CS"
 		(at 99.06 45.72 0)
@@ -875,7 +787,7 @@
 		(uuid "c14199fe-3a94-406c-a185-9e681162fa36")
 	)
 	(label "CAN_L"
-		(at 71.12 133.35 180)
+		(at 71.12 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -886,7 +798,7 @@
 		(uuid "c35e9977-12bd-47b4-9fd5-86b7a4516d20")
 	)
 	(label "ETHRST"
-		(at 232.41 82.55 0)
+		(at 228.6 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -897,7 +809,7 @@
 		(uuid "c38ca667-120d-4251-a08c-5cfc0f7b5fd8")
 	)
 	(label "I2C_SCL"
-		(at 143.51 26.67 180)
+		(at 132.08 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -908,7 +820,7 @@
 		(uuid "c641c41e-2129-453f-9b71-c9c18950ad33")
 	)
 	(label "TEMP_BACKSIDE"
-		(at 203.2 96.52 180)
+		(at 199.39 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -929,19 +841,8 @@
 		)
 		(uuid "c77bdbd0-ef94-4648-8766-f978df671286")
 	)
-	(label "PGOOD"
-		(at 203.2 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9c3eb8e-b2ee-4235-a7e8-2c1e4dee5965")
-	)
 	(label "I2C_SDA"
-		(at 143.51 29.21 180)
+		(at 132.08 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -952,7 +853,7 @@
 		(uuid "d1233ec6-4b76-4950-9eda-90892642c347")
 	)
 	(label "ETH0_RXP"
-		(at 143.51 114.3 180)
+		(at 132.08 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -963,7 +864,7 @@
 		(uuid "e0110328-ed54-4b0f-bb6d-fd48aef5dab6")
 	)
 	(label "SPI_MOSI"
-		(at 203.2 48.26 180)
+		(at 199.39 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -974,7 +875,7 @@
 		(uuid "e1bc44d0-3d76-451c-a7e1-447014c643e0")
 	)
 	(label "BOOT0"
-		(at 203.2 36.83 180)
+		(at 199.39 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -985,7 +886,7 @@
 		(uuid "e1db208d-c957-495e-8150-f6f680b323d6")
 	)
 	(label "IRQ"
-		(at 232.41 80.01 0)
+		(at 228.6 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -996,7 +897,7 @@
 		(uuid "e3f8c4cc-a962-4397-bcef-9f39ebf80ecb")
 	)
 	(label "TEMP_ICS"
-		(at 203.2 93.98 180)
+		(at 199.39 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1006,8 +907,19 @@
 		)
 		(uuid "e40764ca-9f29-41a8-b220-e0ba0d1eec0c")
 	)
+	(label "CAN_TX"
+		(at 228.6 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e425e822-7186-438d-b8d1-9bc5a07f04cc")
+	)
 	(label "SPI_SCK"
-		(at 203.2 45.72 180)
+		(at 199.39 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1018,7 +930,7 @@
 		(uuid "e4d1eedf-de3e-4b73-9381-eae37c172338")
 	)
 	(label "DIR"
-		(at 143.51 34.29 180)
+		(at 132.08 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1029,7 +941,7 @@
 		(uuid "e8088707-bafd-4f55-8a32-7c35ac41ec8e")
 	)
 	(label "DRVOFF"
-		(at 203.2 86.36 180)
+		(at 199.39 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1039,8 +951,8 @@
 		)
 		(uuid "eb1791ca-0e9a-423c-9565-9e0817dd5574")
 	)
-	(label "ETH0_TXN"
-		(at 143.51 135.89 180)
+	(label "ETH1_TXN"
+		(at 132.08 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1051,7 +963,7 @@
 		(uuid "ed23622c-53a8-41f8-8211-8ecadd144a8a")
 	)
 	(label "USB_D+"
-		(at 203.2 66.04 180)
+		(at 199.39 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1084,7 +996,7 @@
 		(uuid "f637213b-9a98-4a81-acd3-a8f97a8e5109")
 	)
 	(label "VBUS_SENSE"
-		(at 99.06 99.06 0)
+		(at 99.06 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1095,7 +1007,7 @@
 		(uuid "f6ebe099-1937-4b98-87d7-0943b81d66e3")
 	)
 	(label "I2C_SDA"
-		(at 203.2 59.69 180)
+		(at 199.39 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1117,7 +1029,7 @@
 		(uuid "f853a6d6-060d-4482-9bb6-36f9db3dd341")
 	)
 	(label "ETH1_CT1"
-		(at 143.51 130.81 180)
+		(at 132.08 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1128,7 +1040,7 @@
 		(uuid "f95e8e21-ea4f-40fb-8cae-0309dd3ab40a")
 	)
 	(label "SWCLK"
-		(at 203.2 76.2 180)
+		(at 199.39 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1139,7 +1051,7 @@
 		(uuid "fbc1197e-8f8b-48c4-a483-d559ba60f707")
 	)
 	(label "ETH1_RXP"
-		(at 143.51 133.35 180)
+		(at 132.08 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1150,7 +1062,7 @@
 		(uuid "fe235473-49c9-4535-938b-3d37db854447")
 	)
 	(sheet
-		(at 71.12 127)
+		(at 71.12 116.84)
 		(size 27.94 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1162,7 +1074,7 @@
 		)
 		(uuid "031ccf09-f504-428a-ac4b-85044b6b61cc")
 		(property "Sheetname" "CAN"
-			(at 71.12 126.2884 0)
+			(at 71.12 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1083,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 71.12 137.7446 0)
+			(at 71.12 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1092,7 @@
 			)
 		)
 		(pin "CAN_TX" bidirectional
-			(at 99.06 129.54 0)
+			(at 99.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1102,7 @@
 			(uuid "0beed5f6-cb9a-46fc-9c2f-290ca6d6d8ca")
 		)
 		(pin "CAN_RX" bidirectional
-			(at 99.06 132.08 0)
+			(at 99.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1112,7 @@
 			(uuid "c63e5be9-c5d4-48c1-91cc-3b3d3bbddfcb")
 		)
 		(pin "CAN_MODE" output
-			(at 99.06 134.62 0)
+			(at 99.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1122,7 @@
 			(uuid "83823994-8928-4330-aaba-98974ecdc763")
 		)
 		(pin "CAN_L" input
-			(at 71.12 133.35 180)
+			(at 71.12 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1132,7 @@
 			(uuid "8e3f938a-69e9-402b-a026-57bd134238bc")
 		)
 		(pin "CAN_H" input
-			(at 71.12 130.81 180)
+			(at 71.12 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1150,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 148.59)
+		(at 132.08 118.11)
 		(size 27.94 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -1250,7 +1162,7 @@
 		)
 		(uuid "291d75c0-9b01-441a-b9c6-00564eedb7f8")
 		(property "Sheetname" "Encoders"
-			(at 71.12 147.8784 0)
+			(at 132.08 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1171,7 @@
 			)
 		)
 		(property "Sheetfile" "Encoders.kicad_sch"
-			(at 71.12 163.1446 0)
+			(at 132.08 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1180,7 @@
 			)
 		)
 		(pin "ENC_MISO" output
-			(at 99.06 151.13 0)
+			(at 160.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1190,7 @@
 			(uuid "578887ec-755d-4942-b460-4cd20219d6e4")
 		)
 		(pin "ENC_CS" input
-			(at 99.06 156.21 0)
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1200,7 @@
 			(uuid "95b3f107-f1cb-4350-8dfa-90df88bc7aae")
 		)
 		(pin "ENC_SCLK" input
-			(at 99.06 158.75 0)
+			(at 160.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1210,7 @@
 			(uuid "4bcae52c-3fdc-4454-95c3-a062b9e731a3")
 		)
 		(pin "ENC_MOSI" input
-			(at 99.06 153.67 0)
+			(at 160.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1228,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 109.22)
+		(at 71.12 99.06)
 		(size 27.94 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1328,7 +1240,7 @@
 		)
 		(uuid "3d7b868b-5ec8-42b4-b20a-2737192e1f48")
 		(property "Sheetname" "Temperature Sensors"
-			(at 71.12 108.5084 0)
+			(at 71.12 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1249,7 @@
 			)
 		)
 		(property "Sheetfile" "Temperature.kicad_sch"
-			(at 71.12 119.9646 0)
+			(at 71.12 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1258,7 @@
 			)
 		)
 		(pin "TEMP_MOSFETS" output
-			(at 99.06 111.76 0)
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1268,7 @@
 			(uuid "6cfd18d4-4988-42f8-bf47-ff037de57150")
 		)
 		(pin "TEMP_ICS" output
-			(at 99.06 114.3 0)
+			(at 99.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1278,7 @@
 			(uuid "95fe10bd-5adf-4bc8-b091-0a91387fd1be")
 		)
 		(pin "TEMP_BACKSIDE" output
-			(at 99.06 116.84 0)
+			(at 99.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,8 +1296,8 @@
 		)
 	)
 	(sheet
-		(at 203.2 25.4)
-		(size 29.21 73.66)
+		(at 199.39 29.21)
+		(size 29.21 74.93)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1396,7 +1308,7 @@
 		)
 		(uuid "5ac89ae2-4d69-4fd6-b754-7aee59ff7a56")
 		(property "Sheetname" "MCU"
-			(at 203.2 24.6884 0)
+			(at 199.39 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1317,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 203.2 99.6446 0)
+			(at 199.39 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1326,7 @@
 			)
 		)
 		(pin "SPI_SCK" input
-			(at 203.2 45.72 180)
+			(at 199.39 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1336,7 @@
 			(uuid "f35801ce-6f3b-4012-8858-ec046b7da6fe")
 		)
 		(pin "SPI_MOSI" input
-			(at 203.2 48.26 180)
+			(at 199.39 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1346,7 @@
 			(uuid "40dc1de1-223f-4949-8d64-8e41680aaa11")
 		)
 		(pin "SPI_MISO" input
-			(at 203.2 50.8 180)
+			(at 199.39 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1356,7 @@
 			(uuid "30df1c26-e2c1-4ce9-a557-e42f39be0e33")
 		)
 		(pin "SPI_CS" input
-			(at 203.2 43.18 180)
+			(at 199.39 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1366,7 @@
 			(uuid "b3ff2fdb-3b41-4a50-af77-918f394f6343")
 		)
 		(pin "SDA" bidirectional
-			(at 203.2 57.15 180)
+			(at 199.39 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1376,7 @@
 			(uuid "1e0fe412-689b-4e1f-8f6d-008197cd3673")
 		)
 		(pin "SCL" output
-			(at 203.2 59.69 180)
+			(at 199.39 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1386,7 @@
 			(uuid "fff7ce48-09ea-40b7-a5f5-dddbcb6237ed")
 		)
 		(pin "USB_D+" bidirectional
-			(at 203.2 66.04 180)
+			(at 199.39 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1396,7 @@
 			(uuid "402d294c-34fd-4aae-b690-bae2c81e88c6")
 		)
 		(pin "USB_D-" bidirectional
-			(at 203.2 68.58 180)
+			(at 199.39 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1406,7 @@
 			(uuid "b0b2dc2a-0374-4495-a978-65d1a5a79651")
 		)
 		(pin "SWDIO" input
-			(at 203.2 73.66 180)
+			(at 199.39 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1416,7 @@
 			(uuid "5a5e8ac6-90d1-4d8d-8bc9-774b22dfaa75")
 		)
 		(pin "SWCLK" input
-			(at 203.2 76.2 180)
+			(at 199.39 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,48 +1425,8 @@
 			)
 			(uuid "4faa71c9-89ee-4ace-8b8b-7fcd8c3b5fc5")
 		)
-		(pin "PGOOD" input
-			(at 203.2 34.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ce9dc9cb-9975-4ccb-8a10-2c36a163d615")
-		)
-		(pin "M0_ENC_A" input
-			(at 232.41 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7be0f6dc-52a9-4c8f-becd-370b3a28bedd")
-		)
-		(pin "M0_ENC_B" input
-			(at 232.41 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6e33c8b5-a001-48f1-9bea-d5347def1dba")
-		)
-		(pin "M0_ENC_Z" input
-			(at 232.41 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ff0be6f5-3338-402b-a042-d30609676dcd")
-		)
 		(pin "VBUS_SENSE" input
-			(at 203.2 29.21 180)
+			(at 199.39 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1436,7 @@
 			(uuid "13abc446-bfc6-42fa-9b7b-d0ba6a280399")
 		)
 		(pin "BOOT0" passive
-			(at 203.2 36.83 180)
+			(at 199.39 41.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1446,7 @@
 			(uuid "20d6eba0-ef4e-45ad-8d94-daed5b1db968")
 		)
 		(pin "NRST" passive
-			(at 203.2 26.67 180)
+			(at 199.39 31.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1456,7 @@
 			(uuid "de55f29b-01d9-467a-99bc-ad3e59ff3d9b")
 		)
 		(pin "SPI2_SCK" input
-			(at 232.41 67.31 0)
+			(at 228.6 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1466,7 @@
 			(uuid "a319bfc2-be1f-4f32-91bb-5622026ace12")
 		)
 		(pin "SPI2_CS" input
-			(at 232.41 64.77 0)
+			(at 228.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1476,7 @@
 			(uuid "6ef01016-c13a-4d37-88ad-9f35ff6874eb")
 		)
 		(pin "SPI1_CS" input
-			(at 232.41 48.26 0)
+			(at 228.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1486,7 @@
 			(uuid "1c0a1ebf-4dd6-4bdb-8000-955a717e4b29")
 		)
 		(pin "SPI1_SCK" input
-			(at 232.41 50.8 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1496,7 @@
 			(uuid "49829681-8523-4838-8cc9-e92c7e363273")
 		)
 		(pin "SPI1_MISO" input
-			(at 232.41 53.34 0)
+			(at 228.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1506,7 @@
 			(uuid "cb163c9d-7903-4c76-9e0e-b7f414f4a2a1")
 		)
 		(pin "SPI1_MOSI" input
-			(at 232.41 55.88 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +1516,7 @@
 			(uuid "0a662054-983a-4849-80dd-0825c922d488")
 		)
 		(pin "SPI2_MISO" input
-			(at 232.41 69.85 0)
+			(at 228.6 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +1526,7 @@
 			(uuid "ed2d71e8-43a4-4dbd-b889-43869d77e909")
 		)
 		(pin "SPI2_MOSI" input
-			(at 232.41 72.39 0)
+			(at 228.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1536,7 @@
 			(uuid "14f14f53-3b76-4932-910c-b717dcca9d66")
 		)
 		(pin "DIR" output
-			(at 203.2 81.28 180)
+			(at 199.39 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1546,7 @@
 			(uuid "ececb5d7-afe3-43d4-a882-a85af09afd50")
 		)
 		(pin "WAKE" output
-			(at 203.2 83.82 180)
+			(at 199.39 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1556,7 @@
 			(uuid "711435d3-7917-463c-a84d-076ba717d30e")
 		)
 		(pin "DRVOFF" output
-			(at 203.2 86.36 180)
+			(at 199.39 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1566,7 @@
 			(uuid "da3f9f58-bc2f-4e81-8092-11decbc0b2c1")
 		)
 		(pin "IRQ" output
-			(at 232.41 80.01 0)
+			(at 228.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1576,7 @@
 			(uuid "4d8c6707-9a19-4d93-a0ed-27e827c0c34b")
 		)
 		(pin "ETHRST" output
-			(at 232.41 82.55 0)
+			(at 228.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1586,7 @@
 			(uuid "58d8d5ef-7143-46c5-9300-44e6ee2ede77")
 		)
 		(pin "BRAKE" output
-			(at 232.41 85.09 0)
+			(at 228.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1596,7 @@
 			(uuid "d25a00e8-2d7b-4ddd-9823-f8cbf2375404")
 		)
 		(pin "NFAULT" input
-			(at 203.2 31.75 180)
+			(at 199.39 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1606,7 @@
 			(uuid "9a194651-fb1e-48ad-a14d-fb0aa1bde745")
 		)
 		(pin "TEMP_ICS" input
-			(at 203.2 91.44 180)
+			(at 199.39 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +1616,7 @@
 			(uuid "8e5dfca7-ec8e-43c9-ae1d-2cefd8011e0c")
 		)
 		(pin "TEMP_BACKSIDE" input
-			(at 203.2 93.98 180)
+			(at 199.39 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,7 +1626,7 @@
 			(uuid "b70092bf-f648-44f6-83f9-3a56fa52f204")
 		)
 		(pin "TEMP_MOSFETS" input
-			(at 203.2 96.52 180)
+			(at 199.39 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,6 +1634,26 @@
 				(justify left)
 			)
 			(uuid "173ebfeb-d485-47d3-8aa7-861a4db9c93f")
+		)
+		(pin "CAN_TX" input
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d533fdd5-5eff-4d41-a918-ded04dea11d7")
+		)
+		(pin "CAN_RX" input
+			(at 228.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46658d4d-6c09-4047-b6ba-130aafe60277")
 		)
 		(instances
 			(project "EtherCATSTM32"
@@ -1773,7 +1665,7 @@
 	)
 	(sheet
 		(at 71.12 30.48)
-		(size 27.94 53.34)
+		(size 27.94 45.72)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1793,7 +1685,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 71.12 84.4046 0)
+			(at 71.12 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +1903,7 @@
 			)
 			(uuid "936b3bf6-2d60-43f5-8f5d-9ac0df3abef1")
 		)
-		(pin "RESET" input
+		(pin "BOOT0" input
 			(at 99.06 33.02 0)
 			(effects
 				(font
@@ -2019,67 +1911,27 @@
 				)
 				(justify right)
 			)
-			(uuid "870804da-bbb8-42d5-8340-4fe79b17ddd5")
+			(uuid "036a1191-8f35-4dc2-ae3a-1bf02e164310")
 		)
-		(pin "UART_TX" input
-			(at 99.06 67.31 0)
+		(pin "SWDIO" input
+			(at 99.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0ed9e169-063a-4299-822d-bd17126b56e5")
+			(uuid "6604f17d-0953-46cd-9bdb-aa8b41ca4a98")
 		)
-		(pin "UART_RX" input
-			(at 99.06 69.85 0)
+		(pin "SWCLK" input
+			(at 99.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9220fe34-7d2e-4ec2-b104-356d64d1c73c")
-		)
-		(pin "SWV" input
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bfe22b51-d166-4bdf-9523-853f2c28e070")
-		)
-		(pin "TCK" input
-			(at 99.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f70ebef8-a4ff-4ed1-9a13-227d75dee495")
-		)
-		(pin "TMS" input
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a7a92165-26de-4298-bb95-7954d91e8cd1")
-		)
-		(pin "VBUS_USB" input
-			(at 99.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "25d5fb5d-c79c-4b42-8222-19c44657e570")
+			(uuid "15f2f442-97df-457c-85f6-d0f33d9c97ee")
 		)
 		(instances
 			(project "EtherCATSTM32"
@@ -2090,7 +1942,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 95.25)
+		(at 71.12 85.09)
 		(size 27.94 6.35)
 		(fields_autoplaced yes)
 		(stroke
@@ -2102,7 +1954,7 @@
 		)
 		(uuid "8ad53e1c-08f0-40db-b0fb-703203134f02")
 		(property "Sheetname" "Power"
-			(at 71.12 94.5384 0)
+			(at 71.12 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +1963,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 71.12 102.1846 0)
+			(at 71.12 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +1972,7 @@
 			)
 		)
 		(pin "VBUS_S" output
-			(at 99.06 99.06 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +1990,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 24.13)
+		(at 132.08 30.48)
 		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -2150,7 +2002,7 @@
 		)
 		(uuid "b8886fcf-711b-4283-9745-a57e39aa3085")
 		(property "Sheetname" "Motor"
-			(at 143.51 23.4184 0)
+			(at 132.08 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2011,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor.kicad_sch"
-			(at 143.51 42.4946 0)
+			(at 132.08 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2020,7 @@
 			)
 		)
 		(pin "SH_A" output
-			(at 171.45 27.94 0)
+			(at 160.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2030,7 @@
 			(uuid "6f06f074-06a3-46fa-bad6-9778dc90bc0b")
 		)
 		(pin "SH_C" output
-			(at 171.45 33.02 0)
+			(at 160.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2040,7 @@
 			(uuid "3c6e3459-7e99-486d-88a7-f8cd7125ca6a")
 		)
 		(pin "SH_B" output
-			(at 171.45 30.48 0)
+			(at 160.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2050,7 @@
 			(uuid "2dac7614-e687-40ca-80ae-da55499702a0")
 		)
 		(pin "SDA" bidirectional
-			(at 143.51 29.21 180)
+			(at 132.08 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2060,7 @@
 			(uuid "a46f2722-9d1b-4d9c-bdde-37233ff89437")
 		)
 		(pin "DRVOFF" input
-			(at 143.51 39.37 180)
+			(at 132.08 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2070,7 @@
 			(uuid "d09bae4d-1e78-4205-bfa2-61c3c0d7921f")
 		)
 		(pin "SPEED{slash}WAKE" input
-			(at 143.51 36.83 180)
+			(at 132.08 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2080,7 @@
 			(uuid "eff09411-52ea-4acc-a17f-dfc85e77aa45")
 		)
 		(pin "BRAKE" input
-			(at 143.51 31.75 180)
+			(at 132.08 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2090,7 @@
 			(uuid "8a54fe77-a520-40be-bdbf-b8ce357594fe")
 		)
 		(pin "DIR" input
-			(at 143.51 34.29 180)
+			(at 132.08 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2100,7 @@
 			(uuid "8c3dd026-9a5a-4af9-af9d-c96ce2e7b779")
 		)
 		(pin "SCL" input
-			(at 143.51 26.67 180)
+			(at 132.08 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2110,7 @@
 			(uuid "1116fb91-4d3d-4a34-b5d0-0b4f202b42a2")
 		)
 		(pin "NFAULT" output
-			(at 171.45 35.56 0)
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2128,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 104.14)
+		(at 132.08 63.5)
 		(size 27.94 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -2288,7 +2140,7 @@
 		)
 		(uuid "cad623bd-0572-47cb-84c6-b48870fe6ed3")
 		(property "Sheetname" "EtherCAT"
-			(at 143.51 103.4284 0)
+			(at 132.08 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2149,7 @@
 			)
 		)
 		(property "Sheetfile" "EtherCAT.kicad_sch"
-			(at 143.51 145.3646 0)
+			(at 132.08 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2158,7 @@
 			)
 		)
 		(pin "SPI_MISO" bidirectional
-			(at 171.45 119.38 0)
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2168,7 @@
 			(uuid "6a45c7f0-06cd-4c53-bf69-2bf48ee45d3f")
 		)
 		(pin "SPI_MOSI" bidirectional
-			(at 171.45 121.92 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2178,7 @@
 			(uuid "78c69ba3-a389-4211-abae-26348a5a612e")
 		)
 		(pin "SPI_SCK" input
-			(at 171.45 124.46 0)
+			(at 160.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2188,7 @@
 			(uuid "28ec50fa-bc25-4766-b14e-b1d2ee23e197")
 		)
 		(pin "RST" input
-			(at 171.45 114.3 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2198,7 @@
 			(uuid "95348def-8460-42e8-93a4-05ab92e5de72")
 		)
 		(pin "SPI_CS" passive
-			(at 171.45 127 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2208,7 @@
 			(uuid "ead0faa9-3664-4cd4-8166-1c38db155b65")
 		)
 		(pin "ETH1_RXN" bidirectional
-			(at 143.51 128.27 180)
+			(at 132.08 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2218,7 @@
 			(uuid "3ee23732-f263-4d4a-ac12-aeae7fa3167f")
 		)
 		(pin "ETH1_RXP" bidirectional
-			(at 143.51 133.35 180)
+			(at 132.08 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2228,7 @@
 			(uuid "da13e579-2fc8-44df-a6cd-702730d5fa2c")
 		)
 		(pin "ETH1_TXN" bidirectional
-			(at 143.51 135.89 180)
+			(at 132.08 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2238,7 @@
 			(uuid "72431757-29af-468c-894f-21699329f6c8")
 		)
 		(pin "ETH1_TXP" bidirectional
-			(at 143.51 140.97 180)
+			(at 132.08 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2248,7 @@
 			(uuid "275f00d9-a613-4190-8f8b-9c36cab9b8a8")
 		)
 		(pin "ETH0_RXN" bidirectional
-			(at 143.51 109.22 180)
+			(at 132.08 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2258,7 @@
 			(uuid "0b5036c6-0af4-4cf6-9651-cdaaf9dbe44f")
 		)
 		(pin "ETH0_TXN" bidirectional
-			(at 143.51 116.84 180)
+			(at 132.08 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2268,7 @@
 			(uuid "b1c97b00-f243-4236-9c59-10903316202f")
 		)
 		(pin "ETH0_RXP" bidirectional
-			(at 143.51 114.3 180)
+			(at 132.08 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2278,7 @@
 			(uuid "8ea7dad3-c0c9-4a63-8acf-8e37b1fd67cd")
 		)
 		(pin "ETH0_TXP" bidirectional
-			(at 143.51 121.92 180)
+			(at 132.08 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2288,7 @@
 			(uuid "03cf3c3a-93d0-47f9-be0e-b404fdef32a3")
 		)
 		(pin "ETH1_CT1" bidirectional
-			(at 143.51 130.81 180)
+			(at 132.08 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,18 +2297,8 @@
 			)
 			(uuid "8ff880e4-f9d9-4177-939c-764e7f341f73")
 		)
-		(pin "ETH1_CT2" bidirectional
-			(at 143.51 138.43 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "15fd27f9-d80e-4db7-9140-d79e201c7dd3")
-		)
 		(pin "ETH0_CT1" bidirectional
-			(at 143.51 111.76 180)
+			(at 132.08 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,18 +2307,8 @@
 			)
 			(uuid "e409738a-cccf-460a-a99f-1b7e3e6e5c72")
 		)
-		(pin "ETH0_CT2" bidirectional
-			(at 143.51 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6470c11d-9495-47fe-8247-4ef75aec63d6")
-		)
 		(pin "IRQ" input
-			(at 171.45 111.76 0)
+			(at 160.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -243,6 +243,289 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -820,6 +1103,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers hide)
@@ -966,18 +1345,6 @@
 		(uuid "153326ae-c8d2-47ab-ab83-db99d49b23cd")
 	)
 	(junction
-		(at 43.18 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "165ecc84-e864-482f-976f-0982bcc5c3db")
-	)
-	(junction
-		(at 66.04 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18080ec3-7f90-4598-96d4-b251ae424042")
-	)
-	(junction
 		(at 133.35 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -988,6 +1355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36916d49-7b48-4be3-8fe6-c75b706b7132")
+	)
+	(junction
+		(at 173.99 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3daa5b24-d5f8-4f3c-800b-24df3585590f")
 	)
 	(junction
 		(at 133.35 80.01)
@@ -1002,22 +1375,10 @@
 		(uuid "44189074-5c70-4811-a2bc-bd37ecaaccaf")
 	)
 	(junction
-		(at 100.33 35.56)
+		(at 44.45 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "468b6b03-378a-4bdf-bb32-c634c74ae5e6")
-	)
-	(junction
-		(at 90.17 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "499fb8ba-ecc4-4944-8429-af250e83a4a1")
-	)
-	(junction
-		(at 156.21 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c86b828-11d3-4989-b347-0ddd772f732d")
+		(uuid "44c8c320-9e90-4fea-a18d-6cc54a631ee3")
 	)
 	(junction
 		(at 146.05 87.63)
@@ -1026,34 +1387,46 @@
 		(uuid "4fd36f87-908b-4b54-b7d0-2ef7c11b22c4")
 	)
 	(junction
+		(at 161.29 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54be08a4-0427-4bde-af06-3e6bc3466d8d")
+	)
+	(junction
+		(at 101.6 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58e43526-1714-4c72-91dd-33120bd5a4fe")
+	)
+	(junction
 		(at 137.16 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "540a9bce-3014-419e-aea9-b09d412ef6c6")
+		(uuid "5f23c16e-2214-48a4-9a1b-62a389453647")
 	)
 	(junction
-		(at 167.64 101.6)
+		(at 88.9 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67e10c16-72f1-4a36-a14c-be516436ce3b")
+		(uuid "65904487-5352-4354-bd31-c73b25afaf45")
 	)
 	(junction
-		(at 156.21 101.6)
+		(at 165.1 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ad9a9ab-28b2-4bd3-9bd4-3c0da11d54f3")
+		(uuid "7a008696-76fd-41ce-b7a3-303f6d8cd47a")
 	)
 	(junction
-		(at 43.18 43.18)
+		(at 77.47 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c5ca9d7-ea0c-4f9b-a78f-9974649a10e0")
+		(uuid "806aa84a-3989-4060-b2df-72be31d0e746")
 	)
 	(junction
-		(at 179.07 101.6)
+		(at 124.46 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8bb55a0d-e92e-4d60-88e9-e7523505a919")
+		(uuid "8585ae74-c4b4-433b-89e5-040d245d231a")
 	)
 	(junction
 		(at 176.53 48.26)
@@ -1062,16 +1435,10 @@
 		(uuid "8c347525-2de4-4acf-a1a0-4e7ff95f5da4")
 	)
 	(junction
-		(at 124.46 43.18)
+		(at 111.76 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9254474f-f815-40fa-bc52-1efcd6eeeef6")
-	)
-	(junction
-		(at 100.33 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95adba1d-d78c-40e5-8e57-b5d04b57972f")
+		(uuid "8eb1dcd6-543e-4f9d-bcb7-6a5b21c00885")
 	)
 	(junction
 		(at 48.26 43.18)
@@ -1080,28 +1447,28 @@
 		(uuid "98c143e2-f9d3-420d-a562-0d75c9dde003")
 	)
 	(junction
-		(at 171.45 87.63)
+		(at 88.9 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98cf1dea-3a11-4ea2-bfed-a52e5efa3165")
+		(uuid "9dbdde56-4537-46b9-ad85-6eb90f0b3330")
 	)
 	(junction
-		(at 77.47 43.18)
+		(at 173.99 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3a92f96-c6f3-4cbe-bb29-10e6550688e4")
+		(uuid "ac772da9-8516-4e6b-9e5c-a8448ea9a96b")
 	)
 	(junction
-		(at 113.03 35.56)
+		(at 124.46 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab452572-76bc-4f5f-9395-58bdbed196ad")
+		(uuid "b74853d1-1fca-4713-a874-b16e73d71640")
 	)
 	(junction
-		(at 179.07 109.22)
+		(at 66.04 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd034b5d-e6d6-4014-9eae-2795a7c72112")
+		(uuid "c3ef1d58-5ffa-4469-ba24-4199de43d411")
 	)
 	(junction
 		(at 54.61 43.18)
@@ -1110,66 +1477,44 @@
 		(uuid "cb7df1eb-5e39-4d34-a66d-cbf2238895b5")
 	)
 	(junction
+		(at 44.45 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c73759-d34c-4562-973e-9bb8b29a0999")
+	)
+	(junction
 		(at 66.04 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7b6d845-ce70-44d5-8378-30bea0299b58")
 	)
 	(junction
-		(at 90.17 43.18)
+		(at 77.47 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dccd057c-87a0-442e-aefc-f0788a01a373")
+		(uuid "d8a7100d-1c11-42c8-a05c-2a0e1bb5345f")
 	)
 	(junction
-		(at 124.46 35.56)
+		(at 111.76 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de347298-b6e2-40c8-a8eb-65cfc5811cea")
+		(uuid "e775e512-3fd8-4ec6-a0f7-641f9d72c898")
 	)
 	(junction
-		(at 113.03 43.18)
+		(at 101.6 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1bc49ca-23fd-4513-8d01-b2d4b3632a4a")
-	)
-	(junction
-		(at 77.47 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaf1d3fe-0289-4d4c-b762-3c4d9563f487")
-	)
-	(junction
-		(at 167.64 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f989487d-442e-4dac-ac9a-dba1b534b55c")
-	)
-	(junction
-		(at 171.45 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb9caf57-340f-4cd9-bbc2-358431708e65")
+		(uuid "fd70c7fb-d725-4aa4-8052-e10fd2b8fb46")
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 100.33 43.18)
+			(xy 66.04 43.18) (xy 77.47 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01cde199-73f9-4179-8248-c2e47249119e")
-	)
-	(wire
-		(pts
-			(xy 171.45 87.63) (xy 182.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039d7d9a-8c5e-42b4-b830-8a6652ce1ea7")
+		(uuid "0adfbdd3-b0e7-4705-984a-8ef6d1d05c37")
 	)
 	(wire
 		(pts
@@ -1193,17 +1538,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 179.07 101.6)
+			(xy 101.6 35.56) (xy 111.76 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "200321dd-704a-416b-b619-e9f231415302")
+		(uuid "22609893-4d8b-4c88-bfba-68c27a6c23cc")
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 137.16 43.18)
+			(xy 111.76 43.18) (xy 124.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1213,13 +1558,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 35.56) (xy 90.17 35.56)
+			(xy 66.04 35.56) (xy 77.47 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ac67c50-8d31-4582-ad5e-335500ef4b6d")
+	)
+	(wire
+		(pts
+			(xy 144.78 127) (xy 144.78 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a59290-5ec7-4140-b874-1c34fefc3abd")
 	)
 	(wire
 		(pts
@@ -1233,27 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 109.22) (xy 179.07 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3403a6f6-f3b1-4464-bf2f-7360d90ba5d0")
-	)
-	(wire
-		(pts
-			(xy 143.51 101.6) (xy 156.21 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35577039-4b56-4960-811e-d809e55389d6")
-	)
-	(wire
-		(pts
-			(xy 124.46 35.56) (xy 137.16 35.56)
+			(xy 111.76 35.56) (xy 124.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1273,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 35.56) (xy 43.18 35.56)
+			(xy 31.75 35.56) (xy 44.45 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1293,16 +1628,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 35.56) (xy 113.03 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e3d400d-f21b-43e6-b1a7-84fa59507780")
-	)
-	(wire
-		(pts
 			(xy 176.53 45.72) (xy 176.53 48.26)
 		)
 		(stroke
@@ -1313,13 +1638,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 43.18) (xy 48.26 43.18)
+			(xy 144.78 128.27) (xy 151.13 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f6cda9e-d1d9-445a-9c23-70de2911c214")
+		(uuid "50bdc7dc-9b81-4b4e-9e4b-28bed4eb1d88")
 	)
 	(wire
 		(pts
@@ -1330,26 +1655,6 @@
 			(type default)
 		)
 		(uuid "519f1ae9-43f7-4684-8ca0-e7e164b42877")
-	)
-	(wire
-		(pts
-			(xy 100.33 43.18) (xy 113.03 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56051c10-c03f-49e0-b719-f9a2d5b74489")
-	)
-	(wire
-		(pts
-			(xy 54.61 43.18) (xy 66.04 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57148165-97f1-4623-b70f-70bc9b826ac2")
 	)
 	(wire
 		(pts
@@ -1373,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 77.47 43.18)
+			(xy 54.61 43.18) (xy 66.04 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1393,36 +1698,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 167.64 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f28a4f0-ed96-43da-adf9-812d7dbd5ccc")
-	)
-	(wire
-		(pts
-			(xy 156.21 101.6) (xy 167.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ff572c-ab73-4aad-b1e5-fb483b386096")
-	)
-	(wire
-		(pts
-			(xy 113.03 43.18) (xy 124.46 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e4d13d-c0f8-4773-bbfa-924bf795f260")
-	)
-	(wire
-		(pts
 			(xy 133.35 80.01) (xy 146.05 80.01)
 		)
 		(stroke
@@ -1433,23 +1708,83 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 43.18) (xy 90.17 43.18)
+			(xy 88.9 43.18) (xy 101.6 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7608ceff-5bf9-4989-9d36-17c506f795be")
+		(uuid "83921387-59a2-4617-b263-ba92efe03dc0")
 	)
 	(wire
 		(pts
-			(xy 43.18 35.56) (xy 54.61 35.56)
+			(xy 161.29 128.27) (xy 161.29 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ad85217-0823-45f1-acc2-c8f53f639808")
+		(uuid "86d11b88-ab39-4289-963e-490b1a9a7782")
+	)
+	(wire
+		(pts
+			(xy 44.45 43.18) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8863d1dd-7429-4a7a-b71f-4464912588b2")
+	)
+	(wire
+		(pts
+			(xy 165.1 128.27) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c815ff-8e04-4db0-a478-e006a4aab409")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 173.99 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb3252b-361f-4023-bd56-dd9a58f1e7f5")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 137.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd051d7-96a4-4ec0-9618-009c9c9ede9e")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922954fb-e997-403f-a1d5-7585ef3edea0")
+	)
+	(wire
+		(pts
+			(xy 44.45 35.56) (xy 54.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fde099-5f43-4461-8d7c-801405a54cda")
 	)
 	(wire
 		(pts
@@ -1463,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 128.27) (xy 173.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998a6712-c0a1-4e21-b5bc-e42b7416f474")
+	)
+	(wire
+		(pts
 			(xy 176.53 58.42) (xy 176.53 60.96)
 		)
 		(stroke
@@ -1470,6 +1815,16 @@
 			(type default)
 		)
 		(uuid "a3c9ef23-ac7c-4567-ac96-54bcbb6e3cb9")
+	)
+	(wire
+		(pts
+			(xy 124.46 35.56) (xy 137.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f70075-a71f-4c93-b643-af9008fc9d10")
 	)
 	(wire
 		(pts
@@ -1483,6 +1838,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 35.56) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67e99f9-f08b-4a38-8227-967124aaf649")
+	)
+	(wire
+		(pts
 			(xy 176.53 48.26) (xy 191.77 48.26)
 		)
 		(stroke
@@ -1493,17 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 109.22) (xy 156.21 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd0a5ce-ee80-480f-8eaf-588156ba878a")
-	)
-	(wire
-		(pts
-			(xy 31.75 43.18) (xy 43.18 43.18)
+			(xy 31.75 43.18) (xy 44.45 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1513,7 +1868,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 35.56) (xy 100.33 35.56)
+			(xy 77.47 35.56) (xy 88.9 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1533,26 +1888,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 80.01) (xy 182.88 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcf1f820-ccf6-4006-afe0-6f0efd8a2b6f")
-	)
-	(wire
-		(pts
-			(xy 113.03 35.56) (xy 124.46 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaac8d20-834d-4b2c-9eff-67a4da3ad0d8")
-	)
-	(wire
-		(pts
 			(xy 166.37 60.96) (xy 166.37 58.42)
 		)
 		(stroke
@@ -1563,13 +1898,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 35.56) (xy 77.47 35.56)
+			(xy 77.47 43.18) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef0a0bf8-e027-42d3-a441-6b86668601e8")
+		(uuid "f1520e7e-205a-4b7b-ad2d-de1c8879bb6a")
 	)
 	(wire
 		(pts
@@ -1583,6 +1918,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 127) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f498283f-97ea-411a-8f96-239303459e50")
+	)
+	(wire
+		(pts
 			(xy 133.35 87.63) (xy 146.05 87.63)
 		)
 		(stroke
@@ -1590,6 +1935,36 @@
 			(type default)
 		)
 		(uuid "f94a805a-1431-4504-afcd-ab6c133acfbe")
+	)
+	(wire
+		(pts
+			(xy 156.21 128.27) (xy 161.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc304e75-d4e3-4efa-b1dc-8fc9387be737")
+	)
+	(wire
+		(pts
+			(xy 161.29 128.27) (xy 165.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fccdf1fe-48ce-4f4e-be64-49fdb2906367")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd83c4e7-2719-4dc6-bc57-b86b5c014ace")
 	)
 	(text "22uF Stacked Ceramic Bypass\n10uF bypasses\nBulk Caps on IO Board"
 		(exclude_from_sim no)
@@ -1645,16 +2020,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 39.37 0)
+		(at 31.75 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f3b72cf-dcb4-48d9-b959-3a71654f30eb")
-		(property "Reference" "C3"
-			(at 81.28 38.0999 0)
+		(uuid "071cdd5f-052a-4e91-9f42-bc686bec6a43")
+		(property "Reference" "C7"
+			(at 35.56 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +2038,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 81.28 40.6399 0)
+			(at 35.56 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,8 +2046,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 78.4352 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 32.7152 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +2056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 39.37 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +2065,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 39.37 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,8 +2073,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C153035"
-			(at 77.47 39.37 0)
+		(property "LCSC Part #" " C5156756"
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,8 +2082,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C153035"
-			(at 77.47 39.37 0)
+		(property "LCSC Part #" " C5156756"
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,15 +2092,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "df717cdc-02b1-4ed0-938c-fc22e016d77a")
+			(uuid "e3db8aaa-71ad-4a7c-bf44-df7549e2364a")
 		)
 		(pin "2"
-			(uuid "d084c353-ca4a-4c49-841b-c207e112126d")
+			(uuid "b1303b4e-1433-4d03-ab2e-e1de58c26d61")
 		)
 		(instances
-			(project "EtherCATControllerV1"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2448,193 +2823,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 137.16 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17e8b812-6eb3-4d30-915c-50c5c899baba")
-		(property "Reference" "C10"
-			(at 140.97 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 140.97 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 138.1252 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C153035"
-			(at 137.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C153035"
-			(at 137.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a090a01-c8c8-4061-8188-91ebcc02c785")
-		)
-		(pin "2"
-			(uuid "7d339859-3b99-477a-9a56-ee21393826cc")
-		)
-		(instances
-			(project "EtherCATControllerLP"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 43.18 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19de36a0-5ec7-4cd2-8f0d-235d111238b4")
-		(property "Reference" "C8"
-			(at 46.99 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 46.99 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 44.1452 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C1921234"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C1921234"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f00478f9-fa00-4f5b-83ab-4ccd76289284")
-		)
-		(pin "2"
-			(uuid "cee84b0f-b125-4551-8565-45d7eafdb0ef")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.07 101.6 0)
+		(at 173.99 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2613e174-26e3-455a-bb50-b404610ec25c")
-		(property "Reference" "#PWR098"
-			(at 179.07 105.41 0)
+		(uuid "2b112e8b-69c2-441b-a10a-5ee680b0cf4f")
+		(property "Reference" "#PWR0113"
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,8 +2840,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 179.07 96.52 0)
+		(property "Value" "EtherCAT3v3"
+			(at 173.99 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 101.6 0)
+			(at 173.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 101.6 0)
+			(at 173.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 101.6 0)
+			(at 173.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,100 +2876,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "08de916d-6904-4ad3-9ed9-888ca24576ea")
+			(uuid "c746fa28-f9cd-4c9e-ab8b-b0c364ca8477")
 		)
 		(instances
-			(project "EtherCATControllerLP"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 113.03 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29951016-176a-4401-91ac-c718c6735a44")
-		(property "Reference" "C6"
-			(at 116.84 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 116.84 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 113.9952 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C153035"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C153035"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67f9910d-d7ad-4b11-a546-0de1af5edae9")
-		)
-		(pin "2"
-			(uuid "4eb2bf85-91ee-48fb-a463-6d439e8b2bb4")
-		)
-		(instances
-			(project "EtherCATControllerLP"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C6")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2805,7 +2915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 55.5752 43.18 0)
 			(effects
 				(font
@@ -2832,7 +2942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C153035"
+		(property "LCSC Part #" " C5156756"
 			(at 54.61 39.37 0)
 			(effects
 				(font
@@ -2841,7 +2951,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C153035"
+		(property "LCSC Part #" " C5156756"
 			(at 54.61 39.37 0)
 			(effects
 				(font
@@ -3174,35 +3284,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 124.46 39.37 0)
+		(lib_id "Device:FerriteBead_Small")
+		(at 153.67 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3aa93eb5-b54e-40c7-901e-4dd5a4501be5")
-		(property "Reference" "C9"
-			(at 128.27 38.0999 0)
+		(uuid "32bf2126-29bf-4abd-af7a-88d9db911d5d")
+		(property "Reference" "FB5"
+			(at 153.6319 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 128.27 40.6399 0)
+		(property "Value" "2A, 0.05DCR"
+			(at 153.6319 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 125.4252 43.18 0)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 153.67 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 39.37 0)
+			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,8 +3327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 39.37 0)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,17 +3336,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C153035"
-			(at 124.46 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C153035"
-			(at 124.46 39.37 0)
+		(property "LCSC Part #" "C380287"
+			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3247,15 +3346,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0f74067-b3db-4423-8890-2e7e431a5108")
+			(uuid "69b84313-92bf-413e-a6ae-a72849549f52")
 		)
 		(pin "2"
-			(uuid "4552c174-5eae-4d1a-beb9-7c086754915b")
+			(uuid "47122f2a-fac7-4710-ac6f-ab5579c98bbb")
 		)
 		(instances
-			(project "EtherCATControllerLP"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C9")
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -3393,384 +3492,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 182.88 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43e874bd-afa1-45c3-80ee-c97f48bb3b6b")
-		(property "Reference" "C11"
-			(at 186.69 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${CAPACITANCE}"
-			(at 186.69 86.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 180.086 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "490-1519-2-ND"
-			(at 180.086 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata Electronics North America"
-			(at 180.086 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM188R71H104KA93D"
-			(at 180.086 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "RoHS Compliant"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" "Capacitors"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 1" "4000=0.01822, 8000=0.01663, 12000=0.01584 (USD)"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape & Reel (TR)"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "0.1uF"
-			(at 180.086 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "±10%"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE - RATED" "50V"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "X7R"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TYPE" "Surface Mount, MLCC"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 125°C"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "APPLICATIONS" "General Purpose"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RATINGS" "-"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE / CASE" "0603 (1608 Metric)"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE / DIMENSION" "0.063\" L x 0.032\" W (1.60mm x 0.80mm)"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "-"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "THICKNESS (MAX)" "0.035\" (0.90mm)"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD SPACING" "-"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "-"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD STYLE" "-"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STOCK" "19812000"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART STATUS" "Active"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "490-1519-1-ND"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICING 2" "1=0.12, 10=0.084, 100=0.0396, 500=0.02778, 1000=0.023 (USD)"
-			(at 180.086 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C77055"
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b6e410a-7efb-4527-8a04-cdb8e73da91f")
-		)
-		(pin "2"
-			(uuid "4dba5697-0881-419f-99c0-f58ece2e8a4a")
-		)
-		(instances
-			(project "EtherCATControllerLP"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 166.37 48.26 0)
 		(unit 1)
@@ -3847,17 +3568,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.07 109.22 0)
+		(lib_id "power:PWR_FLAG")
+		(at 165.1 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fa4ffa7-7041-4b45-be21-bb3b9d26021e")
-		(property "Reference" "#PWR099"
-			(at 179.07 115.57 0)
+		(uuid "5b90793b-55b8-4ffe-9786-c23eff00a7a7")
+		(property "Reference" "#FLG09"
+			(at 165.1 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,8 +3586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 179.07 114.3 0)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 109.22 0)
+			(at 165.1 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,8 +3603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 179.07 109.22 0)
+		(property "Datasheet" "~"
+			(at 165.1 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,8 +3612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 109.22 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 165.1 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,12 +3622,100 @@
 			)
 		)
 		(pin "1"
-			(uuid "3648ff0a-a250-4392-90b3-b701ead452b8")
+			(uuid "9fe45212-a91f-43e4-b533-5f894d1612bb")
 		)
 		(instances
-			(project "EtherCATControllerLP"
+			(project ""
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "#PWR099")
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "641379a0-7d5a-4623-9c5a-ee76f4095b34")
+		(property "Reference" "C8"
+			(at 48.26 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 48.26 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 45.4152 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b9e6c25-acd0-494a-ac4b-ec31d4640060")
+		)
+		(pin "2"
+			(uuid "d4150cb4-eeef-4c96-9e37-076762dcf572")
+		)
+		(instances
+			(project "EtherCATSTM32"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4044,182 +3853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 90.17 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a273d5f-4338-4c71-a238-24f788c2e43e")
-		(property "Reference" "C4"
-			(at 93.98 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 93.98 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 91.1352 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 90.17 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C153035"
-			(at 90.17 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C153035"
-			(at 90.17 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9f2d49a-2a39-4e5b-b6ef-a360d7932a52")
-		)
-		(pin "2"
-			(uuid "e9b4f42c-1456-47f1-8176-f2574b88997d")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 31.75 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "747a178e-08a1-4692-892f-d60431df49a9")
-		(property "Reference" "C7"
-			(at 35.56 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 35.56 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 32.7152 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C1921234"
-			(at 31.75 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C1921234"
-			(at 31.75 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f18c2f56-d723-4185-8c50-8c37cf056ffd")
-		)
-		(pin "2"
-			(uuid "62978b4c-ce9e-49f2-941c-2746b66d0187")
-		)
-		(instances
-			(project "EtherCATControllerV1"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 48.26 43.18 0)
 		(unit 1)
@@ -4280,6 +3913,151 @@
 			(project ""
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c0f271e-687a-4daa-8c0f-defc88310ff0")
+		(property "Reference" "C76"
+			(at 163.83 130.8162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 163.83 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C106858"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bef2d559-c87c-4628-bde8-ccbdcc9c8008")
+		)
+		(pin "1"
+			(uuid "897b923f-7294-41aa-8933-ffff48284313")
+		)
+		(instances
+			(project "EtherCATSTM32"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f349d4f-d2e5-4e53-9afe-3383f416984d")
+		(property "Reference" "#PWR0112"
+			(at 173.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "916c046a-5f02-43b9-820c-bd470691f55c")
+		)
+		(instances
+			(project "EtherCATSTM32"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4588,94 +4366,6 @@
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cefa639-3b37-404f-81df-7982151dcd18")
-		(property "Reference" "C5"
-			(at 104.14 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 104.14 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 101.2952 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C153035"
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C153035"
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07b77b6f-ee47-40c1-b669-1f83d47a5722")
-		)
-		(pin "2"
-			(uuid "020d338a-f488-470f-a674-69ec02e5dd5a")
-		)
-		(instances
-			(project "EtherCATControllerLP"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5054,6 +4744,94 @@
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0bb48e-b231-40a3-905f-a6ca3e216f5c")
+		(property "Reference" "C4"
+			(at 92.71 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 92.71 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 89.8652 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5b822c-b7b5-4daa-b126-112e9bf2cf7a")
+		)
+		(pin "2"
+			(uuid "bc178f0e-2d0a-4c3f-86b3-c1204324aadf")
+		)
+		(instances
+			(project "EtherCATSTM32"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5778,16 +5556,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 105.41 0)
+		(at 77.47 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b465bbbe-30a0-4ebb-b1c8-bf30c34d7d2e")
-		(property "Reference" "C31"
-			(at 171.45 104.1399 0)
+		(uuid "b3966426-6172-498d-b20a-e0c668aa0efd")
+		(property "Reference" "C3"
+			(at 81.28 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5574,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 171.45 106.6799 0)
+			(at 81.28 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,8 +5582,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 168.6052 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 78.4352 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 105.41 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5601,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 105.41 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,8 +5609,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77075"
-			(at 167.64 105.41 0)
+		(property "LCSC Part #" " C5156756"
+			(at 77.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,15 +5628,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c42d59ac-bea2-4ce4-a404-31188d6398ff")
+			(uuid "4dcffc3c-fa48-4cd9-b4a9-12584b5091b1")
 		)
 		(pin "2"
-			(uuid "5c3773e5-2eee-4594-967b-4346d827828c")
+			(uuid "0ccffe86-bd3f-4b4c-9601-678e33ef065b")
 		)
 		(instances
-			(project "EtherCATControllerLP"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C31")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5857,16 +5644,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 105.41 0)
+		(at 101.6 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9347fb0-fe49-48f5-b3e6-cadcda6404d3")
-		(property "Reference" "C30"
-			(at 160.02 104.1399 0)
+		(uuid "b968fbb2-2769-47ce-afd2-f45bef7c1346")
+		(property "Reference" "C5"
+			(at 105.41 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5662,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 160.02 106.6799 0)
+			(at 105.41 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,8 +5670,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 157.1752 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 102.5652 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 105.41 0)
+			(at 101.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5689,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 105.41 0)
+			(at 101.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,8 +5697,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77075"
-			(at 156.21 105.41 0)
+		(property "LCSC Part #" " C5156756"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 101.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,15 +5716,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "500b2a95-e053-40b8-9060-29707ca2dbfe")
+			(uuid "3b3b1782-6538-451c-8361-e935cb491fd6")
 		)
 		(pin "2"
-			(uuid "c5133036-9e97-4c7c-bdb1-f12ac0cfcf67")
+			(uuid "1d44192e-56b9-4e3c-b1c2-5b3e5d7c5ace")
 		)
 		(instances
-			(project "EtherCATControllerLP"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C30")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6001,16 +5797,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 105.41 0)
+		(at 66.04 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c201c18e-b10c-4eef-8ff8-7042a3ec62a2")
-		(property "Reference" "C37"
-			(at 182.88 104.1399 0)
+		(uuid "bb3c03dd-4e0d-4a91-a87b-7ce215d5657b")
+		(property "Reference" "C2"
+			(at 69.85 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +5815,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 182.88 106.6799 0)
+			(at 69.85 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,8 +5823,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 180.0352 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 67.0052 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +5833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 105.41 0)
+			(at 66.04 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +5842,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 105.41 0)
+			(at 66.04 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,8 +5850,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77075"
-			(at 179.07 105.41 0)
+		(property "LCSC Part #" " C5156756"
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 66.04 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,15 +5869,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5158869c-c785-40a3-ab6b-e66481b6d7a8")
+			(uuid "3194cdca-7620-4012-827a-2ee9b6425af7")
 		)
 		(pin "2"
-			(uuid "433ec6e4-952c-4e3e-84a1-0b08ea3cdc56")
+			(uuid "fbffa50b-c6d0-4438-b314-0956b98432ba")
 		)
 		(instances
-			(project "EtherCATControllerLP"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C37")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6458,16 +6263,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 39.37 0)
+		(at 124.46 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cae1a91d-8dbe-4ff0-9999-6d775234bd54")
-		(property "Reference" "C2"
-			(at 69.85 38.0999 0)
+		(uuid "d3250dc3-f776-44cb-a4da-a6ef81660796")
+		(property "Reference" "C9"
+			(at 128.27 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6281,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 69.85 40.6399 0)
+			(at 128.27 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,8 +6289,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 67.0052 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 125.4252 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 39.37 0)
+			(at 124.46 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6308,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 66.04 39.37 0)
+			(at 124.46 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,8 +6316,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C153035"
-			(at 66.04 39.37 0)
+		(property "LCSC Part #" " C5156756"
+			(at 124.46 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,8 +6325,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C153035"
-			(at 66.04 39.37 0)
+		(property "LCSC Part #" " C5156756"
+			(at 124.46 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,15 +6335,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "09aee573-697c-40ca-8703-d084dd736b78")
+			(uuid "ed93f0b6-658e-4e97-b666-b6dc7cee3131")
 		)
 		(pin "2"
-			(uuid "ce46f771-6713-466a-88de-aa00e61dafeb")
+			(uuid "73aa2540-7a35-4a81-846e-902c141c5052")
 		)
 		(instances
-			(project "EtherCATControllerV1"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6546,16 +6351,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 105.41 0)
+		(at 111.76 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7ae5488-8f0e-455e-b6d5-f8714ea45c0b")
-		(property "Reference" "C56"
-			(at 147.32 104.1399 0)
+		(uuid "d6a00734-ef39-4a84-b500-bbd11a4bf8e2")
+		(property "Reference" "C6"
+			(at 115.57 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6369,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 147.32 106.6799 0)
+			(at 115.57 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,8 +6377,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 144.4752 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 112.7252 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 105.41 0)
+			(at 111.76 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6396,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 143.51 105.41 0)
+			(at 111.76 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,8 +6404,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77075"
-			(at 143.51 105.41 0)
+		(property "LCSC Part #" " C5156756"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 111.76 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,15 +6423,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa616544-1652-4525-af54-d84207f2842a")
+			(uuid "d3e4cd1a-b58d-49a8-8758-58f48bdac333")
 		)
 		(pin "2"
-			(uuid "9e1e9e6b-a886-48fc-8f8f-d9bf31a9eca0")
+			(uuid "129151d1-489e-4839-919f-d515ca68a13a")
 		)
 		(instances
-			(project "EtherCATControllerLP"
+			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
-					(reference "C56")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7127,6 +6941,537 @@
 			(project "EtherCATControllerV1"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 144.78 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea4ee8e3-69b0-4357-8234-f42f4f7ff8fe")
+		(property "Reference" "#PWR0109"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 144.272 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9acab459-f96a-48d6-aa63-95715f118ccc")
+		)
+		(instances
+			(project "EtherCATSTM32"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2089bec-be05-4737-95a9-6ff9cc89af24")
+		(property "Reference" "C10"
+			(at 140.97 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 140.97 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 138.1252 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f831ea24-5ece-4a9c-af0f-ebf1ec1b7f1c")
+		)
+		(pin "2"
+			(uuid "adb2dbb1-2b1d-4370-9b08-f30c28eabbd6")
+		)
+		(instances
+			(project "EtherCATSTM32"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3cdecb3-1867-403f-99df-8d11623a8b08")
+		(property "Reference" "C77"
+			(at 177.8 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${CAPACITANCE}"
+			(at 177.8 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 173.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 173.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 171.196 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "490-1519-2-ND"
+			(at 171.196 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics North America"
+			(at 171.196 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM188R71H104KA93D"
+			(at 171.196 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS" "RoHS Compliant"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" "Capacitors"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 1" "4000=0.01822, 8000=0.01663, 12000=0.01584 (USD)"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape & Reel (TR)"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "0.1uF"
+			(at 171.196 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE - RATED" "50V"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE COEFFICIENT" "X7R"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount, MLCC"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE" "-55°C ~ 125°C"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "APPLICATIONS" "General Purpose"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATINGS" "-"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "0603 (1608 Metric)"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.063\" L x 0.032\" W (1.60mm x 0.80mm)"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT - SEATED (MAX)" "-"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS (MAX)" "0.035\" (0.90mm)"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD SPACING" "-"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FEATURES" "-"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD STYLE" "-"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "19812000"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART STATUS" "Active"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" "Digi-Key"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "490-1519-1-ND"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 2" "1=0.12, 10=0.084, 100=0.0396, 500=0.02778, 1000=0.023 (USD)"
+			(at 171.196 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C77055"
+			(at 173.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f5f8e1a-9d93-44ee-9cd5-11d0f310c1de")
+		)
+		(pin "2"
+			(uuid "ffd5b057-81e3-43ec-9836-83dada5bf27d")
+		)
+		(instances
+			(project "EtherCATSTM32"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02"
+					(reference "C77")
 					(unit 1)
 				)
 			)

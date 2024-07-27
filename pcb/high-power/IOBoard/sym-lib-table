@@ -1,7 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "2024-07-02_21-14-47")(type "KiCad")(uri "${KIPRJMOD}/Libs/XT60PW-M/2024-07-02_21-14-47.kicad_sym")(options "")(descr ""))
-  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/Libs/TYPE-C-31-M-12/TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
-  (lib (name "L8AL-1X1T-32A")(type "KiCad")(uri "${KIPRJMOD}/Libs/RJ45/L8AL-1X1T-32A.kicad_sym")(options "")(descr ""))
-  (lib (name "FH41-40S-0.5SH_05_")(type "KiCad")(uri "${KIPRJMOD}/Libs/FH41/FH41-40S-0.5SH_05_.kicad_sym")(options "")(descr ""))
-)
