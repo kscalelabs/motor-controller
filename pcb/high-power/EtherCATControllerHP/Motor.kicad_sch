@@ -5,15 +5,16 @@
 	(uuid "7ad67624-bf9f-4e7a-a231-a25da7adffa8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Polarized_Small"
+		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.254 1.778 0)
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +22,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,7 +32,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor, small symbol"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,23 +76,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -100,22 +91,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -123,10 +102,10 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_Small_1_1"
+			(symbol "C_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
+					(at 0 3.81 270)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -143,8 +122,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
+					(at 0 -3.81 90)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -1590,12 +1569,6 @@
 		(uuid "9bef78ff-8d68-459c-975f-753b6736441c")
 	)
 	(junction
-		(at 40.64 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7d8730a-3a88-4de5-8ff0-fe7b677494ce")
-	)
-	(junction
 		(at 54.61 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1606,6 +1579,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1f0cb6d-069c-4f2a-82fc-6280a00523b3")
+	)
+	(junction
+		(at 40.64 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9a6bcc9-2f13-4eed-9c0e-fa220acd46f5")
 	)
 	(no_connect
 		(at 151.13 81.28)
@@ -1618,6 +1597,14 @@
 	(no_connect
 		(at 151.13 83.82)
 		(uuid "7c0c127a-77d9-4daf-8c83-5c328f4cec2a")
+	)
+	(no_connect
+		(at 151.13 86.36)
+		(uuid "95a4cdce-1e06-4a4f-9d8d-25ae1caf6331")
+	)
+	(no_connect
+		(at 151.13 78.74)
+		(uuid "d02dee4e-7613-4a70-bc4c-5e1529ba20c2")
 	)
 	(wire
 		(pts
@@ -1861,6 +1848,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 81.28) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53621029-3973-499a-aa67-4d2c029077ae")
+	)
+	(wire
+		(pts
 			(xy 152.4 110.49) (xy 152.4 109.22)
 		)
 		(stroke
@@ -1868,16 +1865,6 @@
 			(type default)
 		)
 		(uuid "597458d6-3841-46fe-86f8-18359bce8394")
-	)
-	(wire
-		(pts
-			(xy 33.02 81.28) (xy 40.64 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bd5af08-6a2f-4597-a884-661d423f3492")
 	)
 	(wire
 		(pts
@@ -2191,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 81.28) (xy 69.85 81.28)
+			(xy 33.02 81.28) (xy 40.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2585,18 +2572,6 @@
 		)
 		(uuid "013e2562-c990-44f8-ba67-500a2ba857e5")
 	)
-	(hierarchical_label "DIR"
-		(shape input)
-		(at 151.13 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "242de168-3807-49ac-8dd4-5e1573c12c57")
-	)
 	(hierarchical_label "SH_B"
 		(shape output)
 		(at 49.53 102.87 180)
@@ -2608,18 +2583,6 @@
 			(justify right)
 		)
 		(uuid "34182996-f359-4a19-b7ae-0735862b855a")
-	)
-	(hierarchical_label "BRAKE"
-		(shape input)
-		(at 151.13 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6eb48dec-e599-4b4d-b4ad-abb347e0892b")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -3542,84 +3505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 40.64 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ef63e5e-a06c-47ac-8bf0-1411a95b5a4d")
-		(property "Reference" "C27"
-			(at 35.56 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 35.56 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C2977481"
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9697bd04-270f-43ce-b4d8-a5021304c27c")
-		)
-		(pin "1"
-			(uuid "1f381521-fd57-4a17-aeaa-434fa5971184")
-		)
-		(instances
-			(project ""
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 171.45 99.06 270)
 		(unit 1)
@@ -3769,7 +3654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AVCC"
+		(property "Value" "VCC"
 			(at 163.83 63.246 0)
 			(effects
 				(font
@@ -3913,7 +3798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AVCC"
+		(property "Value" "VCC"
 			(at 193.04 53.34 0)
 			(effects
 				(font
@@ -4260,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 86.36 0)
+		(at 40.64 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4269,7 +4154,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf01bdc7-e489-4f0e-bf0b-a0df6a709d65")
 		(property "Reference" "#PWR030"
-			(at 40.64 92.71 0)
+			(at 40.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4163,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 91.44 0)
+			(at 40.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 86.36 0)
+			(at 40.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 86.36 0)
+			(at 40.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 86.36 0)
+			(at 40.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,6 +4336,93 @@
 			(project ""
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da05b1b0-3a08-4158-8149-bc3190dafee6")
+		(property "Reference" "C27"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 41.6052 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C5156756"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd836f8e-bbd7-4aa3-9786-55017af45563")
+		)
+		(pin "2"
+			(uuid "057f3a31-4e4a-472a-a5f9-5ee056104779")
+		)
+		(instances
+			(project "EtherCATControllerHP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/b8886fcf-711b-4283-9745-a57e39aa3085"
+					(reference "C27")
 					(unit 1)
 				)
 			)

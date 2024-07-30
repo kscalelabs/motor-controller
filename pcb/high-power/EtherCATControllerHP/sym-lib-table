@@ -12,4 +12,5 @@
   (lib (name "DP83849IFVS_NOPB")(type "KiCad")(uri "${KIPRJMOD}/Libs/DP83849/DP83849IFVS_NOPB.kicad_sym")(options "")(descr ""))
   (lib (name "2024-07-26_04-43-59")(type "KiCad")(uri "${KIPRJMOD}/Libs/TactileSwitch/2024-07-26_04-43-59.kicad_sym")(options "")(descr ""))
   (lib (name "samtec")(type "KiCad")(uri "${KIPRJMOD}/Libs/Samtec/samtec.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-07-02_21-14-47")(type "KiCad")(uri "${KIPRJMOD}/Libs/XT60PW-M/2024-07-02_21-14-47.kicad_sym")(options "")(descr ""))
 )

@@ -1114,6 +1114,12 @@
 		(uuid "c1fc2303-4c0e-4415-b960-45b452648dae")
 	)
 	(junction
+		(at 59.69 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed644bda-235b-4665-986c-5766761441be")
+	)
+	(junction
 		(at 116.84 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1135,6 +1141,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 48.26) (xy 59.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bacfe40-fa37-4d8b-8f7e-21c75e6888ea")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1300a463-7ca2-45a2-bd03-9c41d66c4d61")
+	)
+	(wire
+		(pts
 			(xy 48.26 63.5) (xy 53.34 63.5)
 		)
 		(stroke
@@ -1152,6 +1178,16 @@
 			(type default)
 		)
 		(uuid "1c50f25f-e18b-46b0-87ee-e37d11731fe8")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 45.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2584ce8b-b076-4596-b84d-3da47f789ad8")
 	)
 	(wire
 		(pts
@@ -1225,6 +1261,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 49.53) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcaa739-cb8c-4e8a-9445-b083b9c37dd0")
+	)
+	(wire
+		(pts
 			(xy 116.84 53.34) (xy 121.92 53.34)
 		)
 		(stroke
@@ -1242,6 +1288,16 @@
 			(type default)
 		)
 		(uuid "6421ea43-ecd6-4611-b024-2d3764ed13b5")
+	)
+	(wire
+		(pts
+			(xy 59.69 55.88) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a18917c-37b1-4559-b110-4daa130c6f6a")
 	)
 	(wire
 		(pts
@@ -1295,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 55.88) (xy 62.23 55.88)
+			(xy 58.42 55.88) (xy 59.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 90.17 57.15 0)
 			(effects
 				(font
@@ -2718,7 +2774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 90.17 69.85 0)
 			(effects
 				(font
@@ -2764,6 +2820,72 @@
 			(project "EtherCATControllerLP"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/031ccf09-f504-428a-ac4b-85044b6b61cc"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80a2d55c-23b1-45f8-a88d-0cd483fbfe62")
+		(property "Reference" "#PWR0120"
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2739f529-0da2-4213-b279-9975fb6b3aab")
+		)
+		(instances
+			(project "EtherCATControllerHP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/031ccf09-f504-428a-ac4b-85044b6b61cc"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3349,6 +3471,84 @@
 			(project ""
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/031ccf09-f504-428a-ac4b-85044b6b61cc"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 48.26 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a28fd3-1820-4620-ba09-cd9f649d6240")
+		(property "Reference" "C31"
+			(at 49.022 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330pF"
+			(at 50.8 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C526998"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dc9ec39-8bb7-49b7-b8fe-e7f6f97543b0")
+		)
+		(pin "1"
+			(uuid "d9ab7ab1-1ca4-426c-a1c3-d6ccc8cb3b6c")
+		)
+		(instances
+			(project "EtherCATControllerHP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/031ccf09-f504-428a-ac4b-85044b6b61cc"
+					(reference "C31")
 					(unit 1)
 				)
 			)

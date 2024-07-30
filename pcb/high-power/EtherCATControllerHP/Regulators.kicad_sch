@@ -2429,18 +2429,6 @@
 		(uuid "4183a4b6-2b43-4dab-a37b-20daab94643a")
 	)
 	(junction
-		(at 100.33 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "491704d2-c923-4703-a71d-779ed9154ea8")
-	)
-	(junction
-		(at 186.69 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "567bb907-e868-4c2a-90a2-b065813d806f")
-	)
-	(junction
 		(at 168.91 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2525,6 +2513,12 @@
 		(uuid "ec2b7613-b267-429a-b224-2a8f2dba550e")
 	)
 	(junction
+		(at 104.14 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f08891da-d24a-40ce-b14d-2c4520b555c2")
+	)
+	(junction
 		(at 104.14 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2541,16 +2535,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fee75503-e45f-41d7-939f-5b165cad89c5")
-	)
-	(wire
-		(pts
-			(xy 100.33 60.96) (xy 100.33 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040d5c09-60bc-4f37-8af6-9689069e4563")
 	)
 	(wire
 		(pts
@@ -2611,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "14815c7d-7f61-4dc2-b12b-483d020fd5a7")
-	)
-	(wire
-		(pts
-			(xy 100.33 62.23) (xy 110.49 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "177ed7a2-0c00-49bd-bee9-95a3a57a32d6")
 	)
 	(wire
 		(pts
@@ -2744,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 62.23) (xy 100.33 71.12)
+			(xy 100.33 60.96) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2944,6 +2918,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 62.23) (xy 104.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab595c96-de26-4070-b72b-f3c1e488cbe1")
+	)
+	(wire
+		(pts
 			(xy 158.75 109.22) (xy 168.91 109.22)
 		)
 		(stroke
@@ -3011,6 +2995,16 @@
 			(type default)
 		)
 		(uuid "b8134b2e-24fa-4dc7-9c37-d2f87ec4c020")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 110.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f26771-1700-4de2-a960-440b180db013")
 	)
 	(wire
 		(pts
@@ -3114,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 104.14 63.5)
+			(xy 104.14 60.96) (xy 104.14 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3682,7 +3676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "84R5"
+		(property "Value" "84.5k"
 			(at 106.172 67.056 0)
 			(effects
 				(font
@@ -3718,7 +3712,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C334834"
+		(property "LCSC Part #" "C706195"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -3737,82 +3731,6 @@
 			(project "EtherCATControllerLP"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02/386fb4a2-e014-4306-9144-c1ba6edc37f5"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 186.69 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "34017b1e-d2ba-4a02-bc31-488e692fe571")
-		(property "Reference" "TP2"
-			(at 189.23 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TESTPOINT"
-			(at 185.928 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD test pin"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91e69931-4c25-439c-93f8-fbd5ed0c141c")
-		)
-		(instances
-			(project "EtherCATControllerLP"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02/386fb4a2-e014-4306-9144-c1ba6edc37f5"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4790,7 +4708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -4817,7 +4735,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C327338"
+		(property "LCSC Part #" "C23076"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -4968,6 +4886,82 @@
 			(project "EtherCATControllerLP"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02/386fb4a2-e014-4306-9144-c1ba6edc37f5"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8f0dfdc0-d758-4816-8d39-d07366ea5d74")
+		(property "Reference" "TP2"
+			(at 161.29 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT"
+			(at 157.988 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD test pin"
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0beb28a5-1f41-44ca-bd33-90bf4c8cf802")
+		)
+		(instances
+			(project "EtherCATControllerHP"
+				(path "/4c927f80-855d-490a-80b2-e5c55283621a/8ad53e1c-08f0-40db-b0fb-703203134f02/386fb4a2-e014-4306-9144-c1ba6edc37f5"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6116,6 +6110,7 @@
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 100.33 58.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6123,7 +6118,7 @@
 		(dnp no)
 		(uuid "c161f67e-de36-428b-ae88-8799d32a9c24")
 		(property "Reference" "R1"
-			(at 95.25 57.658 0)
+			(at 105.41 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6127,7 @@
 			)
 		)
 		(property "Value" "162K"
-			(at 93.98 59.944 0)
+			(at 106.68 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
