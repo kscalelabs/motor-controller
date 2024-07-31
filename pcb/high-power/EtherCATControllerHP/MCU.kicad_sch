@@ -2439,6 +2439,10 @@
 		(uuid "517d330e-e24e-48ae-890a-9694c716eb46")
 	)
 	(no_connect
+		(at 189.23 100.33)
+		(uuid "7826b793-a535-4374-ba04-07b8af26154c")
+	)
+	(no_connect
 		(at 132.08 87.63)
 		(uuid "958e2a41-b4d1-4342-922d-9aa6168e35bd")
 	)
@@ -2633,16 +2637,6 @@
 			(type default)
 		)
 		(uuid "29abee24-8f0d-43d2-96cf-7f75cc1baba0")
-	)
-	(wire
-		(pts
-			(xy 182.88 100.33) (xy 203.2 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29fd4f87-8bbc-49f3-b0d4-354bfe70b68c")
 	)
 	(wire
 		(pts
@@ -3186,16 +3180,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 100.33) (xy 203.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adcccf4b-d83c-4f18-9118-3a9bdf948b36")
-	)
-	(wire
-		(pts
 			(xy 92.71 109.22) (xy 92.71 111.76)
 		)
 		(stroke
@@ -3393,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "d65fddb5-1f70-4748-b32f-511c162a8f4e")
+	)
+	(wire
+		(pts
+			(xy 182.88 100.33) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70654fd-c686-4a7a-9060-799689181eba")
 	)
 	(wire
 		(pts
@@ -5603,72 +5597,6 @@
 			(project "EtherCATSTM32"
 				(path "/4c927f80-855d-490a-80b2-e5c55283621a/5ac89ae2-4d69-4fd6-b754-7aee59ff7a56"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fcceede-89de-4175-a744-b1be55d509bc")
-		(property "Reference" "#PWR037"
-			(at 203.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64a9d1e6-0564-404d-9e1e-63daa74457e8")
-		)
-		(instances
-			(project "EtherCATSTM32"
-				(path "/4c927f80-855d-490a-80b2-e5c55283621a/5ac89ae2-4d69-4fd6-b754-7aee59ff7a56"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
