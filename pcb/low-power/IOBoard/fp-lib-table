@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Libs/XT60PW-M/footprints.pretty")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/Libs/TYPE-C-31-M-12.pretty")(options "")(descr ""))
+  (lib (name "RJ45")(type "KiCad")(uri "${KIPRJMOD}/Libs/RJ45.pretty")(options "")(descr ""))
+  (lib (name "FH41")(type "KiCad")(uri "${KIPRJMOD}/Libs/FH41.pretty")(options "")(descr ""))
+  (lib (name "holes")(type "KiCad")(uri "${KIPRJMOD}/Libs/holes.pretty")(options "")(descr ""))
+  (lib (name "Caps")(type "KiCad")(uri "${KIPRJMOD}/Libs/Caps.pretty")(options "")(descr ""))
+  (lib (name "UMPS")(type "KiCad")(uri "${KIPRJMOD}/Libs/Samtec/UMPS.pretty")(options "")(descr ""))
+)

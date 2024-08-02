@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XMC4800")(type "KiCad")(uri "${KIPRJMOD}/Libs/XMC4800/XMC4800.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Libs/MCF8329A/footprints.pretty")(options "")(descr ""))
+  (lib (name "DP83849")(type "KiCad")(uri "${KIPRJMOD}/Libs/DP83849/DP83849.pretty")(options "")(descr ""))
+  (lib (name "AMS")(type "KiCad")(uri "${KIPRJMOD}/Libs/AMS.pretty")(options "")(descr ""))
+  (lib (name "holes")(type "KiCad")(uri "${KIPRJMOD}/Libs/holes.pretty")(options "")(descr ""))
+  (lib (name "UMPT")(type "KiCad")(uri "${KIPRJMOD}/Libs/Samtec/UMPT.pretty")(options "")(descr ""))
+  (lib (name "FH41")(type "KiCad")(uri "${KIPRJMOD}/Libs/FH41.pretty")(options "")(descr ""))
+)
