@@ -2419,12 +2419,16 @@
 		(uuid "13cd8a8d-3958-49b7-a6c9-edee2fbfb60a")
 	)
 	(no_connect
-		(at 189.23 118.11)
-		(uuid "272c73d6-c872-4e01-841d-436a82922649")
+		(at 132.08 107.95)
+		(uuid "1b7acadb-d525-4900-b619-fa3fe44aa66a")
 	)
 	(no_connect
 		(at 189.23 57.15)
 		(uuid "286a4799-5381-497b-b4dc-5f3789d45b05")
+	)
+	(no_connect
+		(at 189.23 77.47)
+		(uuid "2cbc3e4e-3ced-4526-9844-4c6092b39e8e")
 	)
 	(no_connect
 		(at 147.32 113.03)
@@ -2477,10 +2481,6 @@
 	(no_connect
 		(at 189.23 115.57)
 		(uuid "d2c485b4-5f85-4a3c-b4d5-1e6cb0cd3ca6")
-	)
-	(no_connect
-		(at 189.23 59.69)
-		(uuid "d5548955-5e5a-4c41-be47-cdba5339437b")
 	)
 	(no_connect
 		(at 189.23 52.07)
@@ -3604,18 +3604,6 @@
 		)
 		(uuid "360a108b-6b40-414f-8a79-f85d396190e5")
 	)
-	(hierarchical_label "SPI_CS"
-		(shape input)
-		(at 132.08 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44a32717-d1c0-4905-858c-7458d098be1c")
-	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)
 		(at 189.23 64.77 0)
@@ -3663,6 +3651,18 @@
 			(justify left)
 		)
 		(uuid "64fad92e-0d9f-4f75-afbc-adb0e8392db8")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
+		(at 189.23 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "682ae0f1-6969-4ab7-8abe-50fcba3aae17")
 	)
 	(hierarchical_label "BOOT0"
 		(shape passive)
@@ -3844,6 +3844,18 @@
 		)
 		(uuid "de516d55-511e-4c72-b05a-0ee17becb5fd")
 	)
+	(hierarchical_label "SPI2_CS"
+		(shape input)
+		(at 189.23 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e345fbe6-3837-40d0-9586-3ed58092869a")
+	)
 	(hierarchical_label "SPI2_MISO"
 		(shape input)
 		(at 132.08 102.87 180)
@@ -3855,18 +3867,6 @@
 			(justify right)
 		)
 		(uuid "eb670a69-4616-4516-959a-198f626eb4fc")
-	)
-	(hierarchical_label "SPI2_CS"
-		(shape input)
-		(at 189.23 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee2bc759-080f-4a6e-a883-2a7e7e815bdb")
 	)
 	(symbol
 		(lib_id "Device:C")

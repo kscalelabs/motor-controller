@@ -1798,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 55.88) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d0b65f-1c64-4bb2-8c70-2d6e463e77d6")
+	)
+	(wire
+		(pts
 			(xy 207.01 100.33) (xy 209.55 100.33)
 		)
 		(stroke
@@ -2340,7 +2350,7 @@
 		)
 		(uuid "2664ca04-3dd6-4e8c-ad77-588f1e4dee17")
 	)
-	(label "SENSE_P"
+	(label "LSS"
 		(at 157.48 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2349,7 +2359,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3301790c-5859-4706-ac95-dd1931bdf1b1")
+		(uuid "352dae41-a37a-4f1b-85f9-991b1a3e79dc")
 	)
 	(label "GH_B"
 		(at 207.01 87.63 180)
@@ -2482,6 +2492,17 @@
 			(justify left bottom)
 		)
 		(uuid "aee0e923-d472-4381-b186-eed045f010a9")
+	)
+	(label "LSS"
+		(at 238.76 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8b735e3-8f5a-448e-a30a-cc1e8778f544")
 	)
 	(label "SH_C"
 		(at 241.3 100.33 0)
@@ -3781,7 +3802,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 193.04 58.42 0)
+		(at 193.04 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3790,7 +3811,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a721528-1703-43ca-9cb1-6e04d65c740a")
 		(property "Reference" "#PWR032"
-			(at 193.04 62.23 0)
+			(at 193.04 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,16 +3819,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 193.04 53.34 0)
+		(property "Value" "AVCC"
+			(at 195.58 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 58.42 0)
+			(at 193.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 58.42 0)
+			(at 193.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +3847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 193.04 58.42 0)
+			(at 193.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4581,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C106858"
+		(property "LCSC Part #" "C105174"
 			(at 58.42 101.6 0)
 			(effects
 				(font
@@ -4635,7 +4657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C106858"
+		(property "LCSC Part #" "C105174"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -4711,7 +4733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C106858"
+		(property "LCSC Part #" "C105174"
 			(at 58.42 91.44 0)
 			(effects
 				(font
@@ -5058,6 +5080,16 @@
 				(justify right)
 			)
 			(uuid "2bbcd97d-ec5e-4694-9746-4c7f113f448a")
+		)
+		(pin "LSS" input
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ed95635-f502-402c-8190-9f65f468bc4a")
 		)
 		(instances
 			(project "EtherCATControllerHP"

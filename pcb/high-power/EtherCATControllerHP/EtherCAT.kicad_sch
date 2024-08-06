@@ -5123,31 +5123,7 @@
 		)
 		(uuid "03211f3e-15e9-4fe9-a2c0-ed7673c268a0")
 	)
-	(hierarchical_label "ETH0_TXP"
-		(shape bidirectional)
-		(at 312.42 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26847e3c-0c04-4c1f-b222-1462a8a00725")
-	)
-	(hierarchical_label "ETH0_RXN"
-		(shape bidirectional)
-		(at 312.42 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27b621dd-0277-4d5f-8b04-8c3caa74eaee")
-	)
-	(hierarchical_label "ETH0_RXP"
+	(hierarchical_label "ETH1_RXP"
 		(shape bidirectional)
 		(at 312.42 69.85 0)
 		(fields_autoplaced yes)
@@ -5157,7 +5133,31 @@
 			)
 			(justify left)
 		)
-		(uuid "2dbcc698-fef3-4b6d-afab-70cc5ab11dd5")
+		(uuid "07a205d4-e03c-4d94-964f-7fc20b8a963e")
+	)
+	(hierarchical_label "ETH1_TXN"
+		(shape bidirectional)
+		(at 312.42 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12e0ef53-926f-4432-873f-c7b08a44b53a")
+	)
+	(hierarchical_label "ETH0_RXP"
+		(shape bidirectional)
+		(at 312.42 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dffeed4-bbcf-49e5-8965-50cc936a7ac2")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape bidirectional)
@@ -5207,6 +5207,30 @@
 		)
 		(uuid "685c4250-5abb-416b-8a56-db51369f8d0d")
 	)
+	(hierarchical_label "ETH0_TXP"
+		(shape bidirectional)
+		(at 312.42 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69c3d027-eef7-4c95-88f6-72464ed89f35")
+	)
+	(hierarchical_label "ETH0_RXN"
+		(shape bidirectional)
+		(at 312.42 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c2f4e3a-8031-4e48-bc00-732e23932a01")
+	)
 	(hierarchical_label "SPI_MISO"
 		(shape bidirectional)
 		(at 99.06 87.63 180)
@@ -5219,66 +5243,6 @@
 		)
 		(uuid "770e1641-6e81-494c-8248-eb0dedba371b")
 	)
-	(hierarchical_label "ETH0_TXN"
-		(shape bidirectional)
-		(at 312.42 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "78f2a7f1-e674-4078-ab84-7731f0e42333")
-	)
-	(hierarchical_label "ETH1_RXP"
-		(shape bidirectional)
-		(at 312.42 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c8708fc-6330-447a-a342-1934a2659810")
-	)
-	(hierarchical_label "ETH1_TXN"
-		(shape bidirectional)
-		(at 312.42 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ee05d97-7a3c-4cb3-8355-3456f0a6cf4a")
-	)
-	(hierarchical_label "ETH1_RXN"
-		(shape bidirectional)
-		(at 312.42 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83d7e2c8-e2bd-4106-8c53-ac49b3b99f2f")
-	)
-	(hierarchical_label "ETH1_TXP"
-		(shape bidirectional)
-		(at 312.42 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a58fda3-6407-408d-b426-d1392a51dc76")
-	)
 	(hierarchical_label "ETH0_CT1"
 		(shape bidirectional)
 		(at 209.55 177.8 0)
@@ -5290,6 +5254,30 @@
 			(justify left)
 		)
 		(uuid "8adb0363-91c2-4a59-a3c0-1d6b311e0834")
+	)
+	(hierarchical_label "ETH1_RXN"
+		(shape bidirectional)
+		(at 312.42 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97b78790-c1fd-4db7-b454-fca804050d8d")
+	)
+	(hierarchical_label "ETH1_TXP"
+		(shape bidirectional)
+		(at 312.42 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a13dc1fc-477c-4220-85d7-2bb32b7e86ba")
 	)
 	(hierarchical_label "ETH1_RXN"
 		(shape bidirectional)
@@ -5374,6 +5362,18 @@
 			(justify left)
 		)
 		(uuid "d10c6097-6c75-478f-a40c-1c7ef70a63da")
+	)
+	(hierarchical_label "ETH0_TXN"
+		(shape bidirectional)
+		(at 312.42 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2821f62-3022-4727-a2ec-0bc420e7f5b3")
 	)
 	(hierarchical_label "SPI_CS"
 		(shape passive)
